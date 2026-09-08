@@ -1,0 +1,23 @@
+{
+  "version": "0.11-alpha.1",
+  "base_release": "Projeto E v2.39",
+  "mission": "Preservar integralmente o curso anterior, organizar seus materiais na árvore acadêmica e usar BNCC somente como vocabulário de busca para lacunas de material.",
+  "disciplines": 14,
+  "areas": 87,
+  "subareas": 208,
+  "topics": 1518,
+  "topics_with_materials": 830,
+  "topics_without_materials": 688,
+  "material_links": 1903,
+  "unique_urls": 1383,
+  "source_counts": {
+    "Portal da Matemática OBMEP/IMPA": 416,
+    "YouTube / fonte legada": 244,
+    "Brasil Escola": 980,
+    "Portal da Física OBMEP": 263
+  },
+  "math_obmep_links": 416,
+  "physics_obmep_links": 263,
+  "bncc_search_needed": 39,
+  "bncc_legacy_indications": 140
+}

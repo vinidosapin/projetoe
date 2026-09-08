@@ -1,0 +1,28 @@
+{
+  "version": "0.19-alpha.1",
+  "date": "2026-09-05",
+  "status": "PASS",
+  "checks": {
+    "resource_ids_unique": true,
+    "all_topic_resource_ids_exist": true,
+    "topic_counts_consistent": true,
+    "gap_count_consistent": true,
+    "summary_topics_consistent": true,
+    "all_new_sources_brasil_escola": true,
+    "all_new_urls_video_pages": true,
+    "all_five_previous_gap_disciplines_touched": true,
+    "physics_principal_preserved": true
+  },
+  "counts": {
+    "new_links": 474,
+    "topics_touched": 336,
+    "gaps_closed": 336,
+    "gaps_remaining": 238,
+    "material_links": 2651,
+    "unique_urls": 1707
+  },
+  "notes": [
+    "Curadoria multidisciplinar Brasil Escola concluída sem forçar cobertura total.",
+    "Educação Física recebe apenas bases científicas/culturais transdisciplinares explicitamente marcadas como compostas."
+  ]
+}

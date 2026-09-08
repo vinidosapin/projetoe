@@ -1,0 +1,20 @@
+{
+  "version": "0.18-alpha.1",
+  "status": "PASS",
+  "checks": {
+    "topics_total": 1571,
+    "topics_with_materials": 997,
+    "topics_without_materials": 574,
+    "material_links": 2177,
+    "itx_topics_total": 80,
+    "itx_topics_with_materials": 80,
+    "itx_topics_without_materials": 0,
+    "new_links": 35,
+    "new_links_all_brasil_escola_videos": true,
+    "all_18_target_topics_removed_from_gaps": true,
+    "new_resource_ids_unique": true,
+    "all_new_urls_https": true,
+    "all_new_topics_have_resources": true,
+    "weakest_mapping_flagged_for_future_audit": true
+  }
+}

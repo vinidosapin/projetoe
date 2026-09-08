@@ -1,0 +1,15 @@
+{
+  "schema": "projeto-e.release",
+  "version": "2.39",
+  "date": "2026-09-04",
+  "base_release": "2.38",
+  "purpose": "publicação limpa e redução conservadora de risco de direitos autorais",
+  "course_content_progress_preserved": true,
+  "video_coverage_base": "2.38",
+  "bibliographic_catalog_entries": 37,
+  "local_book_files_distributed": false,
+  "public_entrypoint": "index.html",
+  "copyright_policy": "direitos_autorais.html",
+  "bibliography": "bibliografia_organizada.html",
+  "cleanup_report": "LIMPEZA_DIREITOS_AUTORAIS_v2.39.json"
+}

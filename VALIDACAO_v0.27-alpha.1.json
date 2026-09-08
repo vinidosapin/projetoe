@@ -1,0 +1,25 @@
+{
+  "version": "0.27-alpha.1",
+  "status": "PASS",
+  "new_links": 15,
+  "topics_touched": 15,
+  "disciplines_touched": 15,
+  "covered": 1421,
+  "gaps": 150,
+  "materials": 2981,
+  "brasil_escola_links": 2009,
+  "evidence_total": 1208,
+  "evidence_integrated": 486,
+  "pending_evidence": 722,
+  "checks": {
+    "origem_v2_39_unchanged": true,
+    "all_15_disciplines_touched": true,
+    "resource_ids_unique": true,
+    "all_topic_resource_references_exist": true,
+    "topic_resource_counts_consistent": true,
+    "coverage_math_consistent": true,
+    "new_links_positive": true,
+    "no_duplicate_topic_url_pairs_in_release": true,
+    "no_partial_mapping_closed_gap": true
+  }
+}

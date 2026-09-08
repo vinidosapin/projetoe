@@ -1,0 +1,22 @@
+{
+  "version": "0.23-alpha.1",
+  "date": "2026-09-05",
+  "status": "PASS",
+  "checks": {
+    "topics_total": true,
+    "gap_count_consistent": true,
+    "all_new_topics_now_covered": true,
+    "material_count_consistent": true,
+    "brasil_escola_count_consistent": true,
+    "site_embeds_v023": true
+  },
+  "metrics": {
+    "topics": 1571,
+    "covered": 1420,
+    "gaps": 151,
+    "material_links": 2766,
+    "brasil_escola_links": 1794,
+    "new_links": 29,
+    "gaps_closed": 23
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": "0.28-alpha.1",
+  "new_links": 30,
+  "topics_touched": 28,
+  "disciplines_touched": 15,
+  "gaps_closed": 0,
+  "coverage": {
+    "covered": 1421,
+    "total": 1571,
+    "percent": 90.5,
+    "gaps": 150
+  },
+  "new_links_by_discipline": {
+    "MAT": 2,
+    "FIS": 2,
+    "QUI": 2,
+    "BIO": 2,
+    "HIS": 2,
+    "GEO": 2,
+    "FIL": 2,
+    "SOC": 2,
+    "LP": 2,
+    "ITX": 2,
+    "LIT": 2,
+    "RED": 2,
+    "ING": 2,
+    "ART": 2,
+    "EDF": 2
+  },
+  "pending_evidence": 708,
+  "notes": [
+    "Brasil Escola permanece fonte complementar.",
+    "Artigos textuais não são contabilizados como videoaulas.",
+    "Mapeamentos compostos não fecham lacunas por si só."
+  ]
+}

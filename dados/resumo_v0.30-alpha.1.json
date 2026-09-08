@@ -1,0 +1,37 @@
+{
+  "version": "0.30-alpha.1",
+  "topics": 1571,
+  "topics_with_materials": 1422,
+  "topics_without_materials": 149,
+  "material_links": 3056,
+  "unique_urls": 1956,
+  "source_counts": {
+    "Portal da Matemática OBMEP/IMPA": 416,
+    "YouTube / fonte legada": 244,
+    "Brasil Escola": 2084,
+    "Portal da Física OBMEP": 312
+  },
+  "new_evidence_video_page_urls": 1237,
+  "new_material_links_integrated": 30,
+  "new_evidence_pending_classification": 688,
+  "gaps_closed_this_release": 1,
+  "topics_touched_this_release": 27,
+  "new_links_by_discipline": {
+    "MAT": 2,
+    "FIS": 2,
+    "QUI": 2,
+    "BIO": 2,
+    "HIS": 2,
+    "GEO": 2,
+    "FIL": 2,
+    "SOC": 2,
+    "LP": 2,
+    "ITX": 2,
+    "LIT": 2,
+    "RED": 2,
+    "ING": 2,
+    "ART": 2,
+    "EDF": 2
+  },
+  "evidence_integrated_total": 527
+}

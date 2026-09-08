@@ -1,0 +1,28 @@
+{
+  "version": "0.20-alpha.1",
+  "goal": "Cobertura total do Ensino Médio com organização acadêmica e materiais claramente localizados.",
+  "principle": "A BNCC é cobertura e radar, não índice de navegação. Nova evidência não fecha lacuna sem vínculo acadêmico confiável.",
+  "this_release": {
+    "focus": "Continuação multidisciplinar com Brasil Escola",
+    "integrated_material_links": 59,
+    "topics_touched": 39,
+    "gaps_closed": 39,
+    "pending_evidence_urls": 861,
+    "disciplines_advanced": [
+      "Física",
+      "Língua Portuguesa",
+      "Literatura",
+      "Redação e Produção Textual",
+      "Educação Física"
+    ]
+  },
+  "next_queues": [
+    "Continuar classificando videoaulas pendentes do Brasil Escola para os tópicos ainda abertos.",
+    "Buscar videoaulas mais específicas para substituir vínculos compostos de confiança média.",
+    "Priorizar Física, Literatura, Redação e Educação Física conforme as lacunas remanescentes."
+  ],
+  "current": {
+    "topics_with_materials": 1372,
+    "topics_without_materials": 199
+  }
+}

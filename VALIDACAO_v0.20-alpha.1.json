@@ -1,0 +1,30 @@
+{
+  "version": "0.20-alpha.1",
+  "date": "2026-09-05",
+  "status": "PASS",
+  "checks": {
+    "resource_ids_unique": true,
+    "all_topic_resource_ids_exist": true,
+    "topic_counts_consistent": true,
+    "gap_count_consistent": true,
+    "summary_topics_consistent": true,
+    "all_new_sources_brasil_escola": true,
+    "all_new_urls_video_pages": true,
+    "all_five_previous_gap_disciplines_touched": true,
+    "portuguese_complete": true,
+    "physics_principal_preserved": true
+  },
+  "counts": {
+    "new_links": 59,
+    "topics_touched": 39,
+    "gaps_closed": 39,
+    "gaps_remaining": 199,
+    "material_links": 2710,
+    "unique_urls": 1726
+  },
+  "notes": [
+    "Curadoria multidisciplinar Brasil Escola continuada sem declarar equivalências diretas para vínculos compostos.",
+    "Língua Portuguesa alcança 100% de cobertura material.",
+    "Educação Física avança apenas por composições interdisciplinares explicitamente marcadas; lacunas sem vídeo específico permanecem abertas."
+  ]
+}

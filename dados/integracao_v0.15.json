@@ -1,0 +1,20 @@
+{
+  "version": "0.15-alpha.1",
+  "base_release": "Projeto E v2.39",
+  "previous_convergence_release": "0.14-alpha.1",
+  "new_focus": "Brasil Escola — novas páginas de vídeo herdadas como URLs apenas",
+  "evidence_import": {
+    "input": "Iteração.zip",
+    "inheritance_rule": "URL_ONLY",
+    "new_video_page_urls": 1065,
+    "direct_new_youtube_ids": 0,
+    "integrated_high_confidence": 116,
+    "pending_classification": 949,
+    "mapping_rule": "Reconstrução independente a partir da URL + árvore/material da v0.14; nenhum mapeamento dos agentes foi importado."
+  },
+  "interface": {
+    "design_preserved": true,
+    "data_payload_updated": true
+  },
+  "bncc_role": "VIDEO_DISCOVERY_ONLY"
+}

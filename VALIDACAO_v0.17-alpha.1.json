@@ -1,0 +1,16 @@
+{
+  "version": "0.17-alpha.1",
+  "status": "PASS",
+  "checks": {
+    "topics_total": 1571,
+    "topics_with_materials": 979,
+    "topics_without_materials": 592,
+    "material_links": 2142,
+    "itx_topics_with_materials": 62,
+    "itx_topics_without_materials": 18,
+    "new_links": 7,
+    "new_links_all_brasil_escola": true,
+    "all_target_topics_removed_from_gaps": true,
+    "new_resource_ids_unique": true
+  }
+}

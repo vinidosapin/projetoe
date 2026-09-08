@@ -1,0 +1,402 @@
+{
+  "created_at": "2026-08-30T00:01:58-03:00",
+  "files": [
+    {
+      "byte_size": 5101,
+      "path": "AGENTS.md",
+      "sha256": "cd9cd6814097df2412f6e0d1edcae19bbe10c2ccc6c238ffe9a0dec627958539"
+    },
+    {
+      "byte_size": 7213,
+      "path": "ARQUITETURA.md",
+      "sha256": "971fbf42596afccdc16060f767f453a37cb10da9b24f994eade0a26f2ff493c4"
+    },
+    {
+      "byte_size": 1149,
+      "path": "BASELINE_ORIGEM_Projeto_E_Cursos_em_Video_v1.0-alpha.5.json",
+      "sha256": "44e5be37513dcdf081105f460d3a3050226114f5bbd20717cc7dd18edc678023"
+    },
+    {
+      "byte_size": 8565,
+      "path": "CHANGELOG.md",
+      "sha256": "654b1f2fa1bc65d50a9092addd58c746d3276cb796ba9d72aa7f314dc04011f5"
+    },
+    {
+      "byte_size": 558,
+      "path": "LINEAGE_SEMANTICA_Projeto_E_v4.7-alpha.1.json",
+      "sha256": "547f7184e113b19857a17ef6020a7b1897c82184256e829d63dc8dfed5f910da"
+    },
+    {
+      "byte_size": 2293,
+      "path": "PROMPTS/00_ORQUESTRADOR.md",
+      "sha256": "ce520888fe4e1db592cfb0d4e5bf72f592f5e13efec5736bb8e564bf24ed8697"
+    },
+    {
+      "byte_size": 1142,
+      "path": "PROMPTS/01_INGESTOR_FONTE.md",
+      "sha256": "ed3122526b1e59c112e469923dd0ec803ce5c23e01f000bb9e48770c61b3bb25"
+    },
+    {
+      "byte_size": 1714,
+      "path": "PROMPTS/02_CARTOGRAFO_CURRICULAR.md",
+      "sha256": "67b33a2a1399fd6a4fe4a917c4774186eb1f846cd6baebe60d48873a49f5d0b0"
+    },
+    {
+      "byte_size": 4692,
+      "path": "PROMPTS/03_PESQUISADOR_VIDEOS.md",
+      "sha256": "41121930332ceba5b358466ec2f13f688ab58c3c74a7f346d5ba7e6db95bcd27"
+    },
+    {
+      "byte_size": 1474,
+      "path": "PROMPTS/04_INSPETOR_AUDIO_DUBLAGEM.md",
+      "sha256": "da65d3b4e4d2c5c2f3efb468286b4aa91d88955133bab854dfd84d19f1a8dce1"
+    },
+    {
+      "byte_size": 3637,
+      "path": "PROMPTS/05_AUDITOR_AUDIOVISUAL.md",
+      "sha256": "fc998ec62e27f8bb8828b8bf808869f92ca05b51baf98c2e5bf4af31fb662a9b"
+    },
+    {
+      "byte_size": 1448,
+      "path": "PROMPTS/06_PROFESSOR_ROTA.md",
+      "sha256": "3873b59f1b3584578be3ef1f2eb14539bc13b14e790b8ec7a8efe2123c29cddb"
+    },
+    {
+      "byte_size": 853,
+      "path": "PROMPTS/07_AUDITOR_SEGURANCA.md",
+      "sha256": "7f3910a7043ff03418f1e8d28dd655070e99482107e08ae8f9b8c45574c4f4e3"
+    },
+    {
+      "byte_size": 2598,
+      "path": "PROMPTS/PERFIS_DISCIPLINARES.md",
+      "sha256": "73f90984be3ac2688db1a326956550a6755c1d8e72d1101647006e7b7c52b3f8"
+    },
+    {
+      "byte_size": 11613,
+      "path": "PROMPT_MESTRE_PARA_AGENTE.md",
+      "sha256": "0b0f4b3865896d2e8147255fa93d9f0e0798b008308c31bd26717abd794a89a7"
+    },
+    {
+      "byte_size": 13458,
+      "path": "README.md",
+      "sha256": "282a6251cc51c4c8dd0ea983047176bf38e6091fe761aca2d229554b21044719"
+    },
+    {
+      "byte_size": 3059,
+      "path": "TEST_STATUS.md",
+      "sha256": "81255613647b03ead3d9dc393ef4b1c57acdd253988002de69055cdd6dcb908b"
+    },
+    {
+      "byte_size": 12,
+      "path": "VERSION",
+      "sha256": "4fa7d58e442ac4fda4ed1b004a69e4fc49538279cbef46a01159c1893bd1635b"
+    },
+    {
+      "byte_size": 3316,
+      "path": "docs/AUDITORIA_LANCAMENTO.md",
+      "sha256": "c1e122307e6a73cf222b284c8c4d02894a8cfec2a4cfdd06646924495f0103af"
+    },
+    {
+      "byte_size": 8881,
+      "path": "docs/FLUXO_COMPLETO.md",
+      "sha256": "92e0c53cd4c54b08e1672eceebbc0f4335a4bab610446e2488fc41381d1d603b"
+    },
+    {
+      "byte_size": 5996,
+      "path": "docs/INSTRUCOES_AGENTES_FUTUROS.md",
+      "sha256": "cf8fda2933522b4d00ad00ae7a53924fea4d14482b754917dc5c42ad1e44338b"
+    },
+    {
+      "byte_size": 4393,
+      "path": "docs/LIMITES_E_SEGURANCA.md",
+      "sha256": "225c01c858d705fc5c996ac1c061a5bfde820e6a5f51bfc18e5fb29fcc1c20d8"
+    },
+    {
+      "byte_size": 2341,
+      "path": "docs/REFERENCIA_CLI.md",
+      "sha256": "5d8666dd391131053a727a8de67d67b050c741c2a73ee4d19ab495fa0fa90ff9"
+    },
+    {
+      "byte_size": 3470,
+      "path": "docs/RELATORIO_IMPLEMENTACAO.md",
+      "sha256": "7ce6ae4eaeb0909eb90ff323dd4ae2ba2dfc2e8e5a7272864ba2646cd9aa0062"
+    },
+    {
+      "byte_size": 2097,
+      "path": "docs/RELEASE_CHECKLIST.md",
+      "sha256": "be3937de487f98cc61b77335cd8544f71043f1c8cbf0225852387094862c056a"
+    },
+    {
+      "byte_size": 4386,
+      "path": "docs/REQUISITOS_CORRECAO_ALPHA3.md",
+      "sha256": "453b08f4c2186b4895d3b6704d948a73da578629f08a84b3ab9bad7ae626042f"
+    },
+    {
+      "byte_size": 3668,
+      "path": "docs/REQUISITOS_CORRECAO_ALPHA4.md",
+      "sha256": "953840d3b2c82abcc59b21c27cb9e33b6a801e766da7670dd2811d1a81d6da2e"
+    },
+    {
+      "byte_size": 1994,
+      "path": "docs/REQUISITOS_CORRECAO_ALPHA5.md",
+      "sha256": "1c46010b6fdc13bb322e48148750a52ef97bb69b184cce518a67ad9bcc4d95e2"
+    },
+    {
+      "byte_size": 2833,
+      "path": "docs/REQUISITOS_CORRECAO_ALPHA6.md",
+      "sha256": "e843e49d6e69aee8ace7b501ce5b9ff063aacc52683311f093ac19f1ca011ac9"
+    },
+    {
+      "byte_size": 3043,
+      "path": "docs/SEM_API_KEY.md",
+      "sha256": "8e851bca9b9edbb0c428d3baebeaa214b3bcabfcabfdcd843b32b4df0065a911"
+    },
+    {
+      "byte_size": 365,
+      "path": "examples/DEMO_FONTE.md",
+      "sha256": "470f2c08f82d8cb14c10b97b88e408e5f204393d74b03a9c4888d910c1f217fc"
+    },
+    {
+      "byte_size": 1056,
+      "path": "examples/audio_inventory.example.json",
+      "sha256": "a5baced5ed1e5349f9be42bef69b0252fc01ddfe4fdb2f909a7eefd11d919956"
+    },
+    {
+      "byte_size": 1301,
+      "path": "examples/candidates.example.json",
+      "sha256": "f15346e3cd829530894a807889dfca292a40e9040798389b35983cf7d2c6cd78"
+    },
+    {
+      "byte_size": 2747,
+      "path": "examples/evidence_input.example.json",
+      "sha256": "430cbd7e2513049f756051b940627e67124458d7e3dc5201c7d89ee430353b07"
+    },
+    {
+      "byte_size": 67,
+      "path": "projeto_e_video/__init__.py",
+      "sha256": "9118f5aefb863877e30bb5e61123eba2c5af6f78ffb5a8f2338fa836e6552abc"
+    },
+    {
+      "byte_size": 81,
+      "path": "projeto_e_video/__main__.py",
+      "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+    },
+    {
+      "byte_size": 19637,
+      "path": "projeto_e_video/audio.py",
+      "sha256": "f684df4b8736177a42fb641b6715e8d02581ee3208e689cae40ba289eb9ff79a"
+    },
+    {
+      "byte_size": 51409,
+      "path": "projeto_e_video/audit.py",
+      "sha256": "3af9ea253800609e8c6559fab7e40ece170e238962d2ee5babe6625fbd7b0449"
+    },
+    {
+      "byte_size": 23489,
+      "path": "projeto_e_video/cli.py",
+      "sha256": "e8342ec472fbe73286ffc2bf7be198429779630836282296bd63980c09661cc2"
+    },
+    {
+      "byte_size": 17018,
+      "path": "projeto_e_video/collect.py",
+      "sha256": "ce559924af8172de8868428c2fe9516d7e3c4094e1dfa235b1760571ee0f4a36"
+    },
+    {
+      "byte_size": 23886,
+      "path": "projeto_e_video/course.py",
+      "sha256": "eed4a264fab6703e6198eb82d92d7a4d3aa9fd7f6cbd31c11642219bc1dd3b34"
+    },
+    {
+      "byte_size": 3162,
+      "path": "projeto_e_video/external.py",
+      "sha256": "60a96e5099ef81d45316372050c8eb23c9d97add5dfd1ce0d0a90c6711e609f9"
+    },
+    {
+      "byte_size": 45917,
+      "path": "projeto_e_video/ingest.py",
+      "sha256": "9908162aefa96603f236dafb290ef65427d878a5a2b18a4a3fe86be90c68f434"
+    },
+    {
+      "byte_size": 6661,
+      "path": "projeto_e_video/languages.py",
+      "sha256": "7070ae160bad5be00b194a12c844543bb3d576f89840700031f3a4dedeb79373"
+    },
+    {
+      "byte_size": 3220,
+      "path": "projeto_e_video/models.py",
+      "sha256": "2c1c798484c3fae732a17d58d6064eb1ccc096bc1b299b15a28a2b5998455787"
+    },
+    {
+      "byte_size": 3432,
+      "path": "projeto_e_video/network.py",
+      "sha256": "9f6db824f15435e4fe57c5453b08d9ddddb7aa111c879a7fbd8c81ae59172f18"
+    },
+    {
+      "byte_size": 39917,
+      "path": "projeto_e_video/planning.py",
+      "sha256": "d30d96a7df689d587bf75a12c0f5d015d6a50087098155d2957557a24788768c"
+    },
+    {
+      "byte_size": 25466,
+      "path": "projeto_e_video/prompts.py",
+      "sha256": "e6664f3022435faf7b5ef73b67e78c3e7ea07547370ee08c670b59c768cf053d"
+    },
+    {
+      "byte_size": 42662,
+      "path": "projeto_e_video/providers.py",
+      "sha256": "1ad467c846031803beea4159fe72961d1b751bbef724b9f728ab0b350ba9c7fd"
+    },
+    {
+      "byte_size": 20293,
+      "path": "projeto_e_video/release.py",
+      "sha256": "2a45ac1687036a91c01ae82c561a73398f62c97601b12d9f591584696c16d244"
+    },
+    {
+      "byte_size": 5862,
+      "path": "projeto_e_video/util.py",
+      "sha256": "37fac482dd148bde15eeb71b586b3d69412abaf2aab206642166b21b3110f984"
+    },
+    {
+      "byte_size": 13214,
+      "path": "projeto_e_video/validation.py",
+      "sha256": "4ee4b8b93690071ca0f98c2283ca393acb91233f920d21c060a9d333e5ed0637"
+    },
+    {
+      "byte_size": 492,
+      "path": "pyproject.toml",
+      "sha256": "f21354732d10b9f4d0f54a0264e09870da6910ee8e15a5ffcc17b7006b235abd"
+    },
+    {
+      "byte_size": 3410,
+      "path": "schemas/audio_inventory.schema.json",
+      "sha256": "cd5c7eb17ad649edc1b8d2eb3453945da95b4f977fe60b7f9266538415d7402f"
+    },
+    {
+      "byte_size": 1130,
+      "path": "schemas/audit.schema.json",
+      "sha256": "29cc76bf22421b82b4b01ca35da7a1b8d419467c0e4b5fa3734b533741e86b70"
+    },
+    {
+      "byte_size": 3720,
+      "path": "schemas/candidates.schema.json",
+      "sha256": "ef38d07af57576c009828570ea7853cc10a5c4ad486beecd47f4910e4ff98cad"
+    },
+    {
+      "byte_size": 1551,
+      "path": "schemas/course.schema.json",
+      "sha256": "a1154780d6496ab80a5a0fe898c9e02d8a47fb45516567c93c21e554de554f70"
+    },
+    {
+      "byte_size": 5189,
+      "path": "schemas/evidence_input.schema.json",
+      "sha256": "4bf7bc5e659b0ecaaa8429700b30925102afe022dbb04e409707855dd02a959e"
+    },
+    {
+      "byte_size": 2163,
+      "path": "schemas/search_queries.schema.json",
+      "sha256": "dd4f40a1474fe3682812d867d7c85ee6c55b46db4593494e49e7a52ef73a877d"
+    },
+    {
+      "byte_size": 2725,
+      "path": "schemas/source_manifest.schema.json",
+      "sha256": "a33eb3f02dda0e6fc91e84421e727d6ccee06ab173df6329de266ba597674e7c"
+    },
+    {
+      "byte_size": 4478,
+      "path": "schemas/unit_ledger.schema.json",
+      "sha256": "bbe663b7b8bce437570d3438ed1427217025164ff0117ca47181a0ffbf9beee3"
+    },
+    {
+      "byte_size": 1862,
+      "path": "scripts/hash_arvore.py",
+      "sha256": "26dbb230e70b68d49a468f8c232e07c16543bb9a39ddd406a6e9d89e5907c053"
+    },
+    {
+      "byte_size": 56,
+      "path": "tests/__init__.py",
+      "sha256": "6eaa963b68391ec413751a697189d97b48ab659ac131d70d1148397658ecaaa7"
+    },
+    {
+      "byte_size": 9929,
+      "path": "tests/helpers.py",
+      "sha256": "dfa8646bf05b1b7a0bdecc660973ff49fc3ddcf4630e95fb5234469c877c2a5d"
+    },
+    {
+      "byte_size": 11379,
+      "path": "tests/test_audio.py",
+      "sha256": "c1bd0a976140c58e6b73265491f323e67fdbe652e867b20356dfbbca1ca33cf6"
+    },
+    {
+      "byte_size": 13384,
+      "path": "tests/test_audit.py",
+      "sha256": "bfe581c1a846429fa12352cb18769b8cee496340f5bc16ea3551924a8e821501"
+    },
+    {
+      "byte_size": 6225,
+      "path": "tests/test_cli.py",
+      "sha256": "6d5f3cfcdc7bf0caea4195d2a63e8236a25560eb187f5d9bcb4be4bb09b7428e"
+    },
+    {
+      "byte_size": 7660,
+      "path": "tests/test_collect.py",
+      "sha256": "c7115b28e25afd5cfc909721f3566c12267b852438e113412ae11f25379012b1"
+    },
+    {
+      "byte_size": 13010,
+      "path": "tests/test_course.py",
+      "sha256": "af86d4cfc0fe4913c0b91187440664631919004c2e55d475456c4edc8038591d"
+    },
+    {
+      "byte_size": 1843,
+      "path": "tests/test_external.py",
+      "sha256": "40c8b7a6bc2a14b82c3b0db32ec573faa397b1f58b2d8433ce158e99d459998c"
+    },
+    {
+      "byte_size": 23422,
+      "path": "tests/test_ingest.py",
+      "sha256": "1a965761f28165350de0a053a76047f4aa7d99cc4afc59a05862fa8c90898286"
+    },
+    {
+      "byte_size": 1539,
+      "path": "tests/test_network.py",
+      "sha256": "5601e3b185fe054be8ba7df6f4b695796743eee46b83b096e919ab6cb8036344"
+    },
+    {
+      "byte_size": 20213,
+      "path": "tests/test_planning.py",
+      "sha256": "36f855b328a3212d022c668b6a1dfb223085e49ef1f97a17efa0791c8285f36d"
+    },
+    {
+      "byte_size": 3348,
+      "path": "tests/test_prompts.py",
+      "sha256": "7022c04a6fc62ee6cf02e80a4fca60b4edb3660e20b5a383d17d9bdb89f20578"
+    },
+    {
+      "byte_size": 29300,
+      "path": "tests/test_providers.py",
+      "sha256": "836785dac17a70d8105e7c41017cd84d2ceb0b8410da67f7a5e089dbdf8eb243"
+    },
+    {
+      "byte_size": 6052,
+      "path": "tests/test_release.py",
+      "sha256": "e5fabc3e70e0fb9e4b0a9dd941bb106bdd078a9633ba93702f068eb00423ab1d"
+    },
+    {
+      "byte_size": 3644,
+      "path": "tests/test_schemas.py",
+      "sha256": "3417c2c9de65d423ddb7a73daa9f01ff6f2d49d7a98c3d1f8904291143d32548"
+    }
+  ],
+  "manifest_excludes_itself": true,
+  "promotion_ready": false,
+  "schema_name": "projeto-e-video.release-manifest",
+  "schema_version": 1,
+  "tree_without_manifest": {
+    "algorithm": "project-e-tree-sha256-v1",
+    "file_count": 77,
+    "framing": "path_posix_utf8 + NUL + sha256_hex_lower_ascii_64; sem terminador",
+    "sha256": "d1188a086a3a6123a3406d79c0a38f61559667fc3e364e1abffe54955730e6a2",
+    "total_file_bytes": 645583
+  },
+  "version": "1.0-alpha.6"
+}

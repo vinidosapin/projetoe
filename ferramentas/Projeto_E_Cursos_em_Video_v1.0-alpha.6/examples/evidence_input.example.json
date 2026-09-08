@@ -1,0 +1,69 @@
+{
+  "schema_name": "projeto-e-video.evidence-input",
+  "schema_version": 2,
+  "observations": [
+    {
+      "candidate_id": "VID-substitua-pelo-id-canonico",
+      "unit_id": "U-substitua-pelo-id-do-ledger",
+      "candidate_identity_confirmed": true,
+      "inspection_methods": ["TRANSCRICAO", "FRAME"],
+      "match_observation": "PARTIAL",
+      "artifacts": [
+        {
+          "artifact_id": "ART-FRAME-001",
+          "path": "evidence/assets/VID-substitua-pelo-id-canonico/frame_060.jpg",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "kind": "FRAME"
+        },
+        {
+          "artifact_id": "ART-TRANSCRIPT-001",
+          "path": "evidence/assets/VID-substitua-pelo-id-canonico/subtitle.pt.vtt",
+          "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+          "kind": "TRANSCRIPT"
+        },
+        {
+          "artifact_id": "ART-AUDIO-001",
+          "path": "evidence/assets/VID-substitua-pelo-id-canonico/audio_ATRACK-substitua-pelo-id-do-inventario_060_095.wav",
+          "sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+          "kind": "AUDIO"
+        }
+      ],
+      "transcript": {
+        "available": true,
+        "artifact_id": "ART-TRANSCRIPT-001",
+        "language": "pt"
+      },
+      "timestamps": [
+        {
+          "start_seconds": 60,
+          "end_seconds": 95,
+          "observed_step_ids": ["S01"],
+          "observed": "O professor identifica os dados, mas não executa a conferência final.",
+          "speech_or_transcript_observed": "O professor lê o enunciado e identifica verbalmente os dados disponíveis.",
+          "artifact_ids": ["ART-FRAME-001", "ART-TRANSCRIPT-001", "ART-AUDIO-001"]
+        }
+      ],
+      "speech_observed": "O professor lê o enunciado e identifica os dados disponíveis.",
+      "equivalence_rationale": "",
+      "missing_prerequisites": [],
+      "audio_reviews": [
+        {
+          "track_id": "ATRACK-substitua-pelo-id-do-inventario",
+          "target_language": "pt",
+          "access_type_observed": "DUB_AUTOMATIC",
+          "verification_method": "AUDIO_ARTIFACT",
+          "audio_artifact_ids": ["ART-AUDIO-001"],
+          "track_selection_artifact_id": null,
+          "direct_playback_observed": false,
+          "technical_terminology_checked": true,
+          "mathematical_notation_checked": true,
+          "semantic_alignment_checked": true,
+          "synchronization_checked": true,
+          "issues": [],
+          "reviewer_notes": "Amostra ouvida e comparada ao trecho visual e à transcrição."
+        }
+      ],
+      "reviewer_notes": "Exemplo de formato; caminhos e hashes precisam ser reais."
+    }
+  ]
+}

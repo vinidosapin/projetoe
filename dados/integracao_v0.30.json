@@ -1,0 +1,18 @@
+{
+  "version": "0.30-alpha.1",
+  "base_release": "Projeto E v2.39",
+  "previous_convergence_release": "0.29-alpha.1",
+  "new_focus": "Brasil Escola nas 15 disciplinas: dois vínculos tópico↔videoaula inéditos por disciplina, com fechamento direto de Habilidade motora e coordenação em Educação Física.",
+  "evidence_integration": {
+    "new_material_links": 30,
+    "topics_touched": 27,
+    "gaps_closed": 1,
+    "disciplines_touched": 15
+  },
+  "coverage": {
+    "topics": 1571,
+    "covered": 1422,
+    "gaps": 149
+  },
+  "bncc_role": "Radar de completude; não é estrutura curricular."
+}

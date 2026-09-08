@@ -1,0 +1,449 @@
+{
+  "schema": "PROJETO_E_BRASIL_ESCOLA_COVERAGE_REPORT_v0.23",
+  "version": "0.23-alpha.1",
+  "date": "2026-09-05",
+  "summary": {
+    "new_links": 29,
+    "topics_touched": 23,
+    "gaps_closed": 23,
+    "new_links_by_discipline": {
+      "FIS": 15,
+      "LIT": 9,
+      "EDF": 5
+    },
+    "gaps_closed_by_discipline": {
+      "FIS": 13,
+      "LIT": 8,
+      "EDF": 2
+    }
+  },
+  "items": [
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-bea39eaed63f",
+      "topic_title": "Teorema de Torricelli",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Equação de Torricelli",
+          "url": "https://brasilescola.uol.com.br/videos/equacao-torricelli.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula é específica sobre a equação de Torricelli, correspondendo diretamente ao tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-b2137e26513f",
+      "topic_title": "Equilíbrio térmico e Lei Zero da Termodinâmica",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Temperatura",
+          "url": "https://brasilescola.uol.com.br/videos/temperatura.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A aula trabalha temperatura, equilíbrio térmico e base conceitual necessária à Lei Zero; o vínculo é composto porque o título não explicita a lei."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-f4adf3ae3c65",
+      "topic_title": "Movimento de carga em campo elétrico uniforme",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Campo Elétrico",
+          "url": "https://brasilescola.uol.com.br/videos/campo-eletrico.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "Campo elétrico e força sobre cargas sustentam diretamente a análise qualitativa do movimento de carga em campo uniforme."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-fb2ff4b94d54",
+      "topic_title": "Potencial elétrico",
+      "links": 2,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Campo Elétrico",
+          "url": "https://brasilescola.uol.com.br/videos/campo-eletrico.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A aula fornece a base de campo e energia elétrica necessária ao potencial."
+        },
+        {
+          "title": "Videoaula sobre capacitores",
+          "url": "https://brasilescola.uol.com.br/videos/capacitores.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "Capacitores trabalham diferença de potencial e armazenamento de energia, complementando o conceito de potencial elétrico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-96f0aafbf72c",
+      "topic_title": "Diferença de potencial e trabalho elétrico",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre capacitores",
+          "url": "https://brasilescola.uol.com.br/videos/capacitores.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A aula usa diferença de potencial em capacitores e sua relação com energia, sustentando o núcleo do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-ef15995b2f52",
+      "topic_title": "Superfícies equipotenciais",
+      "links": 1,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Campo Elétrico",
+          "url": "https://brasilescola.uol.com.br/videos/campo-eletrico.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "A aula de campo elétrico sustenta a leitura qualitativa de regiões equipotenciais; o vínculo permanece composto por não focar exclusivamente superfícies equipotenciais."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-1ed8003381ee",
+      "topic_title": "Relação entre campo e potencial em casos simples",
+      "links": 2,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Campo Elétrico",
+          "url": "https://brasilescola.uol.com.br/videos/campo-eletrico.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A aula estabelece o conceito de campo elétrico."
+        },
+        {
+          "title": "Videoaula sobre capacitores",
+          "url": "https://brasilescola.uol.com.br/videos/capacitores.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A aula de capacitores trabalha diferença de potencial, permitindo relacionar campo e potencial em casos simples."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-00dbbb59b3e7",
+      "topic_title": "Energia relativística e equivalência massa–energia",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Teoria da Relatividade Especial ou Restrita",
+          "url": "https://brasilescola.uol.com.br/videos/teoria-relatividade-especial-ou-restrita.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A aula é específica de relatividade restrita e sustenta a discussão de energia relativística e equivalência massa–energia."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-d417eae715ea",
+      "topic_title": "Meia-vida",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Radioatividade",
+          "url": "https://brasilescola.uol.com.br/videos/radioatividade.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "Meia-vida é conceito central no estudo introdutório da radioatividade; a aula oferece o contexto nuclear correspondente."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-d4834b9609fb",
+      "topic_title": "Reações nucleares e conservação",
+      "links": 1,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Radioatividade",
+          "url": "https://brasilescola.uol.com.br/videos/radioatividade.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "A aula introduz transformações nucleares e conservação em processos radioativos; não é dedicada a todas as classes de reação nuclear."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-cbe605bce9c9",
+      "topic_title": "Entropia em nível de Ensino Médio",
+      "links": 1,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Máquinas Térmicas e Ciclo de Carnot",
+          "url": "https://brasilescola.uol.com.br/videos/maquinas-termicas-ciclo-carnot.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "O ciclo de Carnot e a Segunda Lei oferecem a base termodinâmica para uma introdução escolar à entropia."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-e82ebcb5455f",
+      "topic_title": "Aumento linear transversal em espelhos",
+      "links": 1,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Pré-Enem | Óptica: reflexão, refração, espelhos, lentes e óptica da visão",
+          "url": "https://brasilescola.uol.com.br/videos/pre-enem-optica-reflexao-refracao-espelhos-lentes-optica-da-visao.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "A revisão oficial de óptica inclui espelhos e formação de imagens, sustentando o tratamento de aumento linear transversal."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-d392d384f4da",
+      "topic_title": "Aumento linear em lentes",
+      "links": 1,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Pré-Enem | Óptica: reflexão, refração, espelhos, lentes e óptica da visão",
+          "url": "https://brasilescola.uol.com.br/videos/pre-enem-optica-reflexao-refracao-espelhos-lentes-optica-da-visao.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "A revisão oficial inclui lentes e formação de imagens, sustentando o conceito de aumento linear em lentes."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "topic_id": "TOP-2e8fefdda4df",
+      "topic_title": "Confiabilidade e não confiabilidade do narrador",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre elementos da narrativa: narrador",
+          "url": "https://brasilescola.uol.com.br/videos/elementos-da-narrativa-narrador.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A caracterização dos tipos e posições do narrador fornece base direta para avaliar confiabilidade narrativa."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "topic_id": "TOP-de352ce27341",
+      "topic_title": "Anacronias: flashback e antecipação",
+      "links": 1,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Elementos da narrativa",
+          "url": "https://brasilescola.uol.com.br/videos/elementos-narrativa.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "A organização temporal da narrativa sustenta a identificação de recuos e antecipações; a aula é geral, por isso o vínculo é composto."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "topic_id": "TOP-eb4fea66fb95",
+      "topic_title": "Duração, cena, sumário, elipse e pausa",
+      "links": 1,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Elementos da narrativa",
+          "url": "https://brasilescola.uol.com.br/videos/elementos-narrativa.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "A aula trabalha tempo e construção narrativa, oferecendo base para duração, cena, sumário, elipse e pausa."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "topic_id": "TOP-082921b1f43c",
+      "topic_title": "Pastiche",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Pré-Enem | Intertextualidade em obras literárias",
+          "url": "https://brasilescola.uol.com.br/videos/pre-enem-intertextualidade-em-obras-literarias.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "Pastiche é procedimento intertextual; a aula específica de intertextualidade literária cobre o princípio necessário para sua leitura."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "topic_id": "TOP-8fc72099bdb5",
+      "topic_title": "Tradição, ruptura e memória literária",
+      "links": 1,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Pré-Enem | Intertextualidade em obras literárias",
+          "url": "https://brasilescola.uol.com.br/videos/pre-enem-intertextualidade-em-obras-literarias.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "Relações intertextuais permitem observar tradição, retomada e ruptura entre obras; o tópico é mais amplo que a aula."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "topic_id": "TOP-71ff0984ff7a",
+      "topic_title": "São Bernardo: narrador, propriedade e subjetividade",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Segunda Fase do Modernismo (Prosa)",
+          "url": "https://brasilescola.uol.com.br/videos/segunda-fase-modernismo-prosa.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A prosa de 1930 e Graciliano Ramos contextualizam diretamente São Bernardo; o vínculo permanece composto por não ser aula exclusiva da obra."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "topic_id": "TOP-0d325a1c66b3",
+      "topic_title": "Rubem Braga e a crônica",
+      "links": 1,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Crônica",
+          "url": "https://brasilescola.uol.com.br/videos/cronica.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "A aula cobre o gênero cultivado por Rubem Braga; não é uma aula monográfica sobre o autor."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "topic_id": "TOP-5bd2e099a07e",
+      "topic_title": "Teatro romântico brasileiro",
+      "links": 2,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre gênero dramático",
+          "url": "https://brasilescola.uol.com.br/videos/genero-dramatico.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "A aula fornece a estrutura do gênero dramático."
+        },
+        {
+          "title": "Videoaula sobre Romantismo",
+          "url": "https://brasilescola.uol.com.br/videos/romantismo.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "A aula de Romantismo complementa a contextualização histórica necessária ao teatro romântico brasileiro."
+        }
+      ]
+    },
+    {
+      "discipline_id": "EDF",
+      "topic_id": "TOP-33ca4250215c",
+      "topic_title": "Capacidades físicas: força, resistência, velocidade e flexibilidade",
+      "links": 3,
+      "confidence_levels": [
+        "MEDIUM_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Sistema Muscular",
+          "url": "https://brasilescola.uol.com.br/videos/sistema-muscular.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "O sistema muscular oferece base fisiológica para força e componentes da aptidão física."
+        },
+        {
+          "title": "Videoaula sobre sistema cardiovascular",
+          "url": "https://brasilescola.uol.com.br/videos/sistema-cardiovascular.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "O sistema cardiovascular sustenta a compreensão fisiológica da resistência."
+        },
+        {
+          "title": "Videoaula sobre sistema respiratório",
+          "url": "https://brasilescola.uol.com.br/videos/sistema-respiratorio.htm",
+          "confidence": "MEDIUM_COMPOSITE",
+          "rationale": "O sistema respiratório complementa a base fisiológica da resistência e aptidão física."
+        }
+      ]
+    },
+    {
+      "discipline_id": "EDF",
+      "topic_id": "TOP-77dfa58d8593",
+      "topic_title": "Composição corporal e aptidão cardiorrespiratória",
+      "links": 2,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre sistema cardiovascular",
+          "url": "https://brasilescola.uol.com.br/videos/sistema-cardiovascular.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A aula fornece base direta para aptidão cardiorrespiratória."
+        },
+        {
+          "title": "Videoaula sobre sistema respiratório",
+          "url": "https://brasilescola.uol.com.br/videos/sistema-respiratorio.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A aula complementa a dimensão respiratória da aptidão cardiorrespiratória."
+        }
+      ]
+    }
+  ]
+}

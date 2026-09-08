@@ -1,0 +1,222 @@
+{
+  "schema": "PROJETO_E_MATERIAL_COVERAGE_BY_TOPIC_v0.31",
+  "version": "0.31-alpha.1",
+  "disciplines": [
+    {
+      "discipline_id": "ART",
+      "discipline": "Arte",
+      "topics": 15,
+      "topics_with_materials": 15,
+      "topics_without_materials": 0,
+      "material_links": 42,
+      "sources": {
+        "Brasil Escola": 42
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "BIO",
+      "discipline": "Biologia",
+      "topics": 55,
+      "topics_with_materials": 55,
+      "topics_without_materials": 0,
+      "material_links": 207,
+      "sources": {
+        "Brasil Escola": 207
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "EDF",
+      "discipline": "Educação Física",
+      "topics": 44,
+      "topics_with_materials": 14,
+      "topics_without_materials": 30,
+      "material_links": 34,
+      "sources": {
+        "Brasil Escola": 34
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "FIL",
+      "discipline": "Filosofia",
+      "topics": 14,
+      "topics_with_materials": 14,
+      "topics_without_materials": 0,
+      "material_links": 99,
+      "sources": {
+        "Brasil Escola": 99
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "discipline": "Física",
+      "topics": 455,
+      "topics_with_materials": 382,
+      "topics_without_materials": 73,
+      "material_links": 583,
+      "sources": {
+        "Brasil Escola": 263,
+        "Portal da Física OBMEP": 320
+      },
+      "primary_sources": [
+        "Brasil Escola",
+        "Portal da Física OBMEP"
+      ]
+    },
+    {
+      "discipline_id": "GEO",
+      "discipline": "Geografia",
+      "topics": 24,
+      "topics_with_materials": 24,
+      "topics_without_materials": 0,
+      "material_links": 103,
+      "sources": {
+        "Brasil Escola": 103
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "HIS",
+      "discipline": "História",
+      "topics": 26,
+      "topics_with_materials": 26,
+      "topics_without_materials": 0,
+      "material_links": 178,
+      "sources": {
+        "Brasil Escola": 178
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "ING",
+      "discipline": "Língua Inglesa",
+      "topics": 16,
+      "topics_with_materials": 16,
+      "topics_without_materials": 0,
+      "material_links": 69,
+      "sources": {
+        "Brasil Escola": 69
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "ITX",
+      "discipline": "Interpretação Textual",
+      "topics": 80,
+      "topics_with_materials": 80,
+      "topics_without_materials": 0,
+      "material_links": 117,
+      "sources": {
+        "Brasil Escola": 117
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "discipline": "Literatura",
+      "topics": 251,
+      "topics_with_materials": 217,
+      "topics_without_materials": 34,
+      "material_links": 250,
+      "sources": {
+        "Brasil Escola": 250
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "LP",
+      "discipline": "Língua Portuguesa",
+      "topics": 55,
+      "topics_with_materials": 55,
+      "topics_without_materials": 0,
+      "material_links": 94,
+      "sources": {
+        "Brasil Escola": 94
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "MAT",
+      "discipline": "Matemática",
+      "topics": 328,
+      "topics_with_materials": 328,
+      "topics_without_materials": 0,
+      "material_links": 715,
+      "sources": {
+        "YouTube / fonte legada": 244,
+        "Brasil Escola": 53,
+        "Portal da Matemática OBMEP/IMPA": 418
+      },
+      "primary_sources": [
+        "YouTube / fonte legada",
+        "Brasil Escola",
+        "Portal da Matemática OBMEP/IMPA"
+      ]
+    },
+    {
+      "discipline_id": "QUI",
+      "discipline": "Química",
+      "topics": 29,
+      "topics_with_materials": 29,
+      "topics_without_materials": 0,
+      "material_links": 111,
+      "sources": {
+        "Brasil Escola": 111
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "RED",
+      "discipline": "Redação e Produção Textual",
+      "topics": 162,
+      "topics_with_materials": 158,
+      "topics_without_materials": 4,
+      "material_links": 249,
+      "sources": {
+        "Brasil Escola": 249
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    },
+    {
+      "discipline_id": "SOC",
+      "discipline": "Sociologia",
+      "topics": 17,
+      "topics_with_materials": 17,
+      "topics_without_materials": 0,
+      "material_links": 84,
+      "sources": {
+        "Brasil Escola": 84
+      },
+      "primary_sources": [
+        "Brasil Escola"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://projeto-e.local/schemas/audit.schema.json",
+  "type": "object",
+  "required": ["schema_name", "schema_version", "course_id", "derivation_engine", "input_hashes", "map_verified", "unit_results", "candidate_results"],
+  "properties": {
+    "schema_name": {"const": "projeto-e-video.audit"},
+    "schema_version": {"const": 3},
+    "created_at": {"type": "string"},
+    "course_id": {"type": "string"},
+    "derivation_engine": {"const": "projeto_e_video.audit/v3"},
+    "input_hashes": {"type": "object"},
+    "map_verified": {"type": "boolean"},
+    "unit_count": {"type": "integer", "minimum": 1},
+    "candidate_count": {"type": "integer", "minimum": 0},
+    "observation_count": {"type": "integer", "minimum": 0},
+    "audio_inventory_record_count": {"type": "integer", "minimum": 0},
+    "classification_counts": {"type": "object"},
+    "unit_results": {"type": "array", "items": {"type": "object"}},
+    "candidate_results": {"type": "array", "items": {"type": "object"}},
+    "notice": {"type": "string"}
+  },
+  "additionalProperties": false
+}

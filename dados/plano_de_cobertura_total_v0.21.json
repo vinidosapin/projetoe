@@ -1,0 +1,82 @@
+{
+  "version": "0.21-alpha.1",
+  "remaining_gaps": 186,
+  "by_discipline": [
+    {
+      "discipline_id": "MAT",
+      "discipline": "Matemática",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "FIS",
+      "discipline": "Física",
+      "gaps": 99
+    },
+    {
+      "discipline_id": "QUI",
+      "discipline": "Química",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "BIO",
+      "discipline": "Biologia",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "HIS",
+      "discipline": "História",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "GEO",
+      "discipline": "Geografia",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "FIL",
+      "discipline": "Filosofia",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "SOC",
+      "discipline": "Sociologia",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "LP",
+      "discipline": "Língua Portuguesa",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "ITX",
+      "discipline": "Interpretação Textual",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "LIT",
+      "discipline": "Literatura",
+      "gaps": 46
+    },
+    {
+      "discipline_id": "RED",
+      "discipline": "Redação e Produção Textual",
+      "gaps": 8
+    },
+    {
+      "discipline_id": "ING",
+      "discipline": "Língua Inglesa",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "ART",
+      "discipline": "Arte",
+      "gaps": 0
+    },
+    {
+      "discipline_id": "EDF",
+      "discipline": "Educação Física",
+      "gaps": 33
+    }
+  ],
+  "priority": "Continuar busca por videoaulas específicas do Brasil Escola, especialmente Física, Literatura, Redação e Educação Física; não forçar equivalências."
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://projeto-e.local/schemas/search_queries.schema.json",
+  "type": "object",
+  "required": ["schema_name", "schema_version", "course_id", "search_scope", "target_audio_languages", "seed_languages", "open_language_policy", "queries"],
+  "properties": {
+    "schema_name": {"const": "projeto-e-video.search-queries"},
+    "schema_version": {"const": 3},
+    "created_at": {"type": "string"},
+    "course_id": {"type": "string"},
+    "search_scope": {"const": "GLOBAL_OPEN"},
+    "target_audio_languages": {"const": ["pt", "en"]},
+    "seed_languages": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"type": "string"}},
+    "open_language_policy": {"type": "string", "minLength": 20},
+    "queries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["query_id", "unit_id", "language", "query", "purpose", "tier", "search_stage", "strategy", "execution_ready", "fingerprints_used", "authoritative_scope", "localization_note"],
+        "properties": {
+          "query_id": {"type": "string", "pattern": "^Q-"},
+          "unit_id": {"type": "string", "pattern": "^U-"},
+          "language": {"type": "string", "minLength": 2},
+          "query": {"type": "string", "minLength": 1, "maxLength": 280},
+          "purpose": {"const": "EXACT_OR_RIGOROUS_EQUIVALENT"},
+          "tier": {"enum": ["TARGET_AUDIO_LANGUAGE", "GLOBAL_SEED"]},
+          "search_stage": {"enum": ["EXACT_OBJECT", "RIGOROUS_EQUIVALENT", "LOCALIZATION_REQUIRED"]},
+          "strategy": {"enum": ["EXACT_OBJECT_MINIMAL", "OFFICIAL_SOURCE_EXACT", "SOURCE_EXACT", "SOURCE_ECOSYSTEM_DISCOVERY", "LOCALIZED_EQUIVALENT", "BIBLIOGRAPHIC_ANCHOR", "STRUCTURAL_NOTATION", "LOCALIZATION_REQUIRED"]},
+          "execution_ready": {"type": "boolean"},
+          "fingerprints_used": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+          "authoritative_scope": {"type": "boolean"},
+          "localization_note": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

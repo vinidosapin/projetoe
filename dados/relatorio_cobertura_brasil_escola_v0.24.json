@@ -1,0 +1,1005 @@
+{
+  "schema": "PROJETO_E_BRASIL_ESCOLA_COVERAGE_REPORT_v0.24",
+  "version": "0.24-alpha.1",
+  "date": "2026-09-05",
+  "summary": {
+    "new_links": 61,
+    "topics_touched": 55,
+    "gaps_closed": 1,
+    "disciplines_touched": 15,
+    "new_links_by_discipline": {
+      "MAT": 6,
+      "FIS": 5,
+      "QUI": 5,
+      "BIO": 5,
+      "HIS": 4,
+      "GEO": 5,
+      "FIL": 5,
+      "SOC": 5,
+      "LP": 4,
+      "LIT": 2,
+      "RED": 2,
+      "ITX": 4,
+      "ING": 4,
+      "ART": 1,
+      "EDF": 4
+    },
+    "gaps_closed_by_discipline": {
+      "LIT": 1
+    },
+    "remaining_gaps": 150
+  },
+  "items": [
+    {
+      "discipline_id": "ART",
+      "topic_id": "TOP-01887817e6dd",
+      "topic_title": "Modernismo e vanguardas europeias",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Dadaísmo",
+          "url": "https://brasilescola.uol.com.br/videos/dadaismo.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Modernismo e vanguardas europeias”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "BIO",
+      "topic_id": "TOP-29ea9eb9288b",
+      "topic_title": "Fundamentos de Ecologia",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Habitat e nicho ecológico",
+          "url": "https://brasilescola.uol.com.br/videos/habitat-e-nicho-ecologico.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Fundamentos de Ecologia”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "BIO",
+      "topic_id": "TOP-32fc443dcbeb",
+      "topic_title": "Populações, comunidades e sucessão ecológica",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Relações ecológicas",
+          "url": "https://brasilescola.uol.com.br/videos/reacoes-ecologicas.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Populações, comunidades e sucessão ecológica”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "BIO",
+      "topic_id": "TOP-36258fa7bd3e",
+      "topic_title": "Proteínas",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Enzimas",
+          "url": "https://brasilescola.uol.com.br/videos/enzimas.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Proteínas”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "BIO",
+      "topic_id": "TOP-5929a713843d",
+      "topic_title": "Tecidos vegetais",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Meristemas — Histologia vegetal",
+          "url": "https://brasilescola.uol.com.br/videos/meristemas-histologia-vegetal.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Tecidos vegetais”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "BIO",
+      "topic_id": "TOP-76c152df8d52",
+      "topic_title": "Evolução",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Charles Darwin",
+          "url": "https://brasilescola.uol.com.br/videos/charles-darwin.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Evolução”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "EDF",
+      "topic_id": "TOP-3e03a3b14ab5",
+      "topic_title": "Movimento humano, posição e deslocamento",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Sistema esquelético",
+          "url": "https://brasilescola.uol.com.br/videos/sistema-esqueletico.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Movimento humano, posição e deslocamento”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "EDF",
+      "topic_id": "TOP-824b2d9bd17d",
+      "topic_title": "Atividade física, exercício e respostas fisiológicas",
+      "links": 2,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Sistema muscular",
+          "url": "https://brasilescola.uol.com.br/videos/sistema-muscular.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Atividade física, exercício e respostas fisiológicas”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        },
+        {
+          "title": "Videoaula sobre Fisiologia humana no Enem",
+          "url": "https://brasilescola.uol.com.br/videos/fisiologia-humana-no-enem.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Atividade física, exercício e respostas fisiológicas”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "EDF",
+      "topic_id": "TOP-fb4f1e0d7705",
+      "topic_title": "Impulso, impacto e absorção de forças",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Quantidade de movimento",
+          "url": "https://brasilescola.uol.com.br/videos/quantidade-movimento.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Impulso, impacto e absorção de forças”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIL",
+      "topic_id": "TOP-1526d43359db",
+      "topic_title": "Filosofia Contemporânea: tradição continental",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre A filosofia de Martin Heidegger",
+          "url": "https://brasilescola.uol.com.br/videos/a-filosofia-martin-heidegger.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Filosofia Contemporânea: tradição continental”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIL",
+      "topic_id": "TOP-2556680cd610",
+      "topic_title": "Aristóteles",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Pensamento de Aristóteles",
+          "url": "https://brasilescola.uol.com.br/videos/5-dicas-para-entender-pensamento-aristoteles.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Aristóteles”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIL",
+      "topic_id": "TOP-409990de0b5f",
+      "topic_title": "Filosofia Contemporânea: tendência analítica",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Filosofia e ciência: Thomas Kuhn",
+          "url": "https://brasilescola.uol.com.br/videos/filosofia-ciencia-thomas-kuhn.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Filosofia Contemporânea: tendência analítica”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIL",
+      "topic_id": "TOP-8ac24ecab9fb",
+      "topic_title": "O nascimento da Filosofia",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre O mito e a Filosofia",
+          "url": "https://brasilescola.uol.com.br/videos/o-mito-e-a-filosofia.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “O nascimento da Filosofia”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIL",
+      "topic_id": "TOP-b545cf32626e",
+      "topic_title": "Filosofia Medieval",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Neoplatonismo",
+          "url": "https://brasilescola.uol.com.br/videos/neoplatonismo.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Filosofia Medieval”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-3eb581f01eaf",
+      "topic_title": "Quantidade de movimento de uma partícula",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Quantidade de movimento",
+          "url": "https://brasilescola.uol.com.br/videos/quantidade-movimento.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Quantidade de movimento de uma partícula”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-8077389b3523",
+      "topic_title": "Intensidade sonora",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Nível de intensidade sonora",
+          "url": "https://brasilescola.uol.com.br/videos/nivel-intensidade-sonora.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Intensidade sonora”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-eb19720ec2b6",
+      "topic_title": "Radioatividade alfa, beta e gama",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Radiações alfa, beta e gama",
+          "url": "https://brasilescola.uol.com.br/videos/radiacoes-alfa-beta-gama.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Radioatividade alfa, beta e gama”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-eb4c4b320151",
+      "topic_title": "Efeito Doppler",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Efeito Doppler",
+          "url": "https://brasilescola.uol.com.br/videos/efeito-doppler.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Efeito Doppler”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "FIS",
+      "topic_id": "TOP-fe9fe380e6ee",
+      "topic_title": "Trabalho como transferência de energia",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Trabalho",
+          "url": "https://brasilescola.uol.com.br/videos/trabalho.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Trabalho como transferência de energia”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "GEO",
+      "topic_id": "TOP-42dc475ff335",
+      "topic_title": "Climatologia",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Climas do mundo",
+          "url": "https://brasilescola.uol.com.br/videos/climas-do-mundo.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Climatologia”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "GEO",
+      "topic_id": "TOP-6f612194fe30",
+      "topic_title": "África I",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Conferência de Berlim: partilha da África",
+          "url": "https://brasilescola.uol.com.br/videos/conferencia-de-berlim-partilha-da-africa.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “África I”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "GEO",
+      "topic_id": "TOP-a9ee3d5d4de9",
+      "topic_title": "Urbanização I",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Urbanização no Enem",
+          "url": "https://brasilescola.uol.com.br/videos/urbanizacao-no-enem-como-esse-tema-e-cobrado.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Urbanização I”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "GEO",
+      "topic_id": "TOP-c3c367a02cdb",
+      "topic_title": "Demografia",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Teorias demográficas",
+          "url": "https://brasilescola.uol.com.br/videos/geografia-no-enem-teorias-demograficas.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Demografia”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "GEO",
+      "topic_id": "TOP-f67568c0b920",
+      "topic_title": "Geomorfologia",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Relevo do Brasil",
+          "url": "https://brasilescola.uol.com.br/videos/relevo-do-brasil.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Geomorfologia”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "HIS",
+      "topic_id": "TOP-2d4100d78749",
+      "topic_title": "O longo século XIX",
+      "links": 2,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Segunda Revolução Industrial",
+          "url": "https://brasilescola.uol.com.br/videos/segunda-revolucao-industrial.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “O longo século XIX”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        },
+        {
+          "title": "Videoaula sobre Conferência de Berlim: partilha da África",
+          "url": "https://brasilescola.uol.com.br/videos/conferencia-de-berlim-partilha-da-africa.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “O longo século XIX”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "HIS",
+      "topic_id": "TOP-65132b488faa",
+      "topic_title": "O período entreguerras",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Guerra Civil Espanhola",
+          "url": "https://brasilescola.uol.com.br/videos/guerra-civil-espanhola.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “O período entreguerras”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "HIS",
+      "topic_id": "TOP-694167834912",
+      "topic_title": "Segunda Guerra Mundial e mundo contemporâneo",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Revolução Chinesa de 1949",
+          "url": "https://brasilescola.uol.com.br/videos/revolucao-chinesa-1949.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Segunda Guerra Mundial e mundo contemporâneo”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "ING",
+      "topic_id": "TOP-4a35642b777f",
+      "topic_title": "Learning English today: aims, needs and beyond",
+      "links": 4,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Conjunctions",
+          "url": "https://brasilescola.uol.com.br/videos/conjunctions.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Learning English today: aims, needs and beyond”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        },
+        {
+          "title": "Videoaula sobre Correlative conjunctions",
+          "url": "https://brasilescola.uol.com.br/videos/correlative-conjunctions.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Learning English today: aims, needs and beyond”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        },
+        {
+          "title": "Videoaula sobre Advérbios e present perfect",
+          "url": "https://brasilescola.uol.com.br/videos/adverbios-present-perfect.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Learning English today: aims, needs and beyond”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        },
+        {
+          "title": "Videoaula sobre Simple present tense: usage",
+          "url": "https://brasilescola.uol.com.br/videos/simple-present-tense-usage.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Learning English today: aims, needs and beyond”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "ITX",
+      "topic_id": "TOP-8088f01640aa",
+      "topic_title": "Intertextualidade",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Intertextualidade na redação",
+          "url": "https://brasilescola.uol.com.br/videos/redacao-intertextualidade.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Intertextualidade”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "ITX",
+      "topic_id": "TOP-b03c43c9e4e1",
+      "topic_title": "Função fática",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Função fática",
+          "url": "https://brasilescola.uol.com.br/videos/funcao-fatica.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Função fática”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "ITX",
+      "topic_id": "TOP-d44671555be0",
+      "topic_title": "Função metalinguística",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Função metalinguística",
+          "url": "https://brasilescola.uol.com.br/videos/funcao-metalinguistica.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Função metalinguística”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "ITX",
+      "topic_id": "TOP-f960742a5eb3",
+      "topic_title": "Funções da linguagem: conceito base",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Funções da linguagem",
+          "url": "https://brasilescola.uol.com.br/videos/funcoes-de-linguagem.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Funções da linguagem: conceito base”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "topic_id": "TOP-3caad3d83326",
+      "topic_title": "Esquemas de rima",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Tipos de rima",
+          "url": "https://brasilescola.uol.com.br/videos/tipos-rima.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Esquemas de rima”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LIT",
+      "topic_id": "TOP-8a899818d3f0",
+      "topic_title": "Literatura contemporânea: pluralidade de formas e vozes",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Literatura contemporânea",
+          "url": "https://brasilescola.uol.com.br/videos/literatura-contemporanea.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Literatura contemporânea: pluralidade de formas e vozes”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LP",
+      "topic_id": "TOP-1629fb886f20",
+      "topic_title": "Encontros vocálicos e consonantais",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Encontros consonantais",
+          "url": "https://brasilescola.uol.com.br/videos/encontros-consonantais.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Encontros vocálicos e consonantais”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LP",
+      "topic_id": "TOP-165d37ee04b7",
+      "topic_title": "Complementos verbais",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Verbos transitivos diretos, indiretos e bitransitivos",
+          "url": "https://brasilescola.uol.com.br/videos/verbos-transitivos-diretos-verbos-transitivos-indiretos-e-verbos-bitransitivos.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Complementos verbais”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LP",
+      "topic_id": "TOP-2d0cd3e08ff3",
+      "topic_title": "Aposto e vocativo",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Aposto",
+          "url": "https://brasilescola.uol.com.br/videos/aposto.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Aposto e vocativo”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "LP",
+      "topic_id": "TOP-a49a0a128cce",
+      "topic_title": "Predicação verbal",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Verbos transitivos diretos, indiretos e bitransitivos",
+          "url": "https://brasilescola.uol.com.br/videos/verbos-transitivos-diretos-verbos-transitivos-indiretos-e-verbos-bitransitivos.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Predicação verbal”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "MAT",
+      "topic_id": "TOP-0bdac4a92cec",
+      "topic_title": "Função modular e gráfico por partes",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Função modular",
+          "url": "https://brasilescola.uol.com.br/videos/funcao-modular.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Função modular e gráfico por partes”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "MAT",
+      "topic_id": "TOP-0e0d68c83ca9",
+      "topic_title": "Divisibilidade, múltiplos e divisores",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Múltiplos e divisores",
+          "url": "https://brasilescola.uol.com.br/videos/multiplos-divisores.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Divisibilidade, múltiplos e divisores”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "MAT",
+      "topic_id": "TOP-329573600311",
+      "topic_title": "Tabela de frequências e frequência absoluta",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Frequência absoluta",
+          "url": "https://brasilescola.uol.com.br/videos/frequencia-absoluta.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Tabela de frequências e frequência absoluta”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "MAT",
+      "topic_id": "TOP-725883266c6c",
+      "topic_title": "Função logarítmica e gráfico",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Função logarítmica",
+          "url": "https://brasilescola.uol.com.br/videos/funcao-logaritmica.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Função logarítmica e gráfico”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "MAT",
+      "topic_id": "TOP-8d704dd7c524",
+      "topic_title": "Conjuntos numéricos e relações de inclusão",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Conjuntos numéricos",
+          "url": "https://brasilescola.uol.com.br/videos/conjuntos-numericos.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Conjuntos numéricos e relações de inclusão”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "MAT",
+      "topic_id": "TOP-db54f62d9c6d",
+      "topic_title": "Matriz inversa e invertibilidade",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Matriz inversa",
+          "url": "https://brasilescola.uol.com.br/videos/matriz-inversa.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Matriz inversa e invertibilidade”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "QUI",
+      "topic_id": "TOP-65e23c79ae4f",
+      "topic_title": "Oxirredução",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Balanceamento de equações por oxirredução",
+          "url": "https://brasilescola.uol.com.br/videos/balanceamento-equacoes-por-oxirreducao.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Oxirredução”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "QUI",
+      "topic_id": "TOP-6f8d3e8af647",
+      "topic_title": "O átomo",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Componentes do átomo",
+          "url": "https://brasilescola.uol.com.br/videos/componentes-atomo.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “O átomo”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "QUI",
+      "topic_id": "TOP-87612b9e4770",
+      "topic_title": "Soluções",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Processos de diluição de soluções",
+          "url": "https://brasilescola.uol.com.br/videos/processos-de-diluicao-de-solucoes.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Soluções”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "QUI",
+      "topic_id": "TOP-deaa7727f62b",
+      "topic_title": "Isomeria",
+      "links": 2,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Isomeria geométrica",
+          "url": "https://brasilescola.uol.com.br/videos/isomeria-geometrica.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Isomeria”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        },
+        {
+          "title": "Videoaula sobre Isomeria óptica",
+          "url": "https://brasilescola.uol.com.br/videos/isomeria-optica.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Isomeria”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "RED",
+      "topic_id": "TOP-5958ce5b12fb",
+      "topic_title": "Texto de intervenção pública",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Redação no Enem: proposta de intervenção",
+          "url": "https://brasilescola.uol.com.br/videos/redacao-no-enem-proposta-intervencao.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Texto de intervenção pública”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "RED",
+      "topic_id": "TOP-9d5e40dd3412",
+      "topic_title": "Argumento de autoridade",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Argumento por citação de autoridade",
+          "url": "https://brasilescola.uol.com.br/videos/tipos-de-argumento-para-redacao-argumento-por-citacao-de-autoridade.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Argumento de autoridade”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "SOC",
+      "topic_id": "TOP-10ce11a71318",
+      "topic_title": "Estado, democracia e participação política",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Democracia",
+          "url": "https://brasilescola.uol.com.br/videos/democracia-1.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Estado, democracia e participação política”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "SOC",
+      "topic_id": "TOP-7781f8be0653",
+      "topic_title": "Karl Marx",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Marxismo: ideologia e alienação",
+          "url": "https://brasilescola.uol.com.br/videos/-marxismo-ideologia-alienacao.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “Karl Marx”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "SOC",
+      "topic_id": "TOP-8d1c64d5f837",
+      "topic_title": "Sociologia da cultura",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Sociologia no Enem: cultura",
+          "url": "https://brasilescola.uol.com.br/videos/sociologia-no-enem-cultura.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Sociologia da cultura”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "SOC",
+      "topic_id": "TOP-dde8bc12a9d9",
+      "topic_title": "Desigualdade, pobreza e conflito social",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH_COMPOSITE"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Teoria do conflito social",
+          "url": "https://brasilescola.uol.com.br/videos/teoria-do-conflito-social.htm",
+          "confidence": "HIGH_COMPOSITE",
+          "rationale": "A videoaula cobre um componente substantivo do tópico amplo “Desigualdade, pobreza e conflito social”; o vínculo é mantido como cobertura composta, sem afirmar equivalência total do tópico."
+        }
+      ]
+    },
+    {
+      "discipline_id": "SOC",
+      "topic_id": "TOP-e1a728de261a",
+      "topic_title": "A sociologia de Émile Durkheim",
+      "links": 1,
+      "confidence_levels": [
+        "HIGH"
+      ],
+      "videos": [
+        {
+          "title": "Videoaula sobre Émile Durkheim",
+          "url": "https://brasilescola.uol.com.br/videos/emile-durkheim.htm",
+          "confidence": "HIGH",
+          "rationale": "A videoaula trata diretamente do conteúdo acadêmico de “A sociologia de Émile Durkheim”, com correspondência específica entre o tema do vídeo e o tópico canônico."
+        }
+      ]
+    }
+  ]
+}

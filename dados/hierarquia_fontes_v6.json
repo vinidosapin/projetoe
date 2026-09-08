@@ -1,0 +1,51 @@
+{
+  "version": 6,
+  "general_rule": "Importar e manter os materiais do Projeto E v2.39. A árvore acadêmica decide onde o material aparece; a fonte decide apenas a ordem de exibição dentro do tópico.",
+  "matematica": {
+    "principal": [
+      "Portal da Matemática OBMEP/IMPA"
+    ],
+    "complementos": [
+      "YouTube / fonte legada",
+      "Brasil Escola"
+    ],
+    "rule": "IMPA/OBMEP vem primeiro quando já existe no tópico. Complementos não o substituem."
+  },
+  "fisica": {
+    "principal": [
+      "Portal da Física OBMEP"
+    ],
+    "complementos": [
+      "YouTube / fonte legada",
+      "Brasil Escola"
+    ],
+    "rule": "Portal da Física OBMEP vem primeiro quando já existe no tópico. Complementos não o substituem."
+  },
+  "demais_disciplinas": {
+    "rule": "Manter a ordem herdada do v2.39. Novas fontes só preenchem lacunas da árvore acadêmica ou complementam material já existente."
+  },
+  "bncc": {
+    "role": "VIDEO_DISCOVERY_ONLY",
+    "document_included": "referencias_normativas/BNCC_Ensino_Medio.pdf",
+    "visible_to_student": false,
+    "defines_tree": false
+  },
+  "video_engine": {
+    "path": "ferramentas/Projeto_E_Cursos_em_Video_v1.0-alpha.6",
+    "role": "OPTIONAL_TECHNICAL_TOOL",
+    "defines_tree": false
+  },
+  "physics_priority": [
+    "Portal da Física OBMEP",
+    "outras fontes institucionais/acadêmicas adequadas ao Ensino Médio",
+    "Brasil Escola e complementos"
+  ],
+  "rule_physics": "Antes de buscar substitutos, explorar integralmente o Portal da Física OBMEP e classificar seus materiais na árvore acadêmica.",
+  "interpretacao_textual": {
+    "fonte_de_cobertura_atual": "Brasil Escola",
+    "rule": "Continuar cobrindo lacunas com páginas de videoaula do Brasil Escola; promover somente quando a página pública sustentar o vínculo ao tópico acadêmico."
+  },
+  "updated_in": "0.31-alpha.1",
+  "v0_19_policy_note": "Brasil Escola ampliado como fonte complementar em todas as disciplinas com lacunas; Física mantém Portal da Física OBMEP como principal; Educação Física recebe apenas vínculos transdisciplinares revisados enquanto não houver videoaula específica.",
+  "v0_31_policy_note": "Matemática: OBMEP/IMPA principal; Física: Portal da Física OBMEP principal e explorado antes de substitutos; Brasil Escola complementa todas as 15 disciplinas. Mapeamentos compostos não fecham lacunas."
+}

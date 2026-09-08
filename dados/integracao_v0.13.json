@@ -1,0 +1,33 @@
+{
+  "version": "0.13-alpha.1",
+  "base_release": "Projeto E v2.39",
+  "bncc": {
+    "name": "Base Nacional Comum Curricular — Ensino Médio",
+    "source_file": "BNCC_28mar.indb - bncc_ensino_medio.pdf",
+    "project_path": "referencias_normativas/BNCC_Ensino_Medio.pdf",
+    "sha256": "d0f0f3201b96598c03f3ef6f9529f97e50492ed360d8eee8c748ced9e2962e96",
+    "role": "VIDEO_DISCOVERY_REFERENCE",
+    "defines_taxonomy": false,
+    "defines_order": false,
+    "visible_in_student_navigation": false,
+    "notes": "Documento incorporado integralmente. No Projeto E, a BNCC é usada como referência normativa e como vocabulário/contexto para descobrir vídeos em lacunas da árvore acadêmica."
+  },
+  "video_engine": {
+    "name": "Projeto E — Cursos em Vídeo v1.0-alpha.6",
+    "zip_path": "ferramentas/Projeto_E_Cursos_em_Video_v1.0-alpha.6.zip",
+    "expanded_path": "ferramentas/Projeto_E_Cursos_em_Video_v1.0-alpha.6",
+    "file_count": 78,
+    "zip_sha256": "30635a7f33c6449ae8a115d860b45b195fad71c708972b6500fae9b8c4a6411d",
+    "role": "OPTIONAL_TECHNICAL_TOOL"
+  },
+  "report": {
+    "path": "docs/relatorios/Relatorio_Projeto_E_Ensino_Medio_v0.8.docx",
+    "sha256": "f62bd4e3ae8e88328a039d6a32eb2fea219d7be923384dc0ec5f38ca8315794f"
+  },
+  "academic_expansion": {
+    "education_physical": true,
+    "literature_material_links": 38,
+    "writing_material_links": 22,
+    "new_academic_topics": 53
+  }
+}

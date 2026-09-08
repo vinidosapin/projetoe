@@ -1,0 +1,2172 @@
+{
+  "schema_name": "projeto-e-bncc.skills-index",
+  "schema_version": 1,
+  "source_id": "BNCC-EM-28MAR",
+  "unique_codes": 179,
+  "counts_by_family": {
+    "CHS": 31,
+    "CNT": 23,
+    "LGG": 27,
+    "LP": 53,
+    "MAT": 45
+  },
+  "extraction_method": "pdftotext -layout + regex de códigos EM13; texto integral das habilidades não é reproduzido neste índice.",
+  "skills": [
+    {
+      "code": "EM13CHS101",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        134
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS102",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        134
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS103",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        134
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS104",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        134
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS105",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        134
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS106",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        134
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS201",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        135
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS202",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        135
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS203",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        135
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS204",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        135
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS205",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        135
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS206",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        135
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS301",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        136
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS302",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        136
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS303",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        136
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS304",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        136
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS305",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        136
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS306",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        136
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS401",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        137
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS402",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        137
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS403",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        137
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS404",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        137
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS501",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        138
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS502",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        138
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS503",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        138
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS504",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        138
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS601",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 6,
+      "pdf_pages": [
+        139
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS602",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 6,
+      "pdf_pages": [
+        139
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS603",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 6,
+      "pdf_pages": [
+        139
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS604",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 6,
+      "pdf_pages": [
+        139
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CHS605",
+      "family": "CHS",
+      "bncc_area": "Ciências Humanas e Sociais Aplicadas",
+      "competencia_especifica_numero": 6,
+      "pdf_pages": [
+        139
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT101",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        115
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT102",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        115
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT103",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        115
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT104",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        115
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT105",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        115
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT106",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        115
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT201",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        117
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT202",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        117
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT203",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        117
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT204",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        117
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT205",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        117
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT206",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        117
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT207",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        117
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT301",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        119
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT302",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        119
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT303",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        119
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT304",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        119
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT305",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        119
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT306",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        119
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT307",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        119
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT308",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        119
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT309",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        119
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13CNT310",
+      "family": "CNT",
+      "bncc_area": "Ciências da Natureza e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        119
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG101",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        57
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG102",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        57
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG103",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        34,
+        57
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG104",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        57
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG105",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        57
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG201",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        58
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG202",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        58
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG203",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        58
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG204",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        58
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG301",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        59
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG302",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        59
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG303",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        59
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG304",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        59
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG401",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        60
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG402",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        60
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG403",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        60
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG501",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        61
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG502",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        61
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG503",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        61
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG601",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 6,
+      "pdf_pages": [
+        62
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG602",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 6,
+      "pdf_pages": [
+        62
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG603",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 6,
+      "pdf_pages": [
+        62
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG604",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 6,
+      "pdf_pages": [
+        62
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG701",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 7,
+      "pdf_pages": [
+        63
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG702",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 7,
+      "pdf_pages": [
+        63
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG703",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 7,
+      "pdf_pages": [
+        63
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LGG704",
+      "family": "LGG",
+      "bncc_area": "Linguagens e suas Tecnologias",
+      "competencia_especifica_numero": 7,
+      "pdf_pages": [
+        63
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP01",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        72
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP02",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        72
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP03",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        72
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP04",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        72
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP05",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        72
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP06",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        72
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP07",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        73
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP08",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        73
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP09",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        73
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP10",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        73
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP11",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        73
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP12",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        73
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP13",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        74
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP14",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        74
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP15",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        74
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP16",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        74
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP17",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        74
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP18",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        76
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP19",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        76
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP20",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        76
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP21",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        76
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP22",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        79
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP23",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        79
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP24",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        79
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP25",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        79
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP26",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        79
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP27",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        82
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP28",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        82
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP29",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        82
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP30",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        82
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP31",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        82
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP32",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        83
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP33",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        83
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP34",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        83
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP35",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        85
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP36",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        85
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP37",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        85
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP38",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        85
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP39",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        85
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP40",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        86
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP41",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        86
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP42",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        86
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP43",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        86
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP44",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        86
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP45",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        89
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP46",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        89
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP47",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        89
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP48",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        89
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP49",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        89
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP50",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        89
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP51",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        90
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP52",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        90
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13LP53",
+      "family": "LP",
+      "bncc_area": "Língua Portuguesa",
+      "competencia_especifica_numero": null,
+      "pdf_pages": [
+        90
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT101",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        99
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT102",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        99
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT103",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        99
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT104",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        99
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT105",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 1,
+      "pdf_pages": [
+        99
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT201",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        100
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT202",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        100
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT203",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 2,
+      "pdf_pages": [
+        100
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT301",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        102
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT302",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        102,
+        108
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT303",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        102
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT304",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        102
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT305",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        102
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT306",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        102
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT307",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        102
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT308",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        103
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT309",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        103
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT310",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        103
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT311",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        103
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT312",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        103
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT313",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        103
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT314",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        103
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT315",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        103
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT316",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 3,
+      "pdf_pages": [
+        103
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT401",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        105,
+        108
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT402",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        105,
+        108
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT403",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        105
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT404",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        105
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT405",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        105
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT406",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        105
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT407",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        105
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT408",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        105
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT409",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 4,
+      "pdf_pages": [
+        105
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT501",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107,
+        108
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT502",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107,
+        108
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT503",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107,
+        108
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT504",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT505",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT506",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT507",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107,
+        108
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT508",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT509",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT510",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT511",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    },
+    {
+      "code": "EM13MAT512",
+      "family": "MAT",
+      "bncc_area": "Matemática e suas Tecnologias",
+      "competencia_especifica_numero": 5,
+      "pdf_pages": [
+        107
+      ],
+      "source_id": "BNCC-EM-28MAR",
+      "text_status": "NOT_REPRODUCED",
+      "project_summary_status": "PENDING"
+    }
+  ]
+}

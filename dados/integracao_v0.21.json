@@ -1,0 +1,17 @@
+{
+  "version": "0.21-alpha.1",
+  "base_release": "Projeto E v2.39",
+  "previous_convergence_release": "0.20-alpha.1",
+  "new_focus": "Continuação da cobertura com videoaulas oficiais do Brasil Escola",
+  "evidence_integration": {
+    "new_material_links": 13,
+    "topics_touched": 13,
+    "gaps_closed": 13
+  },
+  "coverage": {
+    "topics": 1571,
+    "covered": 1385,
+    "gaps": 186
+  },
+  "bncc_role": "Radar de completude; não é estrutura curricular."
+}

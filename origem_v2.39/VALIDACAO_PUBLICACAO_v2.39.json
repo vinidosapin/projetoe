@@ -1,0 +1,33 @@
+{
+  "schema": "projeto-e.publication-validation",
+  "version": "2.39",
+  "date": "2026-09-04",
+  "result": "PASS",
+  "html_files": 1177,
+  "json_files": 11,
+  "total_files": 1198,
+  "internal_links_checked": 13522,
+  "broken_internal_links_count": 0,
+  "broken_internal_links": [],
+  "external_links_seen": 1915,
+  "external_book_pdf_links_flagged": [],
+  "forbidden_local_media_or_book_files": [],
+  "invalid_json_count": 0,
+  "invalid_json": [],
+  "no_local_pdfs": true,
+  "no_local_images": true,
+  "no_absolute_mnt_paths": true,
+  "no_local_book_page_locators": true,
+  "public_bibliography_catalog_present": true,
+  "rights_page_present": true,
+  "note": "Technical best-effort publication validation. This is not a legal opinion or guarantee.",
+  "legacy_interface_files_present": 0,
+  "sensitive_pattern_findings": {
+    "absolute_internal_path": [],
+    "local_book_page_locator": [],
+    "extracted_text_workspace_locator": [],
+    "local_poliedro_source_folder_locator": [],
+    "removed_bibliography_placeholder": []
+  },
+  "no_absolute_internal_paths": true
+}

@@ -1,0 +1,26 @@
+/* Projeto E v2.28 — refinamento visual e acessibilidade */
+:root{--focus:#0b57d0;--focus-ring:rgba(11,87,208,.22);--shadow-soft:0 8px 28px rgba(24,32,51,.07);--shadow-hover:0 12px 34px rgba(24,32,51,.11)}
+body{font-size:clamp(1rem,.985rem + .08vw,1.055rem);text-rendering:optimizeLegibility}
+.skip-link{position:fixed;left:16px;top:12px;z-index:9999;transform:translateY(-180%);background:#fff;color:#111827;border:2px solid #111827;border-radius:10px;padding:10px 14px;font-weight:900;text-decoration:none;box-shadow:var(--shadow-hover)}
+.skip-link:focus{transform:translateY(0)}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+:where(a,button,input,summary,[tabindex]):focus-visible{outline:3px solid var(--focus)!important;outline-offset:3px!important;box-shadow:0 0 0 5px var(--focus-ring)}
+.sitebar{box-shadow:0 1px 0 rgba(24,32,51,.03)}
+.site-actions a,.open,.filter,.academic-nav a{min-height:44px;display:inline-flex;align-items:center}
+.site-actions a:hover,.academic-nav a:hover{border-color:#9fb4d4;background:#f7faff}
+.open{transition:transform .16s ease,box-shadow .16s ease,background-color .16s ease}.open:hover{transform:translateY(-1px);box-shadow:0 7px 18px rgba(23,79,154,.18);background:var(--brand2)}.open.secondary:hover{background:#e4efff;color:var(--brand2)}
+.hero,.subject-hero,.academic-hero,.panel,.academic-card,.theory-row,.module-card,.front-card,.theory-card,.video-resource{box-shadow:var(--shadow-soft)}
+.academic-card,.theory-row,.module-card,.front-card,.theory-card,.video-resource{transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}
+.academic-card:hover,.theory-row:hover,.module-card:hover,.front-card:hover,.theory-card:hover,.video-resource:hover{border-color:#bcc9db;box-shadow:var(--shadow-hover)}
+.hero .lead,.subject-hero p,.academic-hero p,.panel>p,.video-resource p{max-width:78ch}
+.coverage-summary{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.coverage-summary span{display:inline-flex;align-items:center;min-height:34px;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:#fff;font-size:.85rem;font-weight:800}
+.video-coverage-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:16px 0}.video-resource{background:#fff;border:1px solid var(--line);border-radius:15px;padding:17px;display:flex;flex-direction:column;min-width:0}.video-resource h3{margin:.55rem 0 .35rem;line-height:1.25}.video-resource p{color:#515d70;font-size:.92rem}.video-resource .open{margin-top:auto}.source-badge,.coverage-level{display:inline-flex;align-items:center;min-height:28px;border:1px solid #d7dfeb;border-radius:999px;padding:4px 8px;font-size:.74rem;font-weight:900}.source-badge{background:#eef5ff;color:#174f9a}.coverage-level{background:#f7f8fa;color:#3f4a5d;margin-left:5px}.coverage-level.context{border-style:dashed}
+.pill,.academic-stat,.source-badge,.coverage-level{border:1px solid rgba(24,32,51,.12)}
+.filter{min-height:44px}.search-wrap input{min-height:48px;border-color:#cbd3df}.search-wrap input:hover{border-color:#9eadc3}
+.breadcrumbs{line-height:1.7}.breadcrumbs a{text-decoration:underline;text-decoration-thickness:.08em;text-underline-offset:.16em}.breadcrumbs a:hover{text-decoration-thickness:.14em}
+.no-results[role="status"]{border-width:2px}
+footer{border-top:1px solid var(--line);padding-top:18px}
+@media(max-width:760px){.sitebar{position:static}.sitebar-inner{align-items:flex-start}.site-actions{width:100%}.site-actions a{flex:1 1 auto;justify-content:center}.video-coverage-list{grid-template-columns:1fr}.hero h1,.subject-hero h1,.academic-hero h1{overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}.open:hover,.academic-card:hover,.theory-row:hover,.module-card:hover,.front-card:hover,.theory-card:hover,.video-resource:hover{transform:none}}
+@media(prefers-contrast:more){:root{--line:#6b7280}.site-actions a,.open,.filter,.panel,.academic-card,.theory-row,.video-resource{border-width:2px}.small,.academic-secondary,.source-note{color:#374151}}
+@media(forced-colors:active){.skip-link,.open,.filter,.site-actions a,.source-badge,.coverage-level{forced-color-adjust:auto}.area-dot{forced-color-adjust:none;background:CanvasText!important}.open{border:1px solid ButtonText}}

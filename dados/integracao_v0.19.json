@@ -1,0 +1,29 @@
+{
+  "version": "0.19-alpha.1",
+  "base_release": "Projeto E v2.39",
+  "previous_convergence_release": "0.18-alpha.1",
+  "new_focus": "Expansão multidisciplinar com videoaulas do Brasil Escola",
+  "evidence_integration": {
+    "promoted_links": 474,
+    "topics_touched": 336,
+    "rule": "Somente páginas oficiais de videoaula do Brasil Escola; revisão semântica; vínculos compostos marcados."
+  },
+  "coverage": {
+    "before": {
+      "topics_with_materials": 997,
+      "gaps": 574
+    },
+    "after": {
+      "topics_with_materials": 1333,
+      "gaps": 238
+    },
+    "gaps_closed_by_discipline": {
+      "FIS": 55,
+      "LP": 32,
+      "LIT": 131,
+      "RED": 110,
+      "EDF": 8
+    }
+  },
+  "bncc_role": "RADAR_ONLY"
+}

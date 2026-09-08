@@ -1,0 +1,30 @@
+{
+  "version": "0.14-alpha.1",
+  "base_release": "Projeto E v2.39",
+  "mission": "Cobrir integralmente a BNCC sem organizar o curso pela BNCC: o aluno percorre uma árvore acadêmica; a BNCC funciona como radar de completude e busca de materiais.",
+  "disciplines": 15,
+  "areas": 93,
+  "subareas": 217,
+  "topics": 1571,
+  "topics_with_materials": 927,
+  "topics_without_materials": 644,
+  "material_links": 2012,
+  "unique_urls": 1474,
+  "source_counts": {
+    "Portal da Matemática OBMEP/IMPA": 416,
+    "YouTube / fonte legada": 244,
+    "Brasil Escola": 1040,
+    "Portal da Física OBMEP": 312
+  },
+  "math_obmep_links": 416,
+  "physics_obmep_links": 312,
+  "new_material_links": 49,
+  "new_unique_urls": 43,
+  "physics_topics_with_materials": 284,
+  "physics_topics_without_materials": 171,
+  "physics_material_links": 434,
+  "physics_gaps_closed_this_release": 38,
+  "integrated_bncc_pdf": true,
+  "integrated_video_engine": "1.0-alpha.6",
+  "updated_report": "0.9"
+}

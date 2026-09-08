@@ -1,0 +1,29 @@
+{
+  "version": "0.25-alpha.1",
+  "date": "2026-09-05",
+  "status": "PASS",
+  "checks": {
+    "topics_total": true,
+    "gap_count_consistent": true,
+    "material_count_consistent": true,
+    "brasil_escola_count_consistent": true,
+    "resource_ids_unique": true,
+    "all_new_resources_indexed": true,
+    "all_15_disciplines_touched": true,
+    "only_official_brasil_escola_video_pages": true,
+    "canonical_tree_topic_count_preserved": true,
+    "site_embeds_v025": true,
+    "start_page_embeds_v025": true
+  },
+  "metrics": {
+    "topics": 1571,
+    "covered": 1421,
+    "gaps": 150,
+    "material_links": 2928,
+    "brasil_escola_links": 1956,
+    "new_links": 101,
+    "topics_touched": 66,
+    "gaps_closed": 0,
+    "disciplines_touched": 15
+  }
+}

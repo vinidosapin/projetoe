@@ -1,0 +1,18 @@
+{
+  "version": "0.25-alpha.1",
+  "base_release": "Projeto E v2.39",
+  "previous_convergence_release": "0.24-alpha.1",
+  "new_focus": "Brasil Escola em todas as 15 disciplinas, com classificação contínua do inventário e fechamento de lacunas somente quando a videoaula sustenta o tópico.",
+  "evidence_integration": {
+    "new_material_links": 101,
+    "topics_touched": 66,
+    "gaps_closed": 0,
+    "disciplines_touched": 15
+  },
+  "coverage": {
+    "topics": 1571,
+    "covered": 1421,
+    "gaps": 150
+  },
+  "bncc_role": "Radar de completude; não é estrutura curricular."
+}

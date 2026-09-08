@@ -1,0 +1,39 @@
+{
+  "schema": "projeto-e.public-distribution-cleanup",
+  "version": "2.39",
+  "date": "2026-09-04",
+  "base_release": "2.38",
+  "policy": "best-effort copyright-risk reduction; not a legal opinion",
+  "bibliographic_entries": 37,
+  "public_distribution": {
+    "local_books_or_book_page_files_included": false,
+    "local_pdf_files_included": false,
+    "book_page_screenshots_included": false,
+    "extracted_book_text_files_included": false,
+    "absolute_internal_source_paths_exposed": false,
+    "exact_local_book_page_locators_exposed": false,
+    "external_video_resources_embedded": false,
+    "external_resources_are_links": true,
+    "legacy_book_front_interfaces_published": false
+  },
+  "cleanup_actions": {
+    "draft_v2_39_initial_removed_files": 249,
+    "draft_v2_39_initial_removed_bytes": 174822698,
+    "additional_unreachable_or_internal_files_pruned": 1222,
+    "additional_pruned_bytes": 27212678,
+    "legacy_navigation_links_removed": 3,
+    "local_book_source_locators_removed_from_student_pages": 64,
+    "absolute_path_redactions_in_html": 0,
+    "retained_files_rewritten_for_path_redaction": 0,
+    "additional_legacy_or_front_view_files_pruned": 25
+  },
+  "preserved": [
+    "student-facing course pages",
+    "current academic organization",
+    "verified external video links and coverage already present in v2.38",
+    "public bibliography catalog at book/volume level",
+    "bibliography status pages",
+    "video-gap and v2.38 coverage governance records"
+  ],
+  "note": "Bibliographic reference and curriculum organization are preserved; source book files, page images, extracted text and internal page locators are not distributed."
+}

@@ -1,0 +1,38 @@
+{
+  "schema_name": "projeto-e-video.audio-inventory",
+  "schema_version": 2,
+  "records": [
+    {
+      "candidate_id": "VID-substitua-pelo-id-canonico",
+      "candidate_url": "https://video.example/aula-direta",
+      "provider": "browser",
+      "inspected_at": "2026-08-25T12:00:00-03:00",
+      "tracks": [
+        {
+          "language": "pt-BR",
+          "language_family": "pt",
+          "provider_language_tag": "pt-BR",
+          "normalization_warning": null,
+          "label": "Português (dublagem automática)",
+          "audio_kind_hint": "DUB_AUTOMATIC",
+          "metadata_basis": ["PLAYER_AUDIO_MENU"],
+          "is_default": false,
+          "formats": [],
+          "metadata_only": true
+        }
+      ],
+      "subtitles": [
+        {
+          "language": "en",
+          "language_family": "en",
+          "provider_language_tag": "en",
+          "normalization_warning": null,
+          "kind": "MANUAL",
+          "formats": ["vtt"],
+          "counts_as_dubbing": false
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}

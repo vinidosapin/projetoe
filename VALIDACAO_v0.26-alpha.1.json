@@ -1,0 +1,22 @@
+{
+  "version": "0.26-alpha.1",
+  "status": "PASS",
+  "checks": {
+    "origem_v2.39_unchanged": true,
+    "all_15_disciplines_touched": true,
+    "resource_ids_unique": true,
+    "topic_resource_counts_consistent": true,
+    "coverage_math_consistent": true,
+    "new_links_positive": true
+  },
+  "metrics": {
+    "new_links": 38,
+    "topics_touched": 33,
+    "disciplines_touched": 15,
+    "covered": 1421,
+    "gaps": 150,
+    "materials": 2966,
+    "brasil_escola_links": 1994,
+    "pending_evidence": 728
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "version": "0.24-alpha.1",
+  "base_release": "Projeto E v2.39",
+  "previous_convergence_release": "0.23-alpha.1",
+  "mission": "Cobrir integralmente a BNCC sem organizar o curso pela BNCC: o aluno percorre uma árvore acadêmica; a BNCC funciona como radar de completude e busca de materiais.",
+  "disciplines": 15,
+  "areas": 93,
+  "subareas": 217,
+  "topics": 1571,
+  "topics_with_materials": 1421,
+  "topics_without_materials": 150,
+  "material_links": 2827,
+  "unique_urls": 1787,
+  "source_counts": {
+    "Portal da Matemática OBMEP/IMPA": 416,
+    "YouTube / fonte legada": 244,
+    "Brasil Escola": 1855,
+    "Portal da Física OBMEP": 312
+  },
+  "math_obmep_links": 416,
+  "physics_obmep_links": 312,
+  "brasil_escola_links": 1855,
+  "new_evidence_video_page_urls": 1179,
+  "new_material_links_integrated": 61,
+  "new_evidence_pending_classification": 820,
+  "gaps_closed_this_release": 1,
+  "topics_touched_this_release": 55,
+  "new_links_by_discipline": {
+    "MAT": 6,
+    "FIS": 5,
+    "QUI": 5,
+    "BIO": 5,
+    "HIS": 4,
+    "GEO": 5,
+    "FIL": 5,
+    "SOC": 5,
+    "LP": 4,
+    "LIT": 2,
+    "RED": 2,
+    "ITX": 4,
+    "ING": 4,
+    "ART": 1,
+    "EDF": 4
+  },
+  "gaps_closed_by_discipline": {
+    "LIT": 1
+  },
+  "integrated_bncc_pdf": true,
+  "integrated_video_engine": "1.0-alpha.6",
+  "interface_base": "0.24-alpha.1 (conteúdo, métricas e documentação sincronizados na v0.24)",
+  "evidence_integrated_total": 359
+}

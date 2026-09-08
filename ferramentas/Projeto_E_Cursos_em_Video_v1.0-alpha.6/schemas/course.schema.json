@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://projeto-e.local/schemas/course.schema.json",
+  "type": "object",
+  "required": ["schema_name", "schema_version", "course_id", "title", "course_state", "promotion_ready", "audit_input_hashes", "unit_count", "required_unit_count", "released_unit_count", "optional_available_count", "total_useful_seconds", "routes", "gaps"],
+  "properties": {
+    "schema_name": {"const": "projeto-e-video.course"},
+    "schema_version": {"const": 3},
+    "created_at": {"type": "string"},
+    "course_id": {"type": "string"},
+    "title": {"type": "string", "minLength": 1},
+    "course_state": {"enum": ["COBERTA", "PARCIAL", "DEMONSTRACAO_FIXTURE"]},
+    "promotion_ready": {"const": false},
+    "source_manifest_sha256": {"type": ["string", "null"]},
+    "audit_input_hashes": {"type": "object"},
+    "unit_count": {"type": "integer", "minimum": 1},
+    "required_unit_count": {"type": "integer", "minimum": 0},
+    "released_unit_count": {"type": "integer", "minimum": 0},
+    "optional_available_count": {"type": "integer", "minimum": 0},
+    "fixture_unit_count": {"type": "integer", "minimum": 0},
+    "total_useful_seconds": {"type": "number", "minimum": 0},
+    "classification_counts": {"type": "object"},
+    "source_count": {"type": "integer", "minimum": 1},
+    "routes": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "gaps": {"type": "array", "items": {"type": "object"}},
+    "learning_claim": {"type": "string"}
+  },
+  "additionalProperties": false
+}

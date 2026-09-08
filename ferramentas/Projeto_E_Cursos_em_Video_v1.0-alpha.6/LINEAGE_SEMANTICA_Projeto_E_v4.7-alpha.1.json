@@ -1,0 +1,14 @@
+{
+  "schema_name": "project-e-semantic-lineage",
+  "schema_version": 1,
+  "origin": {
+    "path": "../../Projeto E Prompts/Projeto_E_v4.7-alpha.1",
+    "identity": "Projeto_E_v4.7-alpha.1",
+    "algorithm": "project-e-tree-sha256-v1",
+    "framing": "path_posix_utf8 + NUL + sha256_hex_lower_ascii_64; sem terminador",
+    "sha256": "abf5eb9173772e4215cd10b45d587c29d00c90b497be8820101ed2466bb0c755",
+    "file_count": 331,
+    "total_file_bytes": 5989874
+  },
+  "relationship": "origem semântica histórica; a baseline direta desta alpha.6 é a alpha.5"
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://projeto-e.local/schemas/candidates.schema.json",
+  "title": "Projeto E Video Candidates v3",
+  "type": "object",
+  "required": ["schema_name", "schema_version", "search_scope", "search_attempts", "candidates"],
+  "properties": {
+    "schema_name": {"const": "projeto-e-video.candidates"},
+    "schema_version": {"const": 3},
+    "created_at": {"type": "string"},
+    "course_id": {"type": "string"},
+    "search_scope": {"enum": ["GLOBAL_OPEN", "LEGACY_LIMITED", "UNDECLARED"]},
+    "search_attempts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["query_id", "origin", "unit_id", "language", "query", "status", "result_count", "error"],
+        "properties": {
+          "query_id": {"type": "string", "pattern": "^QX?-"},
+          "origin": {"enum": ["SEED_PLAN", "OPEN_EXPANSION"]},
+          "unit_id": {"type": "string", "pattern": "^U-"},
+          "language": {"type": "string", "minLength": 2},
+          "query": {"type": "string", "minLength": 3, "maxLength": 1000},
+          "status": {"enum": ["COMPLETED", "FAILED"]},
+          "result_count": {"type": "integer", "minimum": 0},
+          "error": {"type": ["string", "null"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "candidate_count": {"type": "integer", "minimum": 0},
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["unit_ids", "url", "title", "channel", "language", "language_basis", "discovery_languages", "provider", "metadata_observed", "metadata_triage"],
+        "properties": {
+          "candidate_id": {"type": "string", "pattern": "^VID-[0-9a-f]{12}$"},
+          "unit_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+          "url": {"type": "string", "format": "uri"},
+          "title": {"type": "string", "minLength": 1},
+          "channel": {"type": "string", "minLength": 1},
+          "language": {"type": "string", "minLength": 2},
+          "language_basis": {"enum": ["PLATFORM_METADATA", "MANUAL_OBSERVATION", "UNKNOWN"]},
+          "discovery_languages": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+          "duration_seconds": {"type": ["number", "null"], "minimum": 0},
+          "provider": {"type": "string", "minLength": 1},
+          "metadata_observed": {"type": "array", "uniqueItems": true, "items": {"enum": ["TITLE", "CHANNEL", "DURATION", "LANGUAGE", "PUBLISHED_AT", "THUMBNAIL"]}},
+          "query_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+          "published_at": {"type": ["string", "null"]},
+          "fixture": {"type": "boolean"},
+          "metadata_triage": {
+            "type": "object",
+            "required": ["status", "score", "fingerprint_matches", "collision_risks", "reasons", "official_ecosystem_hint", "metadata_only"],
+            "properties": {
+              "status": {"enum": ["PRIORITARIO", "REVISAR", "RUIDO_PROVAVEL"]},
+              "score": {"type": "integer", "minimum": -100, "maximum": 100},
+              "fingerprint_matches": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+              "collision_risks": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+              "reasons": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+              "official_ecosystem_hint": {"type": "boolean"},
+              "metadata_only": {"const": true}
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

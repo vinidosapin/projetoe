@@ -1,0 +1,20 @@
+{
+  "version": "0.17-alpha.1",
+  "base_release": "Projeto E v2.39",
+  "previous_convergence_release": "0.16-alpha.1",
+  "new_focus": "Interpretação Textual com Brasil Escola — continuação",
+  "evidence_integration": {
+    "promoted": 7,
+    "rule": "Revisão semântica da página pública do Brasil Escola; páginas editoriais admitidas quando cobrem diretamente o tópico."
+  },
+  "coverage": {
+    "discipline_id": "ITX",
+    "topics_before_with_materials": 55,
+    "topics_after_with_materials": 62,
+    "gaps_before": 25,
+    "gaps_after": 18,
+    "material_links_before": 66,
+    "material_links_after": 73
+  },
+  "bncc_role": "RADAR_ONLY"
+}

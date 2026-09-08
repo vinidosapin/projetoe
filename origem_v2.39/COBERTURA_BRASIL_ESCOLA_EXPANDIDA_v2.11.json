@@ -1,0 +1,159 @@
+{
+  "schema": "projeto-e.cobertura-brasil-escola-expandida.v2.11",
+  "version": "2.11",
+  "date": "2026-09-03",
+  "organization_rule": "DISCIPLINA -> FRENTE -> TEORIA -> SUBTEORIA -> UNIDADE; volume é proveniência bibliográfica.",
+  "ui_rule": "Pesos/ranks de fontes não aparecem na interface do aluno.",
+  "subjects": {
+    "quimica": {
+      "manifest": "quimica/COBERTURA_BRASIL_ESCOLA_v2.11.json",
+      "videos": 42,
+      "theories_with_video": 28,
+      "videos_added_in_v2_11": 3,
+      "theories_touched_in_v2_11": 1,
+      "theories_newly_covered_in_v2_11": 1
+    },
+    "biologia": {
+      "manifest": "biologia/COBERTURA_BRASIL_ESCOLA_v2.11.json",
+      "videos": 94,
+      "theories_with_video": 51,
+      "videos_added_in_v2_11": 17,
+      "theories_touched_in_v2_11": 8,
+      "theories_newly_covered_in_v2_11": 3
+    },
+    "historia": {
+      "manifest": "historia/COBERTURA_BRASIL_ESCOLA_v2.11.json",
+      "videos": 47,
+      "theories_with_video": 26,
+      "videos_added_in_v2_11": 0,
+      "theories_touched_in_v2_11": 0,
+      "theories_newly_covered_in_v2_11": 0
+    },
+    "geografia": {
+      "manifest": "geografia/COBERTURA_BRASIL_ESCOLA_v2.11.json",
+      "videos": 33,
+      "theories_with_video": 24,
+      "videos_added_in_v2_11": 0,
+      "theories_touched_in_v2_11": 0,
+      "theories_newly_covered_in_v2_11": 0
+    },
+    "filosofia": {
+      "manifest": "filosofia/COBERTURA_BRASIL_ESCOLA_v2.11.json",
+      "videos": 17,
+      "theories_with_video": 14,
+      "videos_added_in_v2_11": 0,
+      "theories_touched_in_v2_11": 0,
+      "theories_newly_covered_in_v2_11": 0
+    },
+    "sociologia": {
+      "manifest": "sociologia/COBERTURA_BRASIL_ESCOLA_v2.11.json",
+      "videos": 26,
+      "theories_with_video": 17,
+      "videos_added_in_v2_11": 0,
+      "theories_touched_in_v2_11": 0,
+      "theories_newly_covered_in_v2_11": 0
+    },
+    "ingles": {
+      "manifest": "ingles/COBERTURA_BRASIL_ESCOLA_v2.11.json",
+      "videos": 17,
+      "theories_with_video": 13,
+      "videos_added_in_v2_11": 10,
+      "theories_touched_in_v2_11": 7,
+      "theories_newly_covered_in_v2_11": 7
+    },
+    "arte": {
+      "manifest": "arte/COBERTURA_BRASIL_ESCOLA_v2.11.json",
+      "videos": 20,
+      "theories_with_video": 10,
+      "videos_added_in_v2_11": 0,
+      "theories_touched_in_v2_11": 0,
+      "theories_newly_covered_in_v2_11": 0
+    }
+  },
+  "totals": {
+    "subjects": 8,
+    "videos": 296,
+    "theories_with_video": 183,
+    "videos_added_in_v2_11": 30,
+    "theories_newly_covered_in_v2_11": 11
+  },
+  "remaining_uncovered": {
+    "quimica": [
+      {
+        "theory_file": "023-carater-acido-basico-de-substancias-organicas.html",
+        "title": "Caráter ácido-básico de substâncias orgânicas",
+        "front": "Frente 1"
+      }
+    ],
+    "biologia": [
+      {
+        "theory_file": "038-nutricao-e-secrecao-vegetal.html",
+        "title": "Nutrição e secreção vegetal",
+        "front": "Frente 2"
+      },
+      {
+        "theory_file": "044-interacoes-genicas.html",
+        "title": "Interações gênicas",
+        "front": "Frente 1"
+      },
+      {
+        "theory_file": "046-genoma-humano-e-cromossomos-sexuais.html",
+        "title": "Genoma humano e cromossomos sexuais",
+        "front": "Frente 1"
+      },
+      {
+        "theory_file": "051-movimentos-vegetais-e-fotoperiodismo.html",
+        "title": "Movimentos vegetais e fotoperiodismo",
+        "front": "Frente 2"
+      }
+    ],
+    "historia": [],
+    "geografia": [],
+    "filosofia": [],
+    "sociologia": [],
+    "ingles": [
+      {
+        "theory_file": "003-artificial-intelligence-and-ethical-issues.html",
+        "title": "Artificial intelligence and ethical issues",
+        "front": "Frente única"
+      },
+      {
+        "theory_file": "009-progress-in-science-research-for-a-better-life.html",
+        "title": "Progress in science research: for a better life",
+        "front": "Frente única"
+      },
+      {
+        "theory_file": "014-the-interests-behind-art.html",
+        "title": "The interests behind art",
+        "front": "Frente única"
+      }
+    ],
+    "arte": [
+      {
+        "theory_file": "001-multiplas-artes.html",
+        "title": "Múltiplas artes",
+        "front": "Frente única"
+      },
+      {
+        "theory_file": "008-neoclassicismo-na-europa-e-suas-influencias-no-brasil.html",
+        "title": "Neoclassicismo na Europa e suas influências no Brasil",
+        "front": "Frente única"
+      },
+      {
+        "theory_file": "011-arte-africana-e-afro-brasileira.html",
+        "title": "Arte africana e afro-brasileira",
+        "front": "Frente única"
+      },
+      {
+        "theory_file": "014-novas-artes.html",
+        "title": "Novas artes",
+        "front": "Frente única"
+      },
+      {
+        "theory_file": "015-arte-em-nossos-tempos.html",
+        "title": "Arte em nossos tempos",
+        "front": "Frente única"
+      }
+    ]
+  }
+}
