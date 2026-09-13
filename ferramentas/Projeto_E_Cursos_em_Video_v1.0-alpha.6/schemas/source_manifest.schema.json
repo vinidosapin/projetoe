@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://projeto-e.local/schemas/source_manifest.schema.json",
+  "$id": "urn:projeto-e:schema:source_manifest:v1",
   "title": "Projeto E Video Source Manifest",
   "type": "object",
   "required": [
@@ -13,28 +12,74 @@
     "sources"
   ],
   "properties": {
-    "schema_name": {"const": "projeto-e-video.source-manifest"},
-    "schema_version": {"const": 2},
-    "created_at": {"type": "string"},
-    "course_id": {"type": "string", "pattern": "^COURSE-[0-9a-f]{12}$"},
-    "title": {"type": "string", "minLength": 1},
+    "schema_name": {
+      "const": "projeto-e-video.source-manifest"
+    },
+    "schema_version": {
+      "const": 2
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "course_id": {
+      "type": "string",
+      "pattern": "^COURSE-[0-9a-f]{12}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
     "input": {
       "type": "object",
-      "required": ["kind", "value", "allow_network", "items"],
+      "required": [
+        "kind",
+        "value",
+        "allow_network",
+        "items"
+      ],
       "properties": {
-        "kind": {"enum": ["TOPIC", "FILE", "DIRECTORY", "URL", "ZIP", "BUNDLE"]},
-        "value": {"type": "string"},
-        "allow_network": {"type": "boolean"},
+        "kind": {
+          "enum": [
+            "TOPIC",
+            "FILE",
+            "DIRECTORY",
+            "URL",
+            "ZIP",
+            "BUNDLE"
+          ]
+        },
+        "value": {
+          "type": "string"
+        },
+        "allow_network": {
+          "type": "boolean"
+        },
         "items": {
           "type": "array",
           "minItems": 1,
           "items": {
             "type": "object",
-            "required": ["kind", "value", "allow_network"],
+            "required": [
+              "kind",
+              "value",
+              "allow_network"
+            ],
             "properties": {
-              "kind": {"enum": ["TOPIC", "FILE", "DIRECTORY", "URL", "ZIP"]},
-              "value": {"type": "string"},
-              "allow_network": {"type": "boolean"}
+              "kind": {
+                "enum": [
+                  "TOPIC",
+                  "FILE",
+                  "DIRECTORY",
+                  "URL",
+                  "ZIP"
+                ]
+              },
+              "value": {
+                "type": "string"
+              },
+              "allow_network": {
+                "type": "boolean"
+              }
             },
             "additionalProperties": false
           }
@@ -42,9 +87,17 @@
       },
       "additionalProperties": false
     },
-    "limits": {"type": "object"},
-    "source_count": {"type": "integer", "minimum": 1},
-    "extracted_source_count": {"type": "integer", "minimum": 0},
+    "limits": {
+      "type": "object"
+    },
+    "source_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "extracted_source_count": {
+      "type": "integer",
+      "minimum": 0
+    },
     "sources": {
       "type": "array",
       "minItems": 1,
@@ -58,20 +111,65 @@
           "warnings"
         ],
         "properties": {
-          "source_id": {"type": "string", "pattern": "^SRC-[0-9a-f]{12}$"},
-          "kind": {"type": "string"},
-          "locator": {"type": "string"},
-          "exact_locator": {"type": "string"},
-          "media_type": {"type": "string"},
-          "byte_size": {"type": ["integer", "null"], "minimum": 0},
-          "sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
-          "extraction_status": {
-            "enum": ["EXTRAIDA", "EXTRACAO_NAO_DISPONIVEL", "URL_NAO_BAIXADA"]
+          "source_id": {
+            "type": "string",
+            "pattern": "^SRC-[0-9a-f]{12}$"
           },
-          "extractor": {"type": "string"},
-          "text_path": {"type": ["string", "null"]},
-          "text_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
-          "warnings": {"type": "array", "items": {"type": "string"}}
+          "kind": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "exact_locator": {
+            "type": "string"
+          },
+          "media_type": {
+            "type": "string"
+          },
+          "byte_size": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "extraction_status": {
+            "enum": [
+              "EXTRAIDA",
+              "EXTRACAO_NAO_DISPONIVEL",
+              "URL_NAO_BAIXADA"
+            ]
+          },
+          "extractor": {
+            "type": "string"
+          },
+          "text_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "text_sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
         },
         "additionalProperties": false
       }

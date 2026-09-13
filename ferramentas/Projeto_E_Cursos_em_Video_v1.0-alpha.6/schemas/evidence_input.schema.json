@@ -1,100 +1,323 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://projeto-e.local/schemas/evidence_input.schema.json",
+  "$id": "urn:projeto-e:schema:evidence_input:v1",
   "title": "Projeto E Video Raw Evidence Input v2",
   "description": "Observações brutas de conteúdo e áudio. Aprovação, classificação, cobertura, domínio e promoção são proibidos pelo motor.",
   "type": "object",
-  "required": ["schema_name", "schema_version", "observations"],
+  "required": [
+    "schema_name",
+    "schema_version",
+    "observations"
+  ],
   "properties": {
-    "schema_name": {"const": "projeto-e-video.evidence-input"},
-    "schema_version": {"const": 2},
-    "created_at": {"type": "string"},
-    "course_id": {"type": "string"},
-    "observations": {"type": "array", "items": {"$ref": "#/$defs/observation"}}
+    "schema_name": {
+      "const": "projeto-e-video.evidence-input"
+    },
+    "schema_version": {
+      "const": 2
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "course_id": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/observation"
+      }
+    }
   },
   "$defs": {
     "artifact": {
       "type": "object",
-      "required": ["artifact_id", "path", "sha256", "kind"],
+      "required": [
+        "artifact_id",
+        "path",
+        "sha256",
+        "kind"
+      ],
       "properties": {
-        "artifact_id": {"type": "string", "minLength": 1},
-        "path": {"type": "string", "minLength": 1},
-        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
-        "kind": {"enum": ["FRAME", "SCREENSHOT", "TRANSCRIPT", "AUDIO", "OTHER"]},
-        "byte_size": {"type": "integer", "minimum": 0}
+        "artifact_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "kind": {
+          "enum": [
+            "FRAME",
+            "SCREENSHOT",
+            "TRANSCRIPT",
+            "AUDIO",
+            "OTHER"
+          ]
+        },
+        "byte_size": {
+          "type": "integer",
+          "minimum": 0
+        }
       },
       "additionalProperties": false
     },
     "timestamp": {
       "type": "object",
-      "required": ["start_seconds", "end_seconds", "observed_step_ids", "observed", "speech_or_transcript_observed", "artifact_ids"],
+      "required": [
+        "start_seconds",
+        "end_seconds",
+        "observed_step_ids",
+        "observed",
+        "speech_or_transcript_observed",
+        "artifact_ids"
+      ],
       "properties": {
-        "start_seconds": {"type": "number", "minimum": 0},
-        "end_seconds": {"type": "number", "exclusiveMinimum": 0},
-        "observed_step_ids": {"type": "array", "items": {"type": "string"}},
-        "observed": {"type": "string", "minLength": 12},
-        "speech_or_transcript_observed": {"type": "string", "minLength": 12},
-        "artifact_ids": {"type": "array", "items": {"type": "string"}}
+        "start_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "end_seconds": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "observed_step_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "observed": {
+          "type": "string",
+          "minLength": 12
+        },
+        "speech_or_transcript_observed": {
+          "type": "string",
+          "minLength": 12
+        },
+        "artifact_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       },
       "additionalProperties": false
     },
     "audio_review": {
       "type": "object",
-      "required": ["track_id", "target_language", "access_type_observed", "verification_method", "audio_artifact_ids", "track_selection_artifact_id", "direct_playback_observed", "technical_terminology_checked", "mathematical_notation_checked", "semantic_alignment_checked", "synchronization_checked", "issues", "reviewer_notes"],
+      "required": [
+        "track_id",
+        "target_language",
+        "access_type_observed",
+        "verification_method",
+        "audio_artifact_ids",
+        "track_selection_artifact_id",
+        "direct_playback_observed",
+        "technical_terminology_checked",
+        "mathematical_notation_checked",
+        "semantic_alignment_checked",
+        "synchronization_checked",
+        "issues",
+        "reviewer_notes"
+      ],
       "properties": {
-        "track_id": {"type": "string", "pattern": "^ATRACK-"},
-        "target_language": {"enum": ["pt", "en"]},
-        "access_type_observed": {"enum": ["ORIGINAL", "DUB_MANUAL", "DUB_AUTOMATIC"]},
-        "verification_method": {"enum": ["AUDIO_ARTIFACT", "DIRECT_PLAYBACK"]},
-        "audio_artifact_ids": {"type": "array", "items": {"type": "string"}},
-        "track_selection_artifact_id": {"type": ["string", "null"]},
-        "direct_playback_observed": {"type": "boolean"},
-        "technical_terminology_checked": {"type": "boolean"},
-        "mathematical_notation_checked": {"type": "boolean"},
-        "semantic_alignment_checked": {"type": "boolean"},
-        "synchronization_checked": {"type": "boolean"},
-        "issues": {"type": "array", "items": {"type": "string"}},
-        "reviewer_notes": {"type": "string", "minLength": 20}
+        "track_id": {
+          "type": "string",
+          "pattern": "^ATRACK-"
+        },
+        "target_language": {
+          "enum": [
+            "pt",
+            "en"
+          ]
+        },
+        "access_type_observed": {
+          "enum": [
+            "ORIGINAL",
+            "DUB_MANUAL",
+            "DUB_AUTOMATIC"
+          ]
+        },
+        "verification_method": {
+          "enum": [
+            "AUDIO_ARTIFACT",
+            "DIRECT_PLAYBACK"
+          ]
+        },
+        "audio_artifact_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "track_selection_artifact_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "direct_playback_observed": {
+          "type": "boolean"
+        },
+        "technical_terminology_checked": {
+          "type": "boolean"
+        },
+        "mathematical_notation_checked": {
+          "type": "boolean"
+        },
+        "semantic_alignment_checked": {
+          "type": "boolean"
+        },
+        "synchronization_checked": {
+          "type": "boolean"
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reviewer_notes": {
+          "type": "string",
+          "minLength": 20
+        }
       },
       "additionalProperties": false
     },
     "observation": {
       "type": "object",
-      "required": ["candidate_id", "unit_id", "candidate_identity_confirmed", "inspection_methods", "match_observation", "artifacts", "transcript", "timestamps", "missing_prerequisites", "audio_reviews"],
+      "required": [
+        "candidate_id",
+        "unit_id",
+        "candidate_identity_confirmed",
+        "inspection_methods",
+        "match_observation",
+        "artifacts",
+        "transcript",
+        "timestamps",
+        "missing_prerequisites",
+        "audio_reviews"
+      ],
       "properties": {
-        "observation_id": {"type": "string"},
-        "candidate_id": {"type": "string", "pattern": "^VID-"},
-        "unit_id": {"type": "string", "pattern": "^U-"},
-        "candidate_identity_confirmed": {"type": "boolean"},
-        "inspection_methods": {"type": "array", "items": {"enum": ["TRANSCRICAO", "FALA_VERIFICADA", "FRAME", "DIRETA"]}},
-        "match_observation": {"enum": ["EXACT", "EQUIVALENT", "PARTIAL", "THEORY", "CONFLICT", "UNVERIFIABLE"]},
-        "artifacts": {"type": "array", "items": {"$ref": "#/$defs/artifact"}},
+        "observation_id": {
+          "type": "string"
+        },
+        "candidate_id": {
+          "type": "string",
+          "pattern": "^VID-"
+        },
+        "unit_id": {
+          "type": "string",
+          "pattern": "^U-"
+        },
+        "candidate_identity_confirmed": {
+          "type": "boolean"
+        },
+        "inspection_methods": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "TRANSCRICAO",
+              "FALA_VERIFICADA",
+              "FRAME",
+              "DIRETA"
+            ]
+          }
+        },
+        "match_observation": {
+          "enum": [
+            "EXACT",
+            "EQUIVALENT",
+            "PARTIAL",
+            "THEORY",
+            "CONFLICT",
+            "UNVERIFIABLE"
+          ]
+        },
+        "artifacts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/artifact"
+          }
+        },
         "transcript": {
           "type": "object",
-          "required": ["available"],
+          "required": [
+            "available"
+          ],
           "properties": {
-            "available": {"type": "boolean"},
-            "artifact_id": {"type": ["string", "null"]},
-            "language": {"type": "string"}
+            "available": {
+              "type": "boolean"
+            },
+            "artifact_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "language": {
+              "type": "string"
+            }
           },
           "additionalProperties": false
         },
-        "timestamps": {"type": "array", "items": {"$ref": "#/$defs/timestamp"}},
-        "speech_observed": {"type": "string"},
-        "equivalence_rationale": {"type": "string"},
-        "missing_prerequisites": {"type": "array", "items": {"type": "string"}},
-        "audio_reviews": {"type": "array", "maxItems": 2, "items": {"$ref": "#/$defs/audio_review"}},
+        "timestamps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/timestamp"
+          }
+        },
+        "speech_observed": {
+          "type": "string"
+        },
+        "equivalence_rationale": {
+          "type": "string"
+        },
+        "missing_prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "audio_reviews": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "$ref": "#/$defs/audio_review"
+          }
+        },
         "conflict": {
-          "type": ["object", "null"],
+          "type": [
+            "object",
+            "null"
+          ],
           "properties": {
-            "description": {"type": "string", "minLength": 12},
-            "timestamp_seconds": {"type": "number", "minimum": 0}
+            "description": {
+              "type": "string",
+              "minLength": 12
+            },
+            "timestamp_seconds": {
+              "type": "number",
+              "minimum": 0
+            }
           },
-          "required": ["description", "timestamp_seconds"],
+          "required": [
+            "description",
+            "timestamp_seconds"
+          ],
           "additionalProperties": false
         },
-        "reviewer_notes": {"type": "string"},
-        "fixture": {"type": "boolean"}
+        "reviewer_notes": {
+          "type": "string"
+        },
+        "fixture": {
+          "type": "boolean"
+        }
       },
       "additionalProperties": false
     }

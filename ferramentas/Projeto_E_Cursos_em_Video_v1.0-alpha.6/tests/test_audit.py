@@ -264,7 +264,7 @@ class AuditTests(unittest.TestCase):
                     "schema_version": 2,
                     "created_at": "test",
                     "course_id": ledger["course_id"],
-                    "search_scope": "GLOBAL_OPEN",
+                    "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
                     "search_attempts": [
                         {
                             "query_id": row["query_id"],

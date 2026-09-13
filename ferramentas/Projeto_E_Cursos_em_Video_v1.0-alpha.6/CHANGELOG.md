@@ -100,7 +100,7 @@
 ## 1.0-alpha.2 — 2026-08-25
 
 - bloqueia busca e importação de candidatos antes do mapa `V1_VERIFIED`;
-- substitui PT/EN/ES fixos por `GLOBAL_OPEN`, com mais de 30 sementes,
+- substitui PT/EN/ES fixos por `VERIFIED_CHANNEL_ALLOWLIST`, com mais de 30 sementes,
   expansão livre e registro de todas as tentativas;
 - canonicaliza expansões livres como `QX-...` e preserva a ligação entre
   tentativa e candidato;

@@ -1,0 +1,103 @@
+{
+  "schema": "PROJETO_E_RELEASE_VALIDATION_v0.96",
+  "version": "0.208-alpha.1",
+  "status": "PASS",
+  "content_baseline": "0.207-alpha.1",
+  "metrics": {
+    "total_topics": 1571,
+    "covered_topics": 1263,
+    "gap_topics": 308,
+    "coverage_pct": 80.39,
+    "topic_video_associations": 2052,
+    "active_resource_records": 1892,
+    "unique_active_urls": 739
+  },
+  "policy": {
+    "external_inherited_link_recheck": "NOT_RUN_INTERFACE_ONLY_RELEASE",
+    "local_allowlist_validation": "INHERITED_AND_STRUCTURALLY_RECHECKED",
+    "new_catalog_urls": 0,
+    "content_changes": 0
+  },
+  "release_tests": {
+    "unittest": {
+      "status": "PASS",
+      "tests_run": 139,
+      "passed": 138,
+      "skipped": 1
+    },
+    "validate_release": {
+      "status": "PASS",
+      "valid": true,
+      "scope": "embedded_tool_distribution_Projeto_E_Cursos_em_Video_v1.0-alpha.6",
+      "baseline_available": false,
+      "baseline_verified": false
+    },
+    "demo": {
+      "status": "PASS",
+      "valid": true,
+      "fixture": true
+    },
+    "validate_workspace": {
+      "status": "PASS",
+      "valid": true,
+      "fixture_workspace": true
+    },
+    "json_parse": {
+      "status": "PASS",
+      "files": 27
+    },
+    "canonical_topic_parity": {
+      "status": "PASS",
+      "topics": 1571
+    },
+    "embedded_map_parity": {
+      "status": "PASS",
+      "equal": true
+    },
+    "html_url_parity": {
+      "status": "PASS",
+      "urls": 739,
+      "identical_to_v0207": true
+    },
+    "site_entrypoint_parity": {
+      "status": "PASS",
+      "equal": true
+    },
+    "javascript_syntax": {
+      "status": "PASS",
+      "scripts": 2,
+      "node_checked": 2
+    },
+    "html_structure": {
+      "status": "PASS",
+      "duplicate_ids": 0,
+      "lang": "pt-BR",
+      "main_landmark": true,
+      "skip_link": true
+    },
+    "browser_runtime_smoke": {
+      "status": "NOT_RUN",
+      "reason": "headless browser navigation blocked by sandbox administrator policy"
+    }
+  },
+  "verification": {
+    "html_url_parity": true,
+    "embedded_map_parity": true,
+    "site_entrypoint_parity": true,
+    "javascript_scripts_checked": 2,
+    "structural_check": true,
+    "orphan_resources": 0,
+    "missing_references": 0,
+    "content_object_identical_to_v0207": true,
+    "url_set_identical_to_v0207": true
+  },
+  "packaging": {
+    "expected_root_file_count": 98,
+    "single_root": true,
+    "zip_crc_verified": true,
+    "byte_for_byte_extraction_verified": true,
+    "manifest_inventory_files": 96,
+    "manifest_excludes_root_manifest": true,
+    "manifest_excludes_nested_tool_manifest": true
+  }
+}

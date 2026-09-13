@@ -1,0 +1,66 @@
+{
+  "schema": "PROJETO_E_VERIFIED_VIDEOS_ADDED_v0.158",
+  "version": "0.207-alpha.1",
+  "status": "PASS",
+  "new_association_count": 4,
+  "new_resource_record_count": 4,
+  "new_unique_video_count": 0,
+  "new_topic_count": 1,
+  "reused_association_count": 4,
+  "new_url_association_count": 0,
+  "new_unique_urls": [],
+  "associations": [
+    {
+      "topic_id": "TOP-1ed8003381ee",
+      "topic_title": "Relação entre campo e potencial em casos simples",
+      "resource_id": "VID-503f717dd871c4",
+      "url": "https://www.youtube.com/watch?v=A19_O4znS0g",
+      "video_id": "A19_O4znS0g",
+      "association_class": "REUSED_EXISTING_AUTHORIZED_URL",
+      "youtube_channel_id": "YT-OBMEP-FIS",
+      "youtube_channel_handle": "@portalfisicaobmep",
+      "youtube_public_channel_id": "UCuSLzdd9RtBs-S1QMXIAdow",
+      "video_title": "Campo Elétrico – Parte 1",
+      "verification_reason": "Campo Elétrico – Parte 1 introduz o campo elétrico e sua relação com a força; fornece a base física para interpretar como o campo se relaciona à descrição energética por potencial."
+    },
+    {
+      "topic_id": "TOP-1ed8003381ee",
+      "topic_title": "Relação entre campo e potencial em casos simples",
+      "resource_id": "VID-28a4c0f24d108a",
+      "url": "https://www.youtube.com/watch?v=EhOSRpskC1c",
+      "video_id": "EhOSRpskC1c",
+      "association_class": "REUSED_EXISTING_AUTHORIZED_URL",
+      "youtube_channel_id": "YT-OBMEP-FIS",
+      "youtube_channel_handle": "@portalfisicaobmep",
+      "youtube_public_channel_id": "UCuSLzdd9RtBs-S1QMXIAdow",
+      "video_title": "Campo Elétrico – Parte 3",
+      "verification_reason": "Campo Elétrico – Parte 3 trabalha o campo de carga puntiforme e sua dependência espacial, oferecendo um caso simples para conectar variação espacial do campo e potencial."
+    },
+    {
+      "topic_id": "TOP-1ed8003381ee",
+      "topic_title": "Relação entre campo e potencial em casos simples",
+      "resource_id": "VID-7850771f36180c",
+      "url": "https://www.youtube.com/watch?v=E6fQzDrvJwc",
+      "video_id": "E6fQzDrvJwc",
+      "association_class": "REUSED_EXISTING_AUTHORIZED_URL",
+      "youtube_channel_id": "YT-BRASIL-ESCOLA",
+      "youtube_channel_handle": "@brasilescola",
+      "youtube_public_channel_id": "UCsgHWN8lYveMUEWTDheTjZA",
+      "video_title": "Trabalho de uma força - Brasil Escola",
+      "verification_reason": "A aula de trabalho fornece o elo energético entre força e deslocamento, necessário para relacionar campo elétrico, trabalho e diferença de potencial."
+    },
+    {
+      "topic_id": "TOP-1ed8003381ee",
+      "topic_title": "Relação entre campo e potencial em casos simples",
+      "resource_id": "VID-c5a0240e8913be",
+      "url": "https://www.youtube.com/watch?v=D3a7xwupLM4",
+      "video_id": "D3a7xwupLM4",
+      "association_class": "REUSED_EXISTING_AUTHORIZED_URL",
+      "youtube_channel_id": "YT-BRASIL-ESCOLA",
+      "youtube_channel_handle": "@brasilescola",
+      "youtube_public_channel_id": "UCsgHWN8lYveMUEWTDheTjZA",
+      "video_title": "Capacitores - Brasil Escola",
+      "verification_reason": "Capacitores trabalham carga, diferença de potencial e energia armazenada, oferecendo uma aplicação simples da relação entre campo elétrico e potencial."
+    }
+  ]
+}

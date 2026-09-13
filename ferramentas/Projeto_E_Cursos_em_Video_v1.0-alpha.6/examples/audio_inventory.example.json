@@ -4,7 +4,7 @@
   "records": [
     {
       "candidate_id": "VID-substitua-pelo-id-canonico",
-      "candidate_url": "https://video.example/aula-direta",
+      "candidate_url": "urn:projeto-e:fixture:video:aula-direta",
       "provider": "browser",
       "inspected_at": "2026-08-25T12:00:00-03:00",
       "tracks": [
@@ -15,7 +15,9 @@
           "normalization_warning": null,
           "label": "Português (dublagem automática)",
           "audio_kind_hint": "DUB_AUTOMATIC",
-          "metadata_basis": ["PLAYER_AUDIO_MENU"],
+          "metadata_basis": [
+            "PLAYER_AUDIO_MENU"
+          ],
           "is_default": false,
           "formats": [],
           "metadata_only": true
@@ -28,7 +30,9 @@
           "provider_language_tag": "en",
           "normalization_warning": null,
           "kind": "MANUAL",
-          "formats": ["vtt"],
+          "formats": [
+            "vtt"
+          ],
           "counts_as_dubbing": false
         }
       ],

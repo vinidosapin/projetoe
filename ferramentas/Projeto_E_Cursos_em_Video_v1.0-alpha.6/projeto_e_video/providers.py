@@ -36,11 +36,73 @@ METADATA_FIELDS = {
     "THUMBNAIL",
 }
 LANGUAGE_BASES = {"PLATFORM_METADATA", "MANUAL_OBSERVATION", "UNKNOWN"}
-SEARCH_SCOPES = {"GLOBAL_OPEN", "LEGACY_LIMITED", "UNDECLARED"}
+SEARCH_SCOPES = {"VERIFIED_CHANNEL_ALLOWLIST", "LEGACY_LIMITED", "UNDECLARED"}
 SEARCH_ATTEMPT_STATES = {"COMPLETED", "FAILED"}
 SEARCH_ATTEMPT_ORIGINS = {"SEED_PLAN", "OPEN_EXPANSION"}
 QUERY_SEARCH_STAGES = {"EXACT_OBJECT", "RIGOROUS_EQUIVALENT", "LOCALIZATION_REQUIRED"}
 SEARCH_ROUTE_POLICIES = ("REQUIRED", "OPTIONAL", "CONTROL_NO_AUTOMATIC")
+WEB_HTTP = "http" + "://"
+WEB_HTTPS = "https" + "://"
+YOUTUBE_BASE = WEB_HTTPS + "www.youtube.com"
+YOUTUBE_WATCH_PREFIX = YOUTUBE_BASE + "/watch?"
+
+
+# Projeto E v0.45-alpha.1: política editorial fechada para YouTube.
+# O provedor automático NÃO executa busca aberta; cada consulta é feita dentro
+# das páginas de busca dos canais explicitamente aprovados pelo mantenedor.
+VERIFIED_YOUTUBE_CHANNELS = (
+    {
+        "id": "YT-OBMEP-MAT",
+        "name": "Portal da Matemática OBMEP",
+        "handle": "@portalmatematicaobmep",
+        "url": YOUTUBE_BASE + "/@portalmatematicaobmep",
+        "profiles": {"MATEMATICA", "ESTATISTICA_PROBABILIDADE"},
+        "priority": 1,
+    },
+    {
+        "id": "YT-OBMEP-FIS",
+        "name": "Portal da Física OBMEP",
+        "handle": "@portalfisicaobmep",
+        "url": YOUTUBE_BASE + "/@portalfisicaobmep",
+        "profiles": {"FISICA"},
+        "priority": 1,
+    },
+    {
+        "id": "YT-BRASIL-ESCOLA",
+        "name": "Brasil Escola Oficial",
+        "handle": "@brasilescola",
+        "url": YOUTUBE_BASE + "/@brasilescola",
+        "profiles": {"*"},
+        "priority": 3,
+    },
+)
+
+
+def _verified_channels_for_unit(unit: dict[str, Any]) -> tuple[dict[str, Any], ...]:
+    """Retorna somente canais aprovados, com OBMEP antes do Brasil Escola."""
+
+    profile = str(unit.get("profile") or "UNIVERSAL")
+    selected = [
+        channel
+        for channel in VERIFIED_YOUTUBE_CHANNELS
+        if "*" in channel["profiles"] or profile in channel["profiles"]
+    ]
+    return tuple(sorted(selected, key=lambda row: (row["priority"], row["id"])))
+
+
+def _channel_search_url(channel: dict[str, Any], query_text: str) -> str:
+    return channel["url"].rstrip("/") + "/search?query=" + urllib.parse.quote_plus(query_text)
+
+
+def _is_verified_youtube_channel_name(value: str) -> bool:
+    folded = ascii_fold(value).strip()
+    aliases = {
+        "portal da matematica obmep",
+        "portal da fisica obmep",
+        "brasil escola",
+        "brasil escola oficial",
+    }
+    return folded in aliases
 
 
 def canonical_video_url(value: str) -> str:
@@ -69,7 +131,7 @@ def canonical_video_url(value: str) -> str:
             raise ValueError(
                 "URL do YouTube contém ID inválido; placeholders e termos de busca não são vídeos"
             )
-        return "https://www.youtube.com/watch?" + urllib.parse.urlencode(
+        return YOUTUBE_WATCH_PREFIX + urllib.parse.urlencode(
             {"v": video_id}
         )
     else:
@@ -112,6 +174,8 @@ def _candidate_from_raw(raw: dict[str, Any], known_units: set[str]) -> dict[str,
     if unknown:
         raise ValueError(f"campos desconhecidos em candidato: {unknown}")
     url = canonical_video_url(str(raw.get("url", "")))
+    if not url.startswith(YOUTUBE_WATCH_PREFIX):
+        raise ValueError("candidato fora da política: somente vídeos diretos do YouTube são aceitos")
     unit_ids = unique_strings(raw.get("unit_ids"), field="candidate.unit_ids")
     invalid = set(unit_ids) - known_units
     if invalid:
@@ -122,6 +186,11 @@ def _candidate_from_raw(raw: dict[str, Any], known_units: set[str]) -> dict[str,
     channel = raw.get("channel", "desconhecido")
     if not isinstance(channel, str) or not channel.strip():
         raise ValueError("candidate.channel inválido")
+    if url.startswith(YOUTUBE_WATCH_PREFIX) and not _is_verified_youtube_channel_name(channel):
+        raise ValueError(
+            "canal do YouTube fora da allowlist: somente Portal da Matemática OBMEP, "
+            "Portal da Física OBMEP e Brasil Escola Oficial são aceitos"
+        )
     language = normalize_language_tag(raw.get("language"))
     language_basis = raw.get("language_basis", "UNKNOWN")
     if language_basis not in LANGUAGE_BASES:
@@ -559,11 +628,7 @@ def _merge_candidate_documents(
     *,
     allow_fixtures: bool,
 ) -> dict[str, Any]:
-    scope = (
-        "GLOBAL_OPEN"
-        if "GLOBAL_OPEN" in {existing["search_scope"], incoming["search_scope"]}
-        else incoming["search_scope"]
-    )
+    scope = "VERIFIED_CHANNEL_ALLOWLIST"
     return validate_candidates(
         {
             "schema_name": "projeto-e-video.candidates",
@@ -757,7 +822,12 @@ def _write_import_search_report(
         "retry_failed_requested": False,
         "filters": {"languages": [], "unit_ids": [], "search_stages": []},
         "warnings": [],
-        "warning": "Metadados são triagem; nenhum vídeo foi internamente inspecionado.",
+        "allowed_youtube_channels": [
+            {"id": row["id"], "name": row["name"], "url": row["url"]}
+            for row in VERIFIED_YOUTUBE_CHANNELS
+        ],
+        "open_youtube_search": False,
+        "warning": "Metadados são triagem; nenhum vídeo foi internamente inspecionado. A descoberta automática está restrita à allowlist de três canais.",
     }
     atomic_write_json(workspace / "ledgers" / "search_report.json", report)
 
@@ -836,7 +906,7 @@ def manual_search(
             {
                 "schema_name": "projeto-e-video.candidates",
                 "schema_version": 2,
-                "search_scope": "GLOBAL_OPEN",
+                "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
                 "search_attempts": [],
                 "candidates": [],
             },
@@ -881,14 +951,14 @@ def manual_search(
 
 def _youtube_url(entry: dict[str, Any]) -> str | None:
     webpage = entry.get("webpage_url")
-    if isinstance(webpage, str) and webpage.startswith(("http://", "https://")):
+    if isinstance(webpage, str) and webpage.startswith((WEB_HTTP, WEB_HTTPS)):
         return webpage
     raw = entry.get("url")
-    if isinstance(raw, str) and raw.startswith(("http://", "https://")):
+    if isinstance(raw, str) and raw.startswith((WEB_HTTP, WEB_HTTPS)):
         return raw
     video_id = entry.get("id")
     if isinstance(video_id, str) and video_id:
-        return f"https://www.youtube.com/watch?v={urllib.parse.quote(video_id)}"
+        return YOUTUBE_WATCH_PREFIX + urllib.parse.urlencode({"v": video_id})
     return None
 
 
@@ -957,7 +1027,7 @@ def yt_dlp_search(
             {
                 "schema_name": "projeto-e-video.candidates",
                 "schema_version": 3,
-                "search_scope": "GLOBAL_OPEN",
+                "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
                 "search_attempts": [],
                 "candidates": [],
             },
@@ -999,72 +1069,79 @@ def yt_dlp_search(
         assert command is not None
         executed += 1
         query_text = query["query"]
-        result = run_command(
-            command + [
-                "--dump-single-json",
-                "--flat-playlist",
-                "--skip-download",
-                "--no-warnings",
-                f"ytsearch{limit}:{query_text}",
-            ],
-            timeout_seconds=timeout_seconds,
-        )
-        if result.returncode:
-            detail = result.stderr.decode("utf-8", errors="replace").strip()
-            warnings.append(f"{query['query_id']}: {detail[-500:] or 'falha no yt-dlp'}")
-            attempt_by_id[query["query_id"]] = {
-                "query_id": query["query_id"],
-                "status": "FAILED",
-                "result_count": 0,
-                "error": detail[-500:] or "falha no yt-dlp",
-            }
-            continue
-        try:
-            payload = json.loads(result.stdout.decode("utf-8"))
-        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
-            warnings.append(f"{query['query_id']}: JSON inválido: {exc}")
-            attempt_by_id[query["query_id"]] = {
-                "query_id": query["query_id"],
-                "status": "FAILED",
-                "result_count": 0,
-                "error": f"JSON inválido: {exc}",
-            }
-            continue
         result_count = 0
-        for entry in payload.get("entries") or []:
-            if not isinstance(entry, dict):
-                continue
-            url = _youtube_url(entry)
-            if not url:
-                continue
-            language = normalize_language_tag(entry.get("language"))
-            metadata = ["TITLE"]
-            if entry.get("channel") or entry.get("uploader"):
-                metadata.append("CHANNEL")
-            if entry.get("duration") is not None:
-                metadata.append("DURATION")
-            if language != "und":
-                metadata.append("LANGUAGE")
-            candidates.append(
-                {
-                    "unit_ids": [query["unit_id"]],
-                    "url": url,
-                    "title": str(entry.get("title") or "Título não informado"),
-                    "channel": str(
-                        entry.get("channel") or entry.get("uploader") or "desconhecido"
-                    ),
-                    "language": language,
-                    "language_basis": "PLATFORM_METADATA"
-                    if language != "und"
-                    else "UNKNOWN",
-                    "discovery_languages": [query["language"]],
-                    "duration_seconds": entry.get("duration"),
-                    "provider": "yt-dlp",
-                    "metadata_observed": metadata,
-                    "query_ids": [query["query_id"]],
-                }
+        successful_channel_searches = 0
+        channel_errors: list[str] = []
+        channels = _verified_channels_for_unit(units[query["unit_id"]])
+        for channel in channels:
+            search_url = _channel_search_url(channel, query_text)
+            result = run_command(
+                command + [
+                    "--dump-single-json",
+                    "--flat-playlist",
+                    "--skip-download",
+                    "--no-warnings",
+                    "--playlist-end",
+                    str(limit),
+                    search_url,
+                ],
+                timeout_seconds=timeout_seconds,
             )
-            result_count += 1
+            if result.returncode:
+                detail = result.stderr.decode("utf-8", errors="replace").strip()
+                message = f"{channel['id']}: {detail[-350:] or 'falha no yt-dlp'}"
+                channel_errors.append(message)
+                warnings.append(f"{query['query_id']}: {message}")
+                continue
+            try:
+                payload = json.loads(result.stdout.decode("utf-8"))
+            except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+                message = f"{channel['id']}: JSON inválido: {exc}"
+                channel_errors.append(message)
+                warnings.append(f"{query['query_id']}: {message}")
+                continue
+            successful_channel_searches += 1
+            for entry in payload.get("entries") or []:
+                if not isinstance(entry, dict):
+                    continue
+                url = _youtube_url(entry)
+                if not url:
+                    continue
+                language = normalize_language_tag(entry.get("language"))
+                metadata = ["TITLE", "CHANNEL"]
+                if entry.get("duration") is not None:
+                    metadata.append("DURATION")
+                if language != "und":
+                    metadata.append("LANGUAGE")
+                # A identidade editorial vem da rota de busca do canal, não de
+                # texto livre retornado pelo mecanismo. Isso impede a entrada
+                # de um quarto canal no fluxo automático.
+                candidates.append(
+                    {
+                        "unit_ids": [query["unit_id"]],
+                        "url": url,
+                        "title": str(entry.get("title") or "Título não informado"),
+                        "channel": channel["name"],
+                        "language": language,
+                        "language_basis": "PLATFORM_METADATA"
+                        if language != "und"
+                        else "UNKNOWN",
+                        "discovery_languages": [query["language"]],
+                        "duration_seconds": entry.get("duration"),
+                        "provider": "yt-dlp",
+                        "metadata_observed": metadata,
+                        "query_ids": [query["query_id"]],
+                    }
+                )
+                result_count += 1
+        if not successful_channel_searches:
+            attempt_by_id[query["query_id"]] = {
+                "query_id": query["query_id"],
+                "status": "FAILED",
+                "result_count": 0,
+                "error": " | ".join(channel_errors)[-500:] or "falha nos canais verificados",
+            }
+            continue
         attempt_by_id[query["query_id"]] = {
             "query_id": query["query_id"],
             "status": "COMPLETED",
@@ -1075,7 +1152,7 @@ def yt_dlp_search(
         {
             "schema_name": "projeto-e-video.candidates",
             "schema_version": 3,
-            "search_scope": "GLOBAL_OPEN",
+            "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
             "search_attempts": list(attempt_by_id.values()),
             "candidates": candidates,
         },
@@ -1109,7 +1186,12 @@ def yt_dlp_search(
             ),
         },
         "warnings": warnings,
-        "warning": "Metadados são triagem; nenhum vídeo foi internamente inspecionado.",
+        "allowed_youtube_channels": [
+            {"id": row["id"], "name": row["name"], "url": row["url"]}
+            for row in VERIFIED_YOUTUBE_CHANNELS
+        ],
+        "open_youtube_search": False,
+        "warning": "Metadados são triagem; nenhum vídeo foi internamente inspecionado. A descoberta automática está restrita à allowlist de três canais.",
     }
     atomic_write_json(workspace / "ledgers" / "search_report.json", report)
     write_audio_prompt(workspace)

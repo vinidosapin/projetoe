@@ -1,7 +1,7 @@
 {
   "schema_name": "projeto-e-video.candidates",
   "schema_version": 3,
-  "search_scope": "GLOBAL_OPEN",
+  "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
   "search_attempts": [
     {
       "query_id": "QX-substituido-pelo-importador",
@@ -16,23 +16,35 @@
   ],
   "candidates": [
     {
-      "unit_ids": ["U-substitua-pelo-id-do-ledger"],
-      "url": "https://video.example/aula-direta",
+      "unit_ids": [
+        "U-substitua-pelo-id-do-ledger"
+      ],
+      "url": "urn:projeto-e:fixture:video:aula-direta",
       "title": "Título observado, sem alegação de cobertura",
       "channel": "Autoria observada",
       "language": "und",
       "language_basis": "UNKNOWN",
-      "discovery_languages": ["ja"],
+      "discovery_languages": [
+        "ja"
+      ],
       "duration_seconds": 900,
       "provider": "browser",
-      "metadata_observed": ["TITLE", "CHANNEL", "DURATION"],
-      "query_ids": ["QX-substituido-pelo-importador"],
+      "metadata_observed": [
+        "TITLE",
+        "CHANNEL",
+        "DURATION"
+      ],
+      "query_ids": [
+        "QX-substituido-pelo-importador"
+      ],
       "metadata_triage": {
         "status": "REVISAR",
         "score": 0,
         "fingerprint_matches": [],
         "collision_risks": [],
-        "reasons": ["Triagem por metadados; inspeção interna continua obrigatória."],
+        "reasons": [
+          "Triagem por metadados; inspeção interna continua obrigatória."
+        ],
         "official_ecosystem_hint": false,
         "metadata_only": true
       }

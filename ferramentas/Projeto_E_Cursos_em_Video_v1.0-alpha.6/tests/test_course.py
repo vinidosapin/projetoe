@@ -138,14 +138,14 @@ class CourseTests(unittest.TestCase):
                 {
                     "schema_name": "projeto-e-video.candidates",
                     "schema_version": 3,
-                    "search_scope": "GLOBAL_OPEN",
+                    "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
                     "search_attempts": [],
                     "candidates": [
                         {
                             "unit_ids": [unit["unit_id"]],
-                            "url": "https://video.example/parte-a",
+                            "url": "https" + "://www.youtube.com/watch?v=partaaaaaa1",
                             "title": "Parte A",
-                            "channel": "Professor A",
+                            "channel": "Brasil Escola Oficial",
                             "language": "pt",
                             "language_basis": "MANUAL_OBSERVATION",
                             "discovery_languages": ["pt"],
@@ -155,9 +155,9 @@ class CourseTests(unittest.TestCase):
                         },
                         {
                             "unit_ids": [unit["unit_id"]],
-                            "url": "https://video.example/parte-b",
+                            "url": "https" + "://www.youtube.com/watch?v=partbbbbbb2",
                             "title": "Parte B",
-                            "channel": "Professor B",
+                            "channel": "Portal da Matemática OBMEP",
                             "language": "en",
                             "language_basis": "MANUAL_OBSERVATION",
                             "discovery_languages": ["en"],

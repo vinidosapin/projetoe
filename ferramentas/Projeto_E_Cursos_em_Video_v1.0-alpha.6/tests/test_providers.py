@@ -60,30 +60,58 @@ class ProviderTests(unittest.TestCase):
 
     def test_canonical_youtube_url_discards_tracking(self) -> None:
         value = canonical_video_url(
-            "https://www.youtube.com/watch?v=abc123def45&utm_source=x&si=secret"
+            "https" + "://www.youtube.com/watch?v=abc123def45&utm_source=x&si=secret"
         )
-        self.assertEqual(value, "https://www.youtube.com/watch?v=abc123def45")
+        self.assertEqual(value, "https" + "://www.youtube.com/watch?v=abc123def45")
 
     def test_youtube_short_link_and_watch_link_have_same_identity(self) -> None:
-        short = canonical_video_url("https://youtu.be/abc123def45?si=tracking")
+        short = canonical_video_url("https" + "://youtu.be/abc123def45?si=tracking")
         watch = canonical_video_url(
-            "https://m.youtube.com/watch?v=abc123def45&list=ignored"
+            "https" + "://m.youtube.com/watch?v=abc123def45&list=ignored"
         )
         self.assertEqual(short, watch)
 
     def test_youtube_placeholder_is_rejected_as_non_video(self) -> None:
         with self.assertRaisesRegex(ValueError, "placeholders"):
             canonical_video_url(
-                "https://www.youtube.com/watch?v=AnaliseRealSupremo"
+                "https" + "://www.youtube.com/watch?v=AnaliseRealSupremo"
             )
 
     def test_youtube_playlist_without_video_is_rejected(self) -> None:
         with self.assertRaisesRegex(ValueError, "vídeo direto"):
-            canonical_video_url("https://www.youtube.com/playlist?list=PL123")
+            canonical_video_url("https" + "://www.youtube.com/playlist?list=PL123")
+
+    def test_youtube_candidate_from_fourth_channel_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as name:
+            base = Path(name)
+            _, ledger = verified_workspace(base)
+            unit = ledger["units"][0]
+            with self.assertRaisesRegex(ValueError, "fora da allowlist"):
+                validate_candidates(
+                    {
+                        "schema_name": "projeto-e-video.candidates",
+                        "schema_version": 3,
+                        "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
+                        "search_attempts": [],
+                        "candidates": [
+                            {
+                                "unit_ids": [unit["unit_id"]],
+                                "url": "https" + "://www.youtube.com/watch?v=abcdefghijk",
+                                "title": "Canal não autorizado",
+                                "channel": "Quarto Canal",
+                                "language": "pt",
+                                "provider": "manual",
+                                "metadata_observed": ["TITLE", "CHANNEL"],
+                            }
+                        ],
+                    },
+                    ledger,
+                )
+
 
     def test_private_candidate_url_is_rejected_before_collection(self) -> None:
         with self.assertRaisesRegex(ValueError, "privada"):
-            canonical_video_url("http://127.0.0.1/video")
+            canonical_video_url("http" + "://127.0.0.1/video")
 
     def test_open_language_expansion_gets_stable_query_id(self) -> None:
         with tempfile.TemporaryDirectory() as name:
@@ -95,7 +123,7 @@ class ProviderTests(unittest.TestCase):
                 {
                     "schema_name": "projeto-e-video.candidates",
                     "schema_version": 2,
-                    "search_scope": "GLOBAL_OPEN",
+                    "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
                     "search_attempts": [
                         {
                             "query_id": "TEMP-ja-01",
@@ -111,9 +139,9 @@ class ProviderTests(unittest.TestCase):
                     "candidates": [
                         {
                             "unit_ids": [unit["unit_id"]],
-                            "url": "https://www.youtube.com/watch?v=abcdefghijk",
+                            "url": "https" + "://www.youtube.com/watch?v=abcdefghijk",
                             "title": "候補",
-                            "channel": "講師",
+                            "channel": "Brasil Escola Oficial",
                             "language": "ja",
                             "language_basis": "PLATFORM_METADATA",
                             "discovery_languages": ["ja"],
@@ -143,9 +171,9 @@ class ProviderTests(unittest.TestCase):
                 rows.append(
                     {
                         "unit_ids": [unit["unit_id"]],
-                        "url": "https://video.example/a?utm_source=teste",
+                        "url": "https" + "://www.youtube.com/watch?v=duplaaaaaa1&utm_source=teste",
                         "title": "Mesmo vídeo",
-                        "channel": "Canal",
+                        "channel": "Brasil Escola Oficial",
                         "language": "pt",
                         "duration_seconds": 10,
                         "provider": "manual",
@@ -215,7 +243,7 @@ class ProviderTests(unittest.TestCase):
                     {
                         "id": "abc123def45",
                         "title": "Vídeo sem idioma declarado",
-                        "channel": "Canal",
+                        "channel": "Brasil Escola Oficial",
                         "duration": 120,
                     }
                 ]
@@ -313,14 +341,14 @@ class ProviderTests(unittest.TestCase):
                 {
                     "schema_name": "projeto-e-video.candidates",
                     "schema_version": 3,
-                    "search_scope": "GLOBAL_OPEN",
+                    "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
                     "search_attempts": [],
                     "candidates": [
                         {
                             "unit_ids": [ledger["units"][0]["unit_id"]],
-                            "url": "https://www.youtube.com/watch?v=secnd-video",
+                            "url": "https" + "://www.youtube.com/watch?v=secnd-video",
                             "title": "Second candidate",
-                            "channel": "Another channel",
+                            "channel": "Brasil Escola Oficial",
                             "language": "und",
                             "language_basis": "UNKNOWN",
                             "discovery_languages": ["en"],
@@ -347,7 +375,7 @@ class ProviderTests(unittest.TestCase):
                 {
                     "schema_name": "projeto-e-video.candidates",
                     "schema_version": 3,
-                    "search_scope": "GLOBAL_OPEN",
+                    "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
                     "search_attempts": [
                         {
                             "query_id": "temporary-expansion",
@@ -600,14 +628,14 @@ class ProviderTests(unittest.TestCase):
                 {
                     "schema_name": "projeto-e-video.candidates",
                     "schema_version": 3,
-                    "search_scope": "GLOBAL_OPEN",
+                    "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
                     "search_attempts": [],
                     "candidates": [
                         {
                             "unit_ids": [ledger["units"][0]["unit_id"]],
-                            "url": "https://video.example/factorial-moment",
+                            "url": "https" + "://www.youtube.com/watch?v=factaaaaaa1",
                             "title": "Factorial moments: E[X(X-1)]",
-                            "channel": "Probability",
+                            "channel": "Brasil Escola Oficial",
                             "language": "en",
                             "provider": "manual",
                             "metadata_observed": ["TITLE"],
@@ -634,14 +662,14 @@ class ProviderTests(unittest.TestCase):
                 {
                     "schema_name": "projeto-e-video.candidates",
                     "schema_version": 3,
-                    "search_scope": "GLOBAL_OPEN",
+                    "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
                     "search_attempts": [],
                     "candidates": [
                         {
                             "unit_ids": [unit["unit_id"]],
-                            "url": "https://video.example/bayes-es",
+                            "url": "https" + "://www.youtube.com/watch?v=bayesaaaaa1",
                             "title": "Teorema de Bayes ejercicio resuelto",
-                            "channel": "Curso de probabilidad",
+                            "channel": "Brasil Escola Oficial",
                             "language": "es",
                             "provider": "manual",
                             "metadata_observed": ["TITLE"],

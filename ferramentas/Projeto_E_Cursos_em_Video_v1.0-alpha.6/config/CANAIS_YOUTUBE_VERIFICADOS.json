@@ -1,0 +1,40 @@
+{
+  "schema": "projeto-e.youtube-channel-allowlist.v4",
+  "version": "0.51-alpha.1",
+  "mode": "VERIFIED_CHANNEL_ALLOWLIST_ONLY",
+  "fallback_open_youtube": false,
+  "open_youtube_search_allowed": false,
+  "unknown_channel_action": "REJECT",
+  "external_web_links_allowed": false,
+  "direct_youtube_watch_links_only": true,
+  "rule": "Somente links diretos de vídeo pertencentes aos canais @portalmatematicaobmep, @portalfisicaobmep e @brasilescola podem aparecer no pacote.",
+  "channels": [
+    {
+      "id": "YT-OBMEP-MAT",
+      "name": "Portal da Matemática OBMEP",
+      "handle": "@portalmatematicaobmep",
+      "disciplines": [
+        "Matemática"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "YT-OBMEP-FIS",
+      "name": "Portal da Física OBMEP",
+      "handle": "@portalfisicaobmep",
+      "disciplines": [
+        "Física"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "YT-BRASIL-ESCOLA",
+      "name": "Brasil Escola Oficial",
+      "handle": "@brasilescola",
+      "disciplines": [
+        "*"
+      ],
+      "priority": 3
+    }
+  ]
+}

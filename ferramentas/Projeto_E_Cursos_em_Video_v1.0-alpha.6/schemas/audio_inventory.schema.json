@@ -1,29 +1,77 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://projeto-e.local/schemas/audio_inventory.schema.json",
+  "$id": "urn:projeto-e:schema:audio_inventory:v1",
   "title": "Projeto E Audio Inventory",
   "description": "Metadados de faixas e legendas. Nunca constitui aprovação de dublagem.",
   "type": "object",
-  "required": ["schema_name", "schema_version", "records"],
+  "required": [
+    "schema_name",
+    "schema_version",
+    "records"
+  ],
   "properties": {
-    "schema_name": {"const": "projeto-e-video.audio-inventory"},
-    "schema_version": {"const": 2},
-    "created_at": {"type": "string"},
-    "course_id": {"type": "string"},
+    "schema_name": {
+      "const": "projeto-e-video.audio-inventory"
+    },
+    "schema_version": {
+      "const": 2
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "course_id": {
+      "type": "string"
+    },
     "records": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["candidate_id", "candidate_url", "provider", "inspected_at", "tracks", "subtitles", "warnings"],
+        "required": [
+          "candidate_id",
+          "candidate_url",
+          "provider",
+          "inspected_at",
+          "tracks",
+          "subtitles",
+          "warnings"
+        ],
         "properties": {
-          "candidate_id": {"type": "string", "pattern": "^VID-"},
-          "candidate_url": {"type": "string", "format": "uri"},
-          "provider": {"type": "string", "minLength": 1},
-          "inspected_at": {"type": "string", "minLength": 1},
-          "tracks": {"type": "array", "items": {"$ref": "#/$defs/track"}},
-          "subtitles": {"type": "array", "items": {"$ref": "#/$defs/subtitle"}},
-          "warnings": {"type": "array", "items": {"type": "string"}},
-          "notice": {"type": "string"}
+          "candidate_id": {
+            "type": "string",
+            "pattern": "^VID-"
+          },
+          "candidate_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "provider": {
+            "type": "string",
+            "minLength": 1
+          },
+          "inspected_at": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tracks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/track"
+            }
+          },
+          "subtitles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/subtitle"
+            }
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notice": {
+            "type": "string"
+          }
         },
         "additionalProperties": false
       }
@@ -32,45 +80,156 @@
   "$defs": {
     "format": {
       "type": "object",
-      "required": ["format_id", "ext", "abr", "audio_only"],
+      "required": [
+        "format_id",
+        "ext",
+        "abr",
+        "audio_only"
+      ],
       "properties": {
-        "format_id": {"type": "string", "minLength": 1},
-        "ext": {"type": ["string", "null"]},
-        "abr": {"type": ["number", "null"]},
-        "audio_only": {"type": "boolean"}
+        "format_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ext": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "abr": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "audio_only": {
+          "type": "boolean"
+        }
       },
       "additionalProperties": false
     },
     "track": {
       "type": "object",
-      "required": ["language", "language_family", "provider_language_tag", "normalization_warning", "label", "audio_kind_hint", "metadata_basis", "is_default", "formats", "metadata_only"],
+      "required": [
+        "language",
+        "language_family",
+        "provider_language_tag",
+        "normalization_warning",
+        "label",
+        "audio_kind_hint",
+        "metadata_basis",
+        "is_default",
+        "formats",
+        "metadata_only"
+      ],
       "properties": {
-        "track_id": {"type": "string", "pattern": "^ATRACK-"},
-        "external_track_id": {"type": ["string", "null"]},
-        "language": {"type": "string"},
-        "language_family": {"type": "string"},
-        "provider_language_tag": {"type": ["string", "null"]},
-        "normalization_warning": {"type": ["string", "null"]},
-        "label": {"type": "string"},
-        "audio_kind_hint": {"enum": ["ORIGINAL", "DUB_MANUAL", "DUB_AUTOMATIC", "UNKNOWN"]},
-        "metadata_basis": {"type": "array", "items": {"type": "string"}},
-        "is_default": {"type": "boolean"},
-        "formats": {"type": "array", "items": {"$ref": "#/$defs/format"}},
-        "metadata_only": {"const": true}
+        "track_id": {
+          "type": "string",
+          "pattern": "^ATRACK-"
+        },
+        "external_track_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language": {
+          "type": "string"
+        },
+        "language_family": {
+          "type": "string"
+        },
+        "provider_language_tag": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "normalization_warning": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "label": {
+          "type": "string"
+        },
+        "audio_kind_hint": {
+          "enum": [
+            "ORIGINAL",
+            "DUB_MANUAL",
+            "DUB_AUTOMATIC",
+            "UNKNOWN"
+          ]
+        },
+        "metadata_basis": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "is_default": {
+          "type": "boolean"
+        },
+        "formats": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/format"
+          }
+        },
+        "metadata_only": {
+          "const": true
+        }
       },
       "additionalProperties": false
     },
     "subtitle": {
       "type": "object",
-      "required": ["language", "language_family", "provider_language_tag", "normalization_warning", "kind", "formats", "counts_as_dubbing"],
+      "required": [
+        "language",
+        "language_family",
+        "provider_language_tag",
+        "normalization_warning",
+        "kind",
+        "formats",
+        "counts_as_dubbing"
+      ],
       "properties": {
-        "language": {"type": "string"},
-        "language_family": {"type": "string"},
-        "provider_language_tag": {"type": ["string", "null"]},
-        "normalization_warning": {"type": ["string", "null"]},
-        "kind": {"enum": ["MANUAL", "AUTOMATIC", "UNKNOWN"]},
-        "formats": {"type": "array", "items": {"type": "string"}},
-        "counts_as_dubbing": {"const": false}
+        "language": {
+          "type": "string"
+        },
+        "language_family": {
+          "type": "string"
+        },
+        "provider_language_tag": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "normalization_warning": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "MANUAL",
+            "AUTOMATIC",
+            "UNKNOWN"
+          ]
+        },
+        "formats": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "counts_as_dubbing": {
+          "const": false
+        }
       },
       "additionalProperties": false
     }

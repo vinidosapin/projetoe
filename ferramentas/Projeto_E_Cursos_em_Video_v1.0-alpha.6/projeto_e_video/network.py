@@ -11,9 +11,6 @@ AUTOMATED_VIDEO_HOST_SUFFIXES = (
     "youtube.com",
     "youtu.be",
     "youtube-nocookie.com",
-    "vimeo.com",
-    "dailymotion.com",
-    "dai.ly",
 )
 
 

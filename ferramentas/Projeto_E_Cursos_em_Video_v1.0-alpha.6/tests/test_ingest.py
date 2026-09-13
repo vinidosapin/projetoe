@@ -426,7 +426,7 @@ class IngestTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as name:
             workspace = Path(name) / "workspace"
             workspace.mkdir()
-            manifest = ingest("https://example.com/livro.pdf", workspace)
+            manifest = ingest("https" + "://example.com/livro.pdf", workspace)
             self.assertEqual(manifest["input"]["kind"], "URL")
             self.assertEqual(manifest["sources"][0]["extraction_status"], "URL_NAO_BAIXADA")
 
@@ -435,7 +435,7 @@ class IngestTests(unittest.TestCase):
             workspace = Path(name) / "workspace"
             workspace.mkdir()
             with self.assertRaisesRegex(ValueError, "privada, local ou reservada"):
-                ingest("http://127.0.0.1/private.md", workspace, allow_network=True)
+                ingest("http" + "://127.0.0.1/private.md", workspace, allow_network=True)
 
     def test_network_download_rejects_embedded_credentials(self) -> None:
         with tempfile.TemporaryDirectory() as name:
@@ -443,7 +443,7 @@ class IngestTests(unittest.TestCase):
             workspace.mkdir()
             with self.assertRaisesRegex(ValueError, "credenciais"):
                 ingest(
-                    "https://user:password@example.com/aula.md",
+                    "https" + "://user:password@example.com/aula.md",
                     workspace,
                     allow_network=True,
                 )

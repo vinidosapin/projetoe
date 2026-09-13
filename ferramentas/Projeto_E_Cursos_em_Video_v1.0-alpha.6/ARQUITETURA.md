@@ -13,7 +13,7 @@ MAPA V0 HEURÍSTICO
   ↓ revisão direta da fonte
 MAPA V1 VERIFICADO
   ↓
-PLANO DE BUSCA GLOBAL_OPEN
+PLANO DE BUSCA VERIFIED_CHANNEL_ALLOWLIST
   ↓ tentativas registradas
 CANDIDATOS — METADADOS
   ↓
@@ -63,7 +63,7 @@ com autor, edição, seção, frase e fórmula esconda resultados válidos.
 
 Não existe conjunto finito que prove “todos os idiomas humanos”. Por isso:
 
-- `GLOBAL_OPEN` significa ausência de exclusão linguística;
+- `VERIFIED_CHANNEL_ALLOWLIST` significa ausência de exclusão linguística;
 - cada tentativa possui `query_id`, estado e quantidade de resultados;
 - chamadas sucessivas executam apenas pendências; falhas exigem
   `--retry-failed` para nova tentativa;

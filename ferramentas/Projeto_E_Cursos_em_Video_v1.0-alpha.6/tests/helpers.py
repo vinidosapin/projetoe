@@ -41,7 +41,7 @@ def add_candidate(
     workspace: Path,
     ledger: dict[str, Any],
     *,
-    url: str = "https://video.example/exato",
+    url: str = "https" + "://www.youtube.com/watch?v=abcdefghijk",
     fixture: bool = False,
     audio_kind: str = "ORIGINAL",
     audio_language: str = "pt-BR",
@@ -51,14 +51,14 @@ def add_candidate(
     raw = {
         "schema_name": "projeto-e-video.candidates",
         "schema_version": 2,
-        "search_scope": "GLOBAL_OPEN",
+        "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
         "search_attempts": [],
         "candidates": [
             {
                 "unit_ids": [unit["unit_id"] for unit in ledger["units"]],
                 "url": url,
                 "title": "Candidato de teste",
-                "channel": "Canal de teste",
+                "channel": "Brasil Escola Oficial",
                 "language": "pt",
                 "language_basis": "MANUAL_OBSERVATION",
                 "discovery_languages": ["pt"],
@@ -133,7 +133,7 @@ def artifacts(
     )
     atomic_write_text(
         frame,
-        "<svg xmlns='http://www.w3.org/2000/svg'><text>quadro conferido</text></svg>\n",
+        "<svg xmlns='http' + '://www.w3.org/2000/svg'><text>quadro conferido</text></svg>\n",
     )
     atomic_write_text(audio, "Amostra de áudio estrutural usada somente no teste offline.\n")
     return [

@@ -80,7 +80,7 @@ class PlanningTests(unittest.TestCase):
             self.assertEqual(ledger["units"][1]["product"], PRODUCT_SOLUTIONS)
             self.assertEqual(ledger["units"][0]["profile"], "MATEMATICA")
             queries = read_json(workspace / "ledgers" / "search_queries.json")
-            self.assertEqual(queries["search_scope"], "GLOBAL_OPEN")
+            self.assertEqual(queries["search_scope"], "VERIFIED_CHANNEL_ALLOWLIST")
             self.assertEqual(queries["target_audio_languages"], ["pt", "en"])
             self.assertGreaterEqual(len(queries["seed_languages"]), 30)
             self.assertEqual(queries["queries"], [])

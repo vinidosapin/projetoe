@@ -1,0 +1,12 @@
+{
+  "schema": "PROJETO_E_EXTERNAL_LINK_REMOVAL_AUDIT_v0.158",
+  "version": "0.207-alpha.1",
+  "status": "PASS",
+  "removed_active_links_this_round": 0,
+  "corrected_active_links_this_round": 0,
+  "corrected_nonlink_internal_records_this_round": 0,
+  "corrected_internal_records": [],
+  "candidate_discrepancies_corrected_before_activation": [],
+  "rejected_candidates": [],
+  "note": "Nenhum link herdado foi reauditorado, removido ou corrigido nesta rodada; a expansão foi reuse-only com URLs já presentes no corpus dos canais autorizados."
+}

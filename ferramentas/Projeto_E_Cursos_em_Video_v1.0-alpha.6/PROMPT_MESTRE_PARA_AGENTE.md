@@ -297,3 +297,41 @@ Relate:
 
 Se não houver vídeo ou faixa adequada, termine com a lacuna real. Não substitua
 por conteúdo pior.
+
+## Política fechada de canais YouTube — Projeto E
+
+A descoberta de vídeos do YouTube opera em **HARD_ALLOWLIST**. O agente só pode pesquisar, avaliar, importar ou recomendar vídeos destes três canais:
+
+1. Portal da Matemática OBMEP — `@portalmatematicaobmep`
+2. Portal da Física OBMEP — `@portalfisicaobmep`
+3. Brasil Escola Oficial — `@brasilescola`
+
+Regras obrigatórias:
+- não executar busca aberta/global no YouTube;
+- Matemática: Portal da Matemática OBMEP tem prioridade; Brasil Escola é complementar;
+- Física: Portal da Física OBMEP tem prioridade; Brasil Escola é complementar;
+- demais disciplinas: usar somente Brasil Escola;
+- qualquer quarto canal é rejeitado, inclusive quando o vídeo parece excelente;
+- não existe fallback para canal não aprovado;
+- se nenhum canal permitido cobrir o tópico com aderência suficiente, registrar `NAO_ENCONTRADO` e manter a lacuna.
+
+
+
+## Política Projeto E v0.38 — canais YouTube fechados
+
+Para a Convergência Acadêmica v0.38-alpha.1, a busca de YouTube é **HARD_ALLOWLIST** e contém exatamente três canais:
+
+1. Portal da Matemática OBMEP — `@portalmatematicaobmep`
+2. Portal da Física OBMEP — `@portalfisicaobmep`
+3. Brasil Escola Oficial — `@brasilescola`
+
+Regras operacionais: não usar busca global do YouTube; não aceitar quarto canal; não usar fallback externo; manter o tópico sem vídeo quando os canais permitidos não tiverem correspondência semanticamente suficiente. Em Matemática/Física, OBMEP tem prioridade editorial sobre Brasil Escola.
+
+
+## Política Projeto E v0.39 — HARD_ALLOWLIST + prova independente de canal
+
+A Convergência Acadêmica v0.39-alpha.1 aceita **exatamente** três canais YouTube: `@portalmatematicaobmep`, `@portalfisicaobmep` e `@brasilescola`. O agente não pode executar busca global, não pode aceitar quarto canal e não pode usar fallback. Além disso, a etiqueta de fonte herdada ou o fato de um portal oficial embutir um vídeo **não prova** que o vídeo foi publicado pelo canal aprovado. Para integração ativa é obrigatória prova independente de canal. Sem prova ou sem vídeo semanticamente suficiente, o tópico permanece sem vídeo.
+
+## Política v0.44 — TOTAL_ALLOWLIST
+
+O agente só pode pesquisar, avaliar ou integrar vídeos dos canais @portalmatematicaobmep, @portalfisicaobmep e @brasilescola. URLs de sites externos e vídeos de qualquer outro canal devem ser rejeitados.

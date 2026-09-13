@@ -754,7 +754,7 @@ def build_queries(ledger: dict[str, Any]) -> dict[str, Any]:
         "schema_version": 3,
         "created_at": now_iso(),
         "course_id": ledger["course_id"],
-        "search_scope": "GLOBAL_OPEN",
+        "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
         "target_audio_languages": list(TARGET_AUDIO_LANGUAGES),
         "seed_languages": seed_languages,
         "open_language_policy": (

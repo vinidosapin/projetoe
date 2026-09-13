@@ -1,0 +1,43 @@
+{
+  "schema": "PROJETO_E_YOUTUBE_AUDIT_v0.158",
+  "version": "0.207-alpha.1",
+  "status": "PASS",
+  "policy": "HARD_ALLOWLIST_TOTAL_LINK_POLICY",
+  "methodology": "Expansão curricular reuse-only com URLs já aceitas dos canais autorizados. Por solicitação do usuário, não foi refeita a auditoria externa geral dos links herdados.",
+  "total_topics": 1571,
+  "covered_topics": 1263,
+  "gap_topics": 308,
+  "coverage_pct": 80.39,
+  "topic_video_associations": 2052,
+  "active_resource_records": 1892,
+  "unique_active_urls": 739,
+  "association_channel_counts": {
+    "YT-OBMEP-MAT": 176,
+    "YT-BRASIL-ESCOLA": 1669,
+    "YT-OBMEP-FIS": 207
+  },
+  "resource_record_channel_counts": {
+    "YT-OBMEP-MAT": 175,
+    "YT-BRASIL-ESCOLA": 1516,
+    "YT-OBMEP-FIS": 201
+  },
+  "unique_url_channel_counts": {
+    "YT-OBMEP-MAT": 73,
+    "YT-BRASIL-ESCOLA": 608,
+    "YT-OBMEP-FIS": 58
+  },
+  "youtube_policy_violations": 0,
+  "orphan_resources": 0,
+  "missing_channel_proof_records": 0,
+  "missing_channel_proof_basis_records": 0,
+  "inherited_urls_structurally_revalidated": 739,
+  "new_catalog_urls_added": 0,
+  "current_official_rechecks_this_round": [],
+  "catalog_discovery_pages": [],
+  "canonical_topic_index_rebuilt": true,
+  "verification_scope_note": "Links herdados não foram reabertos externamente por solicitação expressa do usuário. As 4 novas associações reutilizam URLs já ativas e passam pelas validações locais de allowlist, identidade cadastrada, referências e paridade.",
+  "delta_from_v0206_associations": 4,
+  "delta_from_v0206_resource_records": 4,
+  "delta_from_v0206_unique_videos": 0,
+  "delta_from_v0206_topics": 1
+}

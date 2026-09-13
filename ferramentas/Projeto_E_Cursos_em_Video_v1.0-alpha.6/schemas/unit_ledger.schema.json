@@ -1,29 +1,62 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://projeto-e.local/schemas/unit_ledger.schema.json",
+  "$id": "urn:projeto-e:schema:unit_ledger:v1",
   "title": "Projeto E Video Unit Ledger",
   "type": "object",
-  "required": ["schema_name", "schema_version", "course_id", "title", "map_state", "units"],
+  "required": [
+    "schema_name",
+    "schema_version",
+    "course_id",
+    "title",
+    "map_state",
+    "units"
+  ],
   "properties": {
-    "schema_name": {"const": "projeto-e-video.unit-ledger"},
-    "schema_version": {"const": 1},
-    "created_at": {"type": "string"},
-    "course_id": {"type": "string"},
-    "title": {"type": "string", "minLength": 1},
-    "map_state": {"enum": ["V0_HEURISTIC_DRAFT", "V1_VERIFIED"]},
+    "schema_name": {
+      "const": "projeto-e-video.unit-ledger"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "course_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "map_state": {
+      "enum": [
+        "V0_HEURISTIC_DRAFT",
+        "V1_VERIFIED"
+      ]
+    },
     "units": {
       "type": "array",
       "minItems": 1,
-      "items": {"$ref": "#/$defs/unit"}
+      "items": {
+        "$ref": "#/$defs/unit"
+      }
     }
   },
   "$defs": {
     "step": {
       "type": "object",
-      "required": ["step_id", "description"],
+      "required": [
+        "step_id",
+        "description"
+      ],
       "properties": {
-        "step_id": {"type": "string", "minLength": 1},
-        "description": {"type": "string", "minLength": 8}
+        "step_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 8
+        }
       },
       "additionalProperties": false
     },
@@ -48,60 +81,211 @@
         "route_policy"
       ],
       "properties": {
-        "unit_id": {"type": "string", "pattern": "^U-"},
-        "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-        "source_locators": {"type": "array", "items": {"type": "string"}},
-        "title": {"type": "string", "minLength": 1},
+        "unit_id": {
+          "type": "string",
+          "pattern": "^U-"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_locators": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
         "product": {
-          "enum": ["CURSO_DE_TEORIA", "CURSO_DE_RESOLUCOES_DE_EXERCICIOS"]
+          "enum": [
+            "CURSO_DE_TEORIA",
+            "CURSO_DE_RESOLUCOES_DE_EXERCICIOS"
+          ]
         },
-        "profile": {"type": "string", "minLength": 1},
-        "safety_overlay": {"enum": ["ROTINA", "SENSIVEL"]},
-        "objective": {"type": "string", "minLength": 1},
-        "prerequisites": {"type": "array", "items": {"type": "string"}},
-        "required_steps": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/step"}},
-        "mastery_criterion": {"type": "string", "minLength": 1},
-        "pretest": {"type": "string", "minLength": 1},
-        "posttest": {"type": "string", "minLength": 1},
-        "retention_test": {"type": "string", "minLength": 1},
+        "profile": {
+          "type": "string",
+          "minLength": 1
+        },
+        "safety_overlay": {
+          "enum": [
+            "ROTINA",
+            "SENSIVEL"
+          ]
+        },
+        "objective": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required_steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/step"
+          }
+        },
+        "mastery_criterion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pretest": {
+          "type": "string",
+          "minLength": 1
+        },
+        "posttest": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retention_test": {
+          "type": "string",
+          "minLength": 1
+        },
         "verification_state": {
-          "enum": ["HEURISTIC_DRAFT", "VERIFIED_BY_AGENT", "VERIFIED_BY_HUMAN"]
+          "enum": [
+            "HEURISTIC_DRAFT",
+            "VERIFIED_BY_AGENT",
+            "VERIFIED_BY_HUMAN"
+          ]
         },
-        "source_excerpt": {"type": "string"},
-        "extraction_gap": {"type": "boolean"}
-        ,
-        "search_identity": {"$ref": "#/$defs/search_identity"}
-        ,
-        "route_policy": {"enum": ["REQUIRED", "OPTIONAL", "CONTROL_NO_AUTOMATIC"]}
+        "source_excerpt": {
+          "type": "string"
+        },
+        "extraction_gap": {
+          "type": "boolean"
+        },
+        "search_identity": {
+          "$ref": "#/$defs/search_identity"
+        },
+        "route_policy": {
+          "enum": [
+            "REQUIRED",
+            "OPTIONAL",
+            "CONTROL_NO_AUTOMATIC"
+          ]
+        }
       },
       "additionalProperties": false
     },
     "localized_terms": {
       "type": "object",
-      "required": ["language", "terms"],
+      "required": [
+        "language",
+        "terms"
+      ],
       "properties": {
-        "language": {"type": "string", "minLength": 2},
-        "terms": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+        "language": {
+          "type": "string",
+          "minLength": 2
+        },
+        "terms": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
       },
       "additionalProperties": false
     },
     "search_identity": {
       "type": "object",
-      "required": ["source_language", "creator", "work", "edition", "chapter", "section", "exercise", "exact_phrases", "notation", "technical_terms", "official_domains", "official_channels", "localized_terms"],
+      "required": [
+        "source_language",
+        "creator",
+        "work",
+        "edition",
+        "chapter",
+        "section",
+        "exercise",
+        "exact_phrases",
+        "notation",
+        "technical_terms",
+        "official_domains",
+        "official_channels",
+        "localized_terms"
+      ],
       "properties": {
-        "source_language": {"type": "string", "minLength": 2},
-        "creator": {"type": "string"},
-        "work": {"type": "string"},
-        "edition": {"type": "string"},
-        "chapter": {"type": "string"},
-        "section": {"type": "string"},
-        "exercise": {"type": "string"},
-        "exact_phrases": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
-        "notation": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
-        "technical_terms": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
-        "official_domains": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
-        "official_channels": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
-        "localized_terms": {"type": "array", "items": {"$ref": "#/$defs/localized_terms"}}
+        "source_language": {
+          "type": "string",
+          "minLength": 2
+        },
+        "creator": {
+          "type": "string"
+        },
+        "work": {
+          "type": "string"
+        },
+        "edition": {
+          "type": "string"
+        },
+        "chapter": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        },
+        "exercise": {
+          "type": "string"
+        },
+        "exact_phrases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "notation": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "technical_terms": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "official_domains": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "official_channels": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "localized_terms": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/localized_terms"
+          }
+        }
       },
       "additionalProperties": false
     }

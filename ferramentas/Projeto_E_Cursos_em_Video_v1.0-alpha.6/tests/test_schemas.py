@@ -26,8 +26,8 @@ class SchemaTests(unittest.TestCase):
         for path in sorted((PACKAGE / "schemas").glob("*.schema.json")):
             with self.subTest(path=path.name):
                 value = json.loads(path.read_text(encoding="utf-8"))
-                self.assertEqual(value["$schema"], "https://json-schema.org/draft/2020-12/schema")
-                self.assertIn("projeto-e.local", value["$id"])
+                self.assertNotIn("$schema", value)
+                self.assertTrue(value["$id"].startswith("urn:projeto-e:schema:"))
 
     def test_examples_match_schemas_when_jsonschema_is_available(self) -> None:
         if importlib.util.find_spec("jsonschema") is None:

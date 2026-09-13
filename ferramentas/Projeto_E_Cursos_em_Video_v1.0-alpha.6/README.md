@@ -171,7 +171,7 @@ obrigatória. Para lotes inteiros, use conscientemente `--include-optional` ou
 
 O plano começa por PT/EN e inclui mais de 30 sementes linguísticas. O agente de
 navegador deve ampliar para qualquer idioma relevante e registrar cada
-tentativa. `GLOBAL_OPEN` significa “nenhum idioma excluído”, não a alegação
+tentativa. `VERIFIED_CHANNEL_ALLOWLIST` significa “nenhum idioma excluído”, não a alegação
 impossível de ter consultado todos os idiomas humanos. Uma busca incompleta não
 pode produzir `NAO_ENCONTRADO`.
 
@@ -356,3 +356,7 @@ Formato ilegível permanece `EXTRACAO_NAO_DISPONIVEL`.
 Leia [ARQUITETURA.md](ARQUITETURA.md),
 [PROMPT_MESTRE_PARA_AGENTE.md](PROMPT_MESTRE_PARA_AGENTE.md) e
 [docs/FLUXO_COMPLETO.md](docs/FLUXO_COMPLETO.md).
+
+## Política v0.44 — TOTAL_ALLOWLIST
+
+O agente só pode pesquisar, avaliar ou integrar vídeos dos canais @portalmatematicaobmep, @portalfisicaobmep e @brasilescola. URLs de sites externos e vídeos de qualquer outro canal devem ser rejeitados.

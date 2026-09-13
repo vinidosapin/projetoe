@@ -68,7 +68,7 @@ python3 -m projeto_e_video search --workspace WORKSPACE --provider yt-dlp \
 
 `search_queries.json` versão 3 contém:
 
-- `search_scope=GLOBAL_OPEN`;
+- `search_scope=VERIFIED_CHANNEL_ALLOWLIST`;
 - alvos de áudio `pt,en`;
 - mais de 30 idiomas-semente;
 - consultas por unidade e idioma;

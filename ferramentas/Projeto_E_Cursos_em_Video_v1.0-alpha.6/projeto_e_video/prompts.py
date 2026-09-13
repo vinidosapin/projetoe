@@ -319,7 +319,7 @@ Para cada unidade selecionada, sem apagar tentativas anteriores:
    ecossistema oficial da fonte.
    Comece por português e inglês,
    depois percorra as sementes fornecidas e amplie para qualquer idioma que
-   possa conter o objeto. `GLOBAL_OPEN` significa que nenhum idioma-fonte pode
+   possa conter o objeto. `VERIFIED_CHANNEL_ALLOWLIST` significa que nenhum idioma-fonte pode
    ser excluído.
 2. Para outros idiomas, traduza título, trecho do enunciado e termos técnicos;
    preserve literalmente fórmulas, símbolos, autor, edição, capítulo e número.
@@ -362,7 +362,7 @@ Retorne JSON no formato:
 {{
   "schema_name": "projeto-e-video.candidates",
   "schema_version": 3,
-  "search_scope": "GLOBAL_OPEN",
+  "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
   "search_attempts": [
     {{
       "query_id": "Q-copiado-de-search_queries",
@@ -384,7 +384,7 @@ Retorne JSON no formato:
   "candidates": [
     {{
       "unit_ids": ["U-..."],
-      "url": "https://...",
+      "url": "URL_DIRETA_VERIFICADA_A_INSERIR",
       "title": "título observado",
       "channel": "autoria observada ou desconhecida",
       "language": "tag BCP-47 observada ou und",

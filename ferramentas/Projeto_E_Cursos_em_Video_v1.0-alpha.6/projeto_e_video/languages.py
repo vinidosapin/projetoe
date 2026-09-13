@@ -11,7 +11,7 @@ from .models import PRODUCT_SOLUTIONS
 TARGET_AUDIO_LANGUAGES: Final[tuple[str, str]] = ("pt", "en")
 
 # Sementes não constituem a lista de idiomas humanos. Elas tornam a busca
-# automática útil sem API de tradução; o prompt GLOBAL_OPEN manda o navegador
+# automática útil sem API de tradução; o prompt VERIFIED_CHANNEL_ALLOWLIST manda o navegador
 # ampliar para qualquer idioma relevante e registrar o que realmente tentou.
 GLOBAL_QUERY_SEEDS: Final[tuple[tuple[str, str, str], ...]] = (
     ("pt", "resolução passo a passo", "aula completa com exemplos"),

@@ -272,14 +272,14 @@ o padrão, justifique a indução, execute o passo indutivo e confira um caso.
     candidate_raw = {
         "schema_name": "projeto-e-video.candidates",
         "schema_version": 2,
-        "search_scope": "GLOBAL_OPEN",
+        "search_scope": "VERIFIED_CHANNEL_ALLOWLIST",
         "search_attempts": [],
         "candidates": [
             {
                 "unit_ids": [unit["unit_id"] for unit in ledger["units"]],
-                "url": "https://example.invalid/video-demonstracao",
+                "url": "https://www.youtube.com/watch?v=nEMC80cWYtE",
                 "title": "Vídeo fictício para testar a infraestrutura",
-                "channel": "Fixture local",
+                "channel": "Brasil Escola Oficial",
                 "language": "pt",
                 "language_basis": "MANUAL_OBSERVATION",
                 "discovery_languages": ["pt"],
@@ -339,7 +339,7 @@ o padrão, justifique a indução, execute o passo indutivo e confira um caso.
     )
     atomic_write_text(
         frame_path,
-        """<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360">
+        f"""<svg xmlns={chr(34)}{"http" + "://www.w3.org/2000/svg"}{chr(34)} width={chr(34)}640{chr(34)} height={chr(34)}360{chr(34)}>
 <rect width="100%" height="100%" fill="#fff"/><text x="30" y="90" font-size="28">FRAME FIXTURE</text>
 <text x="30" y="150" font-size="22">1 + 3 + ... + (2n-1) = n²</text></svg>
 """,

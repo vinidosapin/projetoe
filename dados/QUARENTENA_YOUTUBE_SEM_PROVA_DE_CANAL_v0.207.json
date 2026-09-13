@@ -1,0 +1,8 @@
+{
+  "schema": "PROJETO_E_YOUTUBE_QUARANTINE_v0.158",
+  "version": "0.207-alpha.1",
+  "status": "PASS",
+  "quarantined_active_resource_count": 0,
+  "items": [],
+  "note": "Nenhum recurso ativo fora da allowlist; a rodada reutilizou exclusivamente URLs já aceitas no corpus autorizado."
+}

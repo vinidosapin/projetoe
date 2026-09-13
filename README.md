@@ -1,31 +1,21 @@
-# Projeto E — Convergência Acadêmica 0.31-alpha.1
+# Projeto E — Convergência Acadêmica 0.208-alpha.1
 
-Base preservada: **Projeto E v2.39**.
+Release de reorganização da experiência do aluno. O conteúdo acadêmico e o conjunto de URLs permanecem **idênticos à v0.207-alpha.1**; esta rodada altera somente a interface, a navegação e a acessibilidade do entrypoint.
 
-## Hierarquia de fontes
+## Conteúdo preservado
 
-- Matemática: **Portal da Matemática OBMEP/IMPA** como principal; Brasil Escola como complemento.
-- Física: **Portal da Física OBMEP** como principal; Brasil Escola como complemento.
-- Todas as 15 disciplinas: **Brasil Escola** continua sendo coberto transversalmente.
+- Tópicos canônicos: **1571**
+- Tópicos cobertos: **1263 (80,39%)**
+- Lacunas: **308**
+- Associações tópico→vídeo: **2052**
+- Registros ativos: **1892**
+- URLs únicas: **739**
+- Novas associações nesta rodada: **0**
+- Novos tópicos cobertos: **0**
+- URLs novas nesta rodada: **0**
 
-## Estado do acervo
+## Interface v0.208
 
-- Tópicos: **1571**
-- Tópicos com material: **1430/1571 (91.0%)**
-- Lacunas: **141**
-- Vínculos de materiais: **3081**
-- Portal da Matemática OBMEP/IMPA: **418** vínculos
-- Portal da Física OBMEP: **320** vínculos
-- Brasil Escola: **2099** vínculos
+A navegação foi convertida para um fluxo mestre-detalhe: disciplina → área → módulo → tópico selecionado. O aluno vê apenas um módulo por vez e apenas as videoaulas do tópico escolhido, reduzindo densidade visual. Busca global, filtros simples, navegação anterior/próximo, foco visível, atalho para conteúdo e menu responsivo foram mantidos no próprio HTML, sem dependências externas.
 
-## Incremento v0.31
-
-- **+25 vínculos** no total
-- Brasil Escola: **+15**, com **15/15 disciplinas** tocadas
-- OBMEP/IMPA Matemática: **+2**
-- Portal da Física OBMEP: **+8**
-- **8 lacunas** fechadas por correspondência HIGH
-
-A árvore acadêmica canônica permanece intacta. A BNCC continua como radar de completude, não como índice curricular. Mapeamentos compostos não fecham lacunas.
-
-Auditoria: `dados/cobertura_nova_v0.31.json`, `dados/evidencias_fontes_principais_v0.31.json`, `dados/evidencias_video_novas_v0.31.json`, `dados/relatorio_cobertura_fontes_v0.31.json`, `VALIDACAO_v0.31-alpha.1.json` e `dados/MANIFESTO_SHA256_v0.31.txt`.
+O corpus de dados continua sendo a baseline v0.207; por isso os artefatos de auditoria em `dados/` mantêm seus nomes v0.207.

@@ -1,0 +1,523 @@
+{
+  "schema": "projeto-e.youtube-channel-allowlist.v4",
+  "version": "0.175-alpha.1",
+  "mode": "VERIFIED_CHANNEL_ALLOWLIST_ONLY",
+  "fallback_open_youtube": false,
+  "open_youtube_search_allowed": false,
+  "unknown_channel_action": "REJECT",
+  "external_web_links_allowed": false,
+  "direct_youtube_watch_links_only": true,
+  "rule": "Somente links diretos de vídeo pertencentes aos canais @portalmatematicaobmep, @portalfisicaobmep e @brasilescola podem aparecer no pacote.",
+  "channels": [
+    {
+      "id": "YT-OBMEP-MAT",
+      "name": "Portal da Matemática OBMEP",
+      "handle": "@portalmatematicaobmep",
+      "disciplines": [
+        "Matemática"
+      ],
+      "priority": 1,
+      "youtube_public_channel_id": "UCzs574vJvpTNc4Z9vaN5Wmg",
+      "registry_evidence_v0115": "Sem divergência estrutural detectada nesta rodada; identidade pública preservada conforme registro acumulado.",
+      "registry_evidence_v0116": "Allowlist preservada sem divergência estrutural nesta rodada: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; vínculo institucional acumulado mantido.",
+      "registry_evidence_v0118": "Allowlist preservada estruturalmente sem divergência: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos.",
+      "registry_evidence_v0119": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos.",
+      "registry_evidence_v0120": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0121": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0122": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0123": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0124": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0125": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0126": "Registro público atual rechecado: Portal da Matemática OBMEP @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; nenhum conflito estrutural em registros ativos e nenhuma nova URL deste canal nesta rodada.",
+      "registry_evidence_v0127": "A URL pública por channel ID continua resolvendo para Portal da Matemática OBMEP; identidade registrada preservada: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Nenhum conflito estrutural e nenhuma nova URL deste canal na rodada.",
+      "registry_evidence_v0128": "A URL pública por channel ID continua resolvendo para Portal da Matemática OBMEP; identidade registrada preservada: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Nenhum conflito estrutural; nenhuma nova URL deste canal nesta rodada.",
+      "registry_evidence_v0129": "A URL pública por channel ID continua identificada como Portal da Matemática OBMEP; identidade registrada preservada: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Nenhuma URL nova deste canal nesta rodada.",
+      "registry_evidence_v0130": "Rechecagem pública preserva Portal da Matemática OBMEP: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg.",
+      "registry_evidence_v0131": "Identidade allowlisted preservada e estruturalmente consistente: Portal da Matemática OBMEP, @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Rodada reuse-only; nenhuma identidade de URL foi alterada.",
+      "registry_evidence_v0132": "Identidade allowlisted preservada e estruturalmente consistente: Portal da Matemática OBMEP, @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Rodada reuse-only; URL reutilizada apenas após rechecagem semântica oficial.",
+      "registry_evidence_v0133": "Identidade allowlisted preservada e estruturalmente consistente: Portal da Matemática OBMEP, @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Rodada reuse-only; URL reutilizada apenas após rechecagem semântica oficial.",
+      "registry_evidence_v0134": "URL pública por channel ID rechecada e continua identificada como Portal da Matemática OBMEP; par cadastrado preservado: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Rodada reuse-only.",
+      "registry_evidence_v0135": "Identidade allowlisted preservada e estruturalmente consistente: Portal da Matemática OBMEP, @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Nenhuma URL nova deste canal nesta rodada.",
+      "registry_evidence_v0136": "Identidade allowlisted preservada e estruturalmente consistente na v0.136: Portal da Matemática OBMEP, @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Nenhum novo URL foi admitido nesta rodada.",
+      "registry_evidence_v0137": "URL pública direta por channel ID continua identificada como Portal da Matemática OBMEP; par allowlisted preservado: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Rodada reuse-only; nenhuma URL nova deste canal.",
+      "registry_evidence_v0138": "Par allowlisted preservado: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Nesta rodada, resultados públicos atuais de vídeos reutilizados voltaram a identificar o publicador como Portal da Matemática OBMEP.",
+      "registry_evidence_v0139": "Par allowlisted preservado: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Nesta rodada, resultados públicos atuais de vídeos reutilizados voltaram a identificar o publicador como Portal da Matemática OBMEP.",
+      "registry_evidence_v0140": "Página pública por channel ID preserva Portal da Matemática OBMEP; par allowlisted mantido: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Nenhuma URL nova deste canal nesta rodada.",
+      "registry_evidence_v0141": "Par allowlisted revalidado estruturalmente na v0.141: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. A rodada não admite identidade divergente por URL.",
+      "registry_evidence_v0142": "Par allowlisted revalidado na v0.142: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; nenhum registro ativo pode divergir desse par. Para OBMEP, a identidade pública dos canais/handles também foi rechecada em fontes públicas atuais; para Brasil Escola, a rodada preserva o public_channel_id acumulado e usa página oficial atual para o novo player.",
+      "registry_evidence_v0143": "Par allowlisted preservado na v0.143: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; nenhuma URL nova deste canal foi admitida.",
+      "registry_evidence_v0144": "Par allowlisted preservado estruturalmente na v0.144: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; nenhuma URL nova deste canal foi ativada nesta rodada.",
+      "registry_evidence_v0145": "Par allowlisted preservado estruturalmente na v0.145: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; nenhuma URL nova deste canal foi ativada nesta rodada.",
+      "registry_evidence_v0146": "@portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; identidade pública rechecada em resultado atual do YouTube e evidência institucional MCTI/IMPA.",
+      "registry_evidence_v0147": "@portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; current YouTube channel result rechecked, with no identity divergence and no new URL this round.",
+      "registry_evidence_v0148": "@portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; institutional OBMEP pages rechecked; no identity divergence detected and no new URL this round.",
+      "registry_evidence_v0149": "Par allowlisted preservado estruturalmente na v0.149: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; nenhuma URL nova deste canal foi ativada nesta rodada.",
+      "registry_evidence_v0151": "Par allowlisted preservado estruturalmente na v0.151: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; nenhuma URL nova deste canal foi ativada.",
+      "registry_evidence_v0152": "Par allowlisted preservado por herança na v0.152: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. A rodada priorizou ingestão/cobertura e, por solicitação do usuário, não repetiu a auditoria externa geral dos links.",
+      "registry_evidence_v0154": "Par allowlisted preservado por herança na v0.154: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. A rodada reutilizou somente URLs já presentes no corpus e, por solicitação do usuário, não repetiu a auditoria externa geral dos links.",
+      "registry_evidence_v0155": "Par allowlisted preservado por herança e consistência estrutural local; sem reauditoria externa geral solicitada.",
+      "registry_evidence_v0156": "Identidade da allowlist herdada e preservada estruturalmente na v0.156; por solicitação do usuário, não houve reauditoria externa geral dos links/canais nesta rodada.",
+      "registry_evidence_v0159": "Identidade allowlisted herdada e preservada estruturalmente na v0.159; por solicitação do usuário, não houve reauditoria externa geral. Novas URLs desta rodada pertencem apenas ao catálogo do Brasil Escola quando aplicável.",
+      "registry_evidence_v0160": "Par allowlisted preservado por herança e consistência estrutural local na v0.160; sem reauditoria externa geral solicitada. Nenhuma URL nova deste canal foi adicionada.",
+      "registry_evidence_v0161": "Par allowlisted preservado por herança e consistência estrutural local na v0.161; sem reauditoria externa geral solicitada. 21 associações com URLs novas deste canal nesta rodada.",
+      "registry_evidence_v0170": "Identidade allowlisted preservada por consistência estrutural local na v0.170: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Por solicitação do usuário, não houve reauditoria externa geral dos links; nenhuma URL nova foi adicionada."
+    },
+    {
+      "id": "YT-OBMEP-FIS",
+      "name": "Portal da Física OBMEP",
+      "handle": "@portalfisicaobmep",
+      "disciplines": [
+        "Física"
+      ],
+      "priority": 1,
+      "youtube_public_channel_id": "UCuSLzdd9RtBs-S1QMXIAdow",
+      "registry_evidence_v0115": "Módulo oficial atual Impulso e quantidade de movimento correlaciona os IDs dgMPEbJLIQo, AOQxWH7gSpI e 8Fen6CC4_-I às aulas; resultados atuais do YouTube atribuem esses vídeos ao Portal da Física OBMEP/@portalfisicaobmep.",
+      "registry_evidence_v0116": "O módulo oficial atual do Portal da OBMEP/IMPA expõe o ID oQ5kmN8qNts para a Aula 2 – Quantidade de movimento; identidade autorizada preservada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow.",
+      "registry_evidence_v0118": "Allowlist preservada estruturalmente sem divergência: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos.",
+      "registry_evidence_v0119": "Módulos oficiais atuais do Portal da OBMEP/IMPA correlacionam IDs exatos das novas aulas de campo elétrico, refração, lentes, termodinâmica e instrumentos ópticos; identidade autorizada registrada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow.",
+      "registry_evidence_v0120": "O módulo oficial atual Cinemática Angular (946) expõe os IDs exatos dos quatro novos players; identidade autorizada registrada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow.",
+      "registry_evidence_v0121": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; nenhuma nova URL de Física da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0122": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; nenhuma nova URL de Física da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0123": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; nenhuma nova URL de Física da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0124": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; nenhuma nova URL de Física da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0125": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; nenhuma nova URL de Física da OBMEP foi ativada nesta rodada.",
+      "registry_evidence_v0126": "Registro público atual rechecado: Portal da Física OBMEP @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhum conflito estrutural em registros ativos e nenhuma nova URL deste canal nesta rodada.",
+      "registry_evidence_v0127": "A URL pública por channel ID continua resolvendo para Portal da Física OBMEP; identidade registrada preservada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Nenhum conflito estrutural e nenhuma nova URL deste canal na rodada.",
+      "registry_evidence_v0128": "A URL pública por channel ID continua resolvendo para Portal da Física OBMEP; módulos oficiais atuais 221, 946 e 988 correlacionam os IDs exatos rechecados nesta rodada. Identidade registrada preservada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow.",
+      "registry_evidence_v0129": "A URL pública por channel ID continua identificada como Portal da Física OBMEP; identidade registrada preservada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Nenhuma URL nova deste canal nesta rodada.",
+      "registry_evidence_v0130": "Rechecagem pública preserva Portal da Física OBMEP: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; resultados atuais de vídeos reutilizados identificam o publicador como Portal da Física OBMEP.",
+      "registry_evidence_v0131": "Identidade allowlisted preservada e estruturalmente consistente: Portal da Física OBMEP, @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Rodada reuse-only; nenhuma identidade de URL foi alterada.",
+      "registry_evidence_v0132": "Identidade allowlisted preservada e estruturalmente consistente: Portal da Física OBMEP, @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Rodada reuse-only; URL reutilizada apenas após rechecagem semântica oficial.",
+      "registry_evidence_v0133": "Identidade allowlisted preservada e estruturalmente consistente: Portal da Física OBMEP, @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Rodada reuse-only; URL reutilizada apenas após rechecagem semântica oficial.",
+      "registry_evidence_v0134": "URL pública por channel ID rechecada e continua identificada como Portal da Física OBMEP; par cadastrado preservado: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. O módulo oficial 988 foi reaberto para as associações de impulso.",
+      "registry_evidence_v0135": "Identidade allowlisted preservada: Portal da Física OBMEP, @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. As URLs uC8pijAzlbo, XtVR7d6fcZI e J4bNUSsO1Mc foram correlacionadas a resultados atuais do YouTube/publicador e aos módulos oficiais 138, 103 e 1039.",
+      "registry_evidence_v0136": "Identidade allowlisted preservada e estruturalmente consistente na v0.136: Portal da Física OBMEP, @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Nenhum novo URL foi admitido nesta rodada.",
+      "registry_evidence_v0137": "URL pública direta por channel ID continua identificada como Portal da Física OBMEP; par allowlisted preservado: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Rodada reuse-only; URLs reutilizadas somente após rechecagem semântica oficial.",
+      "registry_evidence_v0138": "Par allowlisted preservado: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Nenhuma associação nova usou URL deste canal nesta rodada; a identidade foi revalidada estruturalmente pela base de procedência acumulada.",
+      "registry_evidence_v0139": "Par allowlisted preservado: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Nenhuma associação nova usou URL deste canal nesta rodada; a identidade foi revalidada estruturalmente pela base de procedência acumulada.",
+      "registry_evidence_v0140": "Página pública por channel ID preserva Portal da Física OBMEP; par allowlisted mantido: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Nenhuma URL nova deste canal nesta rodada.",
+      "registry_evidence_v0141": "Par allowlisted revalidado estruturalmente na v0.141: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. A rodada não admite identidade divergente por URL.",
+      "registry_evidence_v0142": "Par allowlisted revalidado na v0.142: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhum registro ativo pode divergir desse par. Para OBMEP, a identidade pública dos canais/handles também foi rechecada em fontes públicas atuais; para Brasil Escola, a rodada preserva o public_channel_id acumulado e usa página oficial atual para o novo player.",
+      "registry_evidence_v0143": "Par allowlisted preservado na v0.143: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhuma URL nova deste canal foi admitida.",
+      "registry_evidence_v0144": "Par allowlisted preservado estruturalmente na v0.144: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhuma URL nova deste canal foi ativada nesta rodada.",
+      "registry_evidence_v0145": "Par allowlisted preservado estruturalmente na v0.145: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhuma URL nova deste canal foi ativada nesta rodada.",
+      "registry_evidence_v0146": "@portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; identidade pública rechecada em resultado atual do YouTube e evidência institucional MCTI/IMPA.",
+      "registry_evidence_v0147": "@portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; current YouTube channel result rechecked, with no identity divergence and no new URL this round.",
+      "registry_evidence_v0148": "@portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; current indexed public metadata rechecked; no identity divergence detected and no new URL this round.",
+      "registry_evidence_v0149": "Par allowlisted preservado estruturalmente na v0.149: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhuma URL nova deste canal foi ativada nesta rodada.",
+      "registry_evidence_v0151": "Par allowlisted preservado estruturalmente na v0.151: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhuma URL nova deste canal foi ativada.",
+      "registry_evidence_v0152": "Par allowlisted preservado por herança na v0.152: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. A rodada priorizou ingestão/cobertura e, por solicitação do usuário, não repetiu a auditoria externa geral dos links.",
+      "registry_evidence_v0154": "Par allowlisted preservado por herança na v0.154: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. A rodada reutilizou somente URLs já presentes no corpus e, por solicitação do usuário, não repetiu a auditoria externa geral dos links.",
+      "registry_evidence_v0155": "Par allowlisted preservado por herança e consistência estrutural local; sem reauditoria externa geral solicitada.",
+      "registry_evidence_v0156": "Identidade da allowlist herdada e preservada estruturalmente na v0.156; por solicitação do usuário, não houve reauditoria externa geral dos links/canais nesta rodada.",
+      "registry_evidence_v0159": "Identidade allowlisted herdada e preservada estruturalmente na v0.159; por solicitação do usuário, não houve reauditoria externa geral. Novas URLs desta rodada pertencem apenas ao catálogo do Brasil Escola quando aplicável.",
+      "registry_evidence_v0160": "Par allowlisted preservado por herança e consistência estrutural local na v0.160; sem reauditoria externa geral solicitada. Nenhuma URL nova deste canal foi adicionada.",
+      "registry_evidence_v0161": "Par allowlisted preservado por herança e consistência estrutural local na v0.161; sem reauditoria externa geral solicitada. 0 associações com URLs novas deste canal nesta rodada.",
+      "registry_evidence_v0170": "Identidade allowlisted preservada por consistência estrutural local na v0.170: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Por solicitação do usuário, não houve reauditoria externa geral dos links; nenhuma URL nova foi adicionada."
+    },
+    {
+      "id": "YT-BRASIL-ESCOLA",
+      "name": "Brasil Escola Oficial",
+      "handle": "@brasilescola",
+      "disciplines": [
+        "*"
+      ],
+      "priority": 3,
+      "youtube_public_channel_id": "UCsgHWN8lYveMUEWTDheTjZA",
+      "registry_evidence_v0115": "Sem divergência estrutural detectada nesta rodada; identidade pública preservada conforme registro acumulado.",
+      "registry_evidence_v0116": "Duas páginas oficiais atuais do Brasil Escola expõem os players VzmWjKF1qbQ e zVBZR0snWsk; identidade autorizada preservada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0118": "Páginas oficiais atuais do Brasil Escola expõem os IDs exatos das adições desta release; para 1j2-hDazLGA e DA92XkWrk3Q houve também resultado atual do YouTube identificando Brasil Escola Oficial. Identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0119": "Páginas oficiais atuais do Brasil Escola correlacionam IDs exatos das novas videoaulas de resistores em série, paralelo e Ponte de Wheatstone; identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0120": "Páginas oficiais atuais do Brasil Escola expõem os IDs exatos das novas videoaulas de áreas e transformações de unidades; identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0121": "Páginas oficiais atuais do Brasil Escola foram rechecadas individualmente para as adições de Literatura/Redação e correlacionadas aos IDs exatos dos players/resultados do canal; identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0122": "Seis páginas oficiais atuais do Brasil Escola foram rechecadas individualmente para Alberto Caeiro, Ricardo Reis, Álvaro de Campos, Cecília Meireles, Rachel de Queiroz e Jorge Amado; cada página foi correlacionada ao ID exato do respectivo player. Identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0123": "Sete adições foram rechecadas com página oficial atual do Brasil Escola e resultado YouTube exato identificado como Brasil Escola Oficial: Olavo Bilac, Lygia Fagundes Telles, Carta de Achamento do Brasil, Romance Regionalista, Romance urbano, Coesão textual: substituição e Textos de divulgação científica. Identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0124": "Sete associações foram rechecadas em páginas oficiais atuais do Brasil Escola e nos IDs exatos dos players incorporados: Murilo Mendes, Concretismo, Romance indianista, Operadores argumentativos, Tipos de Rima, Ambiguidade e Coesão por elipse. Uma URL (Tipos de Rima) já existia no acervo; seis são novas. Identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0125": "Três novas URLs foram rechecadas em páginas oficiais atuais do Brasil Escola e nos IDs exatos dos players: Coerência textual, Tópico frasal e Coesão textual lexical. Identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0126": "Quatro associações foram rechecadas em páginas oficiais atuais do Brasil Escola: Argumento por analogia, Argumento por citação de autoridade, Coesão referencial e Pronomes. Três URLs são novas e a URL de Pronomes já existia no acervo. Identidade allowlisted preservada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0127": "A URL pública por channel ID continua resolvendo para Brasil Escola Oficial. Seis associações foram rechecadas em páginas oficiais atuais; quatro URLs são novas e duas reutilizam URLs ativas. Identidade allowlisted preservada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0128": "A URL pública por channel ID continua resolvendo para Brasil Escola Oficial; a página oficial atual de tipos de coerência textual correlaciona o ID exato uAgbaia72Fk. Identidade registrada preservada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0129": "A URL pública por channel ID continua identificada como Brasil Escola Oficial. Novas associações desta rodada foram rechecadas em páginas oficiais atuais e, quando disponível, em resultados atuais do YouTube com publisher Brasil Escola Oficial. Identidade registrada preservada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA.",
+      "registry_evidence_v0130": "Rechecagem pública preserva Brasil Escola Oficial: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA; páginas oficiais atuais do Brasil Escola continuam correlacionadas aos vídeos reutilizados.",
+      "registry_evidence_v0131": "Identidade allowlisted preservada e estruturalmente consistente: Brasil Escola Oficial, @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Páginas oficiais atuais foram usadas para rechecagem semântica das associações desta rodada.",
+      "registry_evidence_v0132": "Identidade allowlisted preservada e estruturalmente consistente: Brasil Escola Oficial, @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Rodada reuse-only; URLs reutilizadas apenas após rechecagem semântica oficial.",
+      "registry_evidence_v0133": "Identidade allowlisted preservada e estruturalmente consistente: Brasil Escola Oficial, @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Rodada reuse-only; URLs reutilizadas apenas após rechecagem semântica oficial.",
+      "registry_evidence_v0134": "URL pública por channel ID rechecada e continua identificada como Brasil Escola Oficial; par cadastrado preservado: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Páginas oficiais atuais foram reabertas para as associações desta rodada.",
+      "registry_evidence_v0135": "Identidade allowlisted preservada e estruturalmente consistente: Brasil Escola Oficial, @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Nenhuma URL nova deste canal nesta rodada.",
+      "registry_evidence_v0136": "Identidade allowlisted preservada e estruturalmente consistente na v0.136: Brasil Escola Oficial, @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Nenhum novo URL foi admitido nesta rodada.",
+      "registry_evidence_v0137": "URL pública direta por channel ID continua identificada como Brasil Escola Oficial; par allowlisted preservado: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Páginas oficiais atuais foram reabertas para as associações desta rodada.",
+      "registry_evidence_v0138": "Par allowlisted preservado: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Páginas oficiais atuais e resultados públicos dos IDs reutilizados de Brasil Escola foram correlacionados nas associações desta rodada.",
+      "registry_evidence_v0139": "Par allowlisted preservado: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Páginas oficiais atuais e resultados públicos dos IDs reutilizados de Brasil Escola foram correlacionados nas associações desta rodada.",
+      "registry_evidence_v0140": "Página pública por channel ID preserva Brasil Escola Oficial; par allowlisted mantido: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Cinco URLs novas foram admitidas somente por páginas oficiais atuais do Brasil Escola com embed de ID exato.",
+      "registry_evidence_v0141": "Par allowlisted revalidado estruturalmente na v0.141: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. A rodada não admite identidade divergente por URL.",
+      "registry_evidence_v0142": "Par allowlisted revalidado na v0.142: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA; nenhum registro ativo pode divergir desse par. Para OBMEP, a identidade pública dos canais/handles também foi rechecada em fontes públicas atuais; para Brasil Escola, a rodada preserva o public_channel_id acumulado e usa página oficial atual para o novo player.",
+      "registry_evidence_v0143": "Par allowlisted preservado na v0.143: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Oito IDs novos foram obtidos de players de páginas oficiais atuais do Brasil Escola e um ID adicional foi confirmado por resultado atual do YouTube com publicador Brasil Escola Oficial.",
+      "registry_evidence_v0144": "Par allowlisted preservado na v0.144: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. O novo ID nCqv34OHp3A foi obtido do player da página oficial atual do Brasil Escola; l6Ksxsaq7Ag foi reconfirmado no player oficial atual antes de três novas associações semânticas.",
+      "registry_evidence_v0145": "Par allowlisted preservado na v0.145: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Seis IDs novos foram extraídos de players de páginas oficiais atuais do Brasil Escola (empuxo, receptores, geradores e três processos de eletrização).",
+      "registry_evidence_v0146": "@brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA; par allowlisted acumulado preservado e novas URLs admitidas somente por IDs extraídos de players de páginas oficiais atuais do Brasil Escola.",
+      "registry_evidence_v0147": "@brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA; three new exact player IDs were cross-checked against current YouTube results identifying Brasil Escola Oficial as publisher.",
+      "registry_evidence_v0148": "@brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA; three new exact player IDs were correlated with current/public evidence identifying Brasil Escola Oficial; one already-verified URL was reused.",
+      "registry_evidence_v0149": "Par allowlisted preservado: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Duas URLs novas tiveram player oficial atual e evidência pública atual do YouTube/identidade de canal rechecados; todos os registros ativos foram revalidados estruturalmente contra o par cadastrado.",
+      "registry_evidence_v0151": "Identidade allowlisted preservada na v0.151: Brasil Escola Oficial / @brasilescola / UCsgHWN8lYveMUEWTDheTjZA. Cinco associações reutilizam quatro URLs já comprovadas; nenhuma URL nova foi ativada.",
+      "registry_evidence_v0152": "Par allowlisted preservado por herança na v0.152: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. A rodada priorizou ingestão/cobertura e, por solicitação do usuário, não repetiu a auditoria externa geral dos links.",
+      "registry_evidence_v0154": "Par allowlisted preservado por herança na v0.154: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. A rodada reutilizou somente URLs já presentes no corpus e, por solicitação do usuário, não repetiu a auditoria externa geral dos links.",
+      "registry_evidence_v0155": "Par allowlisted preservado por herança; novas associações de catálogo usam a identidade cadastrada do Brasil Escola Oficial. Sem reauditoria externa geral solicitada.",
+      "registry_evidence_v0156": "Identidade da allowlist herdada e preservada estruturalmente na v0.156; por solicitação do usuário, não houve reauditoria externa geral dos links/canais nesta rodada.",
+      "registry_evidence_v0159": "Identidade allowlisted herdada e preservada estruturalmente na v0.159; por solicitação do usuário, não houve reauditoria externa geral. Novas URLs desta rodada pertencem apenas ao catálogo do Brasil Escola quando aplicável.",
+      "registry_evidence_v0160": "Par allowlisted preservado por herança e consistência estrutural local na v0.160; sem reauditoria externa geral solicitada. A única URL nova da rodada pertence ao catálogo do Brasil Escola Oficial.",
+      "registry_evidence_v0161": "Par allowlisted preservado por herança e consistência estrutural local na v0.161; sem reauditoria externa geral solicitada. 3 associações com URLs novas deste canal nesta rodada.",
+      "registry_evidence_v0170": "Identidade allowlisted preservada por consistência estrutural local na v0.170: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. Por solicitação do usuário, não houve reauditoria externa geral dos links; nenhuma URL nova foi adicionada."
+    }
+  ],
+  "public_registry_rechecked_in": "0.151-alpha.1",
+  "public_registry_rechecked_date": "2026-09-10",
+  "registry_evidence_v099": {
+    "YT-OBMEP-MAT": "Resultado atual do YouTube resolve Portal da Matemática OBMEP em UCzs574vJvpTNc4Z9vaN5Wmg / @portalmatematicaobmep; documentos institucionais MCTI/IMPA também citam o handle.",
+    "YT-OBMEP-FIS": "Resultado atual do YouTube resolve Portal da Física OBMEP em UCuSLzdd9RtBs-S1QMXIAdow / @portalfisicaobmep; documentos institucionais MCTI/IMPA também citam o handle.",
+    "YT-BRASIL-ESCOLA": "Fontes públicas atuais identificam Brasil Escola Oficial como @brasilescola e associam o ID público UCsgHWN8lYveMUEWTDheTjZA; resultados diretos atuais do YouTube exibem Brasil Escola Oficial como publicador."
+  },
+  "registry_evidence_v0105": {
+    "YT-OBMEP-MAT": "Allowlist preservada: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; registro institucional da OBMEP continua identificando o Portal da Matemática como canal oficial de videoaulas.",
+    "YT-OBMEP-FIS": "Allowlist preservada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhum recurso ativo apresentou identidade divergente.",
+    "YT-BRASIL-ESCOLA": "Páginas oficiais atuais do Brasil Escola expõem os IDs exatos dos 4 vídeos novos e de 7 vídeos herdados rechecados; registro autorizado preservado: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0107": {
+    "YT-OBMEP-MAT": "Allowlist preservada; identidade pública registrada permanece UCzs574vJvpTNc4Z9vaN5Wmg / @portalmatematicaobmep, com vínculo institucional OBMEP acumulado.",
+    "YT-OBMEP-FIS": "Allowlist preservada; identidade pública registrada permanece UCuSLzdd9RtBs-S1QMXIAdow / @portalfisicaobmep, com vínculo institucional OBMEP acumulado.",
+    "YT-BRASIL-ESCOLA": "Páginas oficiais atuais do Brasil Escola expõem players dos novos/revalidados e o portal mantém link público para seu YouTube oficial; identidade permitida registrada @brasilescola / UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0108": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem mudança de identidade registrada: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; nenhum registro ativo apresentou par divergente.",
+    "YT-OBMEP-FIS": "Allowlist preservada sem mudança de identidade registrada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhum registro ativo apresentou par divergente.",
+    "YT-BRASIL-ESCOLA": "Páginas oficiais atuais do Brasil Escola foram reabertas para os 4 vídeos novos e para os reaproveitamentos usados nesta rodada; o pacote mantém @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA como identidade permitida."
+  },
+  "registry_evidence_v0109": {
+    "YT-OBMEP-MAT": "Allowlist preservada: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; nenhum registro ativo apresentou identidade divergente na auditoria estrutural completa.",
+    "YT-OBMEP-FIS": "Allowlist preservada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhum registro ativo apresentou identidade divergente na auditoria estrutural completa.",
+    "YT-BRASIL-ESCOLA": "O portal oficial atual do Brasil Escola foi reaberto para cinco URLs reutilizadas nesta rodada e cada player resolveu para o mesmo ID já ativo; identidade permitida permanece @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0110": {
+    "YT-OBMEP-MAT": "Identidade pública atual rechecada: Portal da Matemática OBMEP ↔ @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; documentos institucionais MCTI/IMPA continuam citando o handle oficial.",
+    "YT-OBMEP-FIS": "Identidade pública atual rechecada: Portal da Física OBMEP ↔ @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; documentos institucionais MCTI/IMPA continuam citando o handle oficial.",
+    "YT-BRASIL-ESCOLA": "O portal oficial atual do Brasil Escola continua encaminhando para seu YouTube e as dez videoaulas novas desta rodada expõem players com IDs exatos; a identidade permitida do projeto permanece @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0111": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; vínculo institucional acumulado mantido.",
+    "YT-OBMEP-FIS": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; vínculo institucional acumulado mantido.",
+    "YT-BRASIL-ESCOLA": "O portal oficial atual do Brasil Escola mantém seu link para o canal oficial; dez páginas atuais expõem exatamente os dez novos IDs usados nesta release e três páginas atuais adicionais confirmam IDs herdados. Identidade permitida permanece @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0112": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; vínculo institucional acumulado mantido.",
+    "YT-OBMEP-FIS": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; vínculo institucional acumulado mantido.",
+    "YT-BRASIL-ESCOLA": "O portal oficial atual do Brasil Escola mantém seu link para o canal oficial; dez páginas atuais de videoaula expõem exatamente os dez novos IDs usados nesta release. Identidade permitida permanece @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0113": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; vínculo institucional acumulado mantido.",
+    "YT-OBMEP-FIS": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; vínculo institucional acumulado mantido.",
+    "YT-BRASIL-ESCOLA": "Quatro páginas oficiais atuais do Brasil Escola confirmam os títulos/escopos das novas aulas; buscas atuais recuperam os quatro URLs YouTube exatos, e ao menos o resultado de Jogo de Sinais referencia explicitamente Brasil Escola Oficial. Identidade de allowlist preservada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0114": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; vínculo institucional acumulado mantido.",
+    "YT-OBMEP-FIS": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; vínculo institucional acumulado mantido.",
+    "YT-BRASIL-ESCOLA": "Três URLs novas foram recuperadas de links/players incorporados em páginas oficiais atuais do Brasil Escola: gráficos, frequência relativa e frequência absoluta. Identidade de allowlist preservada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0116": {
+    "YT-OBMEP-MAT": "Sem divergência estrutural nos registros ativos; identidade pública acumulada preservada.",
+    "YT-OBMEP-FIS": "Módulo oficial atual expõe o ID exato oQ5kmN8qNts para Aula 2 – Quantidade de movimento; identidade da allowlist preservada.",
+    "YT-BRASIL-ESCOLA": "Páginas oficiais atuais expõem os IDs exatos VzmWjKF1qbQ e zVBZR0snWsk; identidade da allowlist preservada."
+  },
+  "registry_evidence_v0118": {
+    "YT-OBMEP-MAT": "Allowlist preservada estruturalmente sem divergência: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos.",
+    "YT-OBMEP-FIS": "Allowlist preservada estruturalmente sem divergência: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos.",
+    "YT-BRASIL-ESCOLA": "Páginas oficiais atuais do Brasil Escola expõem os IDs exatos das adições desta release; para 1j2-hDazLGA e DA92XkWrk3Q houve também resultado atual do YouTube identificando Brasil Escola Oficial. Identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0119": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos.",
+    "YT-OBMEP-FIS": "Módulos oficiais atuais do Portal da OBMEP/IMPA correlacionam IDs exatos das novas aulas de campo elétrico, refração, lentes, termodinâmica e instrumentos ópticos; identidade autorizada registrada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow.",
+    "YT-BRASIL-ESCOLA": "Páginas oficiais atuais do Brasil Escola correlacionam IDs exatos das novas videoaulas de resistores em série, paralelo e Ponte de Wheatstone; identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "public_registry_structural_revalidated_in": "0.161-alpha.1",
+  "public_registry_structural_revalidated_date": "2026-09-11",
+  "registry_evidence_v0120": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+    "YT-OBMEP-FIS": "O módulo oficial atual Cinemática Angular (946) expõe os IDs exatos dos quatro novos players; identidade autorizada registrada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow.",
+    "YT-BRASIL-ESCOLA": "Páginas oficiais atuais do Brasil Escola expõem os IDs exatos das novas videoaulas de áreas e transformações de unidades; identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0121": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+    "YT-OBMEP-FIS": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; nenhuma nova URL de Física da OBMEP foi ativada nesta rodada.",
+    "YT-BRASIL-ESCOLA": "Páginas oficiais atuais do Brasil Escola foram rechecadas individualmente para as adições de Literatura/Redação e correlacionadas aos IDs exatos dos players/resultados do canal; identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0122": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+    "YT-OBMEP-FIS": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; nenhuma nova URL de Física da OBMEP foi ativada nesta rodada.",
+    "YT-BRASIL-ESCOLA": "Seis páginas oficiais atuais do Brasil Escola foram rechecadas individualmente para Alberto Caeiro, Ricardo Reis, Álvaro de Campos, Cecília Meireles, Rachel de Queiroz e Jorge Amado; cada página foi correlacionada ao ID exato do respectivo player. Identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0123": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+    "YT-OBMEP-FIS": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; nenhuma nova URL de Física da OBMEP foi ativada nesta rodada.",
+    "YT-BRASIL-ESCOLA": "Sete adições foram rechecadas com página oficial atual do Brasil Escola e resultado YouTube exato identificado como Brasil Escola Oficial: Olavo Bilac, Lygia Fagundes Telles, Carta de Achamento do Brasil, Romance Regionalista, Romance urbano, Coesão textual: substituição e Textos de divulgação científica. Identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0124": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+    "YT-OBMEP-FIS": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; nenhuma nova URL de Física da OBMEP foi ativada nesta rodada.",
+    "YT-BRASIL-ESCOLA": "Sete associações foram rechecadas em páginas oficiais atuais do Brasil Escola e nos IDs exatos dos players incorporados: Murilo Mendes, Concretismo, Romance indianista, Operadores argumentativos, Tipos de Rima, Ambiguidade e Coesão por elipse. Uma URL (Tipos de Rima) já existia no acervo; seis são novas. Identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0125": {
+    "YT-OBMEP-MAT": "Allowlist preservada sem divergência estrutural: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg em todos os registros ativos; nenhuma nova URL matemática da OBMEP foi ativada nesta rodada.",
+    "YT-OBMEP-FIS": "Allowlist preservada sem divergência estrutural: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow em todos os registros ativos; nenhuma nova URL de Física da OBMEP foi ativada nesta rodada.",
+    "YT-BRASIL-ESCOLA": "Três novas URLs foram rechecadas em páginas oficiais atuais do Brasil Escola e nos IDs exatos dos players: Coerência textual, Tópico frasal e Coesão textual lexical. Identidade autorizada registrada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0126": {
+    "YT-OBMEP-MAT": "Registro público atual rechecado: Portal da Matemática OBMEP @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; nenhum conflito estrutural em registros ativos e nenhuma nova URL deste canal nesta rodada.",
+    "YT-OBMEP-FIS": "Registro público atual rechecado: Portal da Física OBMEP @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; nenhum conflito estrutural em registros ativos e nenhuma nova URL deste canal nesta rodada.",
+    "YT-BRASIL-ESCOLA": "Quatro associações foram rechecadas em páginas oficiais atuais do Brasil Escola: Argumento por analogia, Argumento por citação de autoridade, Coesão referencial e Pronomes. Três URLs são novas e a URL de Pronomes já existia no acervo. Identidade allowlisted preservada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0127": {
+    "YT-OBMEP-MAT": "A URL pública por channel ID continua resolvendo para Portal da Matemática OBMEP; identidade registrada preservada: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. Nenhum conflito estrutural e nenhuma nova URL deste canal na rodada.",
+    "YT-OBMEP-FIS": "A URL pública por channel ID continua resolvendo para Portal da Física OBMEP; identidade registrada preservada: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. Nenhum conflito estrutural e nenhuma nova URL deste canal na rodada.",
+    "YT-BRASIL-ESCOLA": "A URL pública por channel ID continua resolvendo para Brasil Escola Oficial. Seis associações foram rechecadas em páginas oficiais atuais; quatro URLs são novas e duas reutilizam URLs ativas. Identidade allowlisted preservada: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0128": {
+    "date": "2026-09-09",
+    "scope": "Rechecagem pública das três URLs por channel ID; rechecagem individual das novas associações em páginas oficiais atuais; auditoria estrutural integral de todos os recursos ativos.",
+    "portal_matematica_obmep": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+    "portal_fisica_obmep": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+    "brasil_escola_oficial": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+  },
+  "registry_evidence_v0129": {
+    "date": "2026-09-09",
+    "scope": "Rechecagem pública das três identidades de canal; auditoria estrutural integral das URLs ativas; rechecagem individual das associações novas/reutilizadas desta rodada em páginas oficiais atuais.",
+    "portal_matematica_obmep": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+    "portal_fisica_obmep": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+    "brasil_escola_oficial": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+  },
+  "registry_evidence_v0130": {
+    "date": "2026-09-09",
+    "scope": "Rechecagem das três identidades de canal e auditoria estrutural integral dos URLs ativos; rodada sem URLs novas, apenas associações com URLs já allowlisted.",
+    "portal_matematica_obmep": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+    "portal_fisica_obmep": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+    "brasil_escola_oficial": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+  },
+  "registry_evidence_v0131": {
+    "date": "2026-09-09",
+    "scope": "Auditoria estrutural integral das três identidades allowlisted e de todos os URLs ativos, apoiada no registro acumulado de procedência; rodada sem URLs novas, apenas associações com URLs já allowlisted. Não implica reabertura manual ao vivo de cada watch page.",
+    "portal_matematica_obmep": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+    "portal_fisica_obmep": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+    "brasil_escola_oficial": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+  },
+  "registry_evidence_v0132": {
+    "date": "2026-09-09",
+    "scope": "Auditoria estrutural integral das três identidades allowlisted e de todos os URLs ativos, apoiada no registro acumulado de procedência; rodada sem URLs novas. As novas associações reutilizam URLs allowlisted e recebem rechecagem semântica em fontes oficiais atuais. Não implica reabertura manual ao vivo de cada watch page.",
+    "portal_matematica_obmep": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+    "portal_fisica_obmep": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+    "brasil_escola_oficial": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+  },
+  "registry_evidence_v0133": {
+    "date": "2026-09-09",
+    "scope": "Auditoria estrutural integral das três identidades allowlisted e de todos os URLs ativos, apoiada no registro acumulado de procedência; rodada sem URLs novas. As novas associações reutilizam URLs allowlisted e recebem rechecagem semântica em fontes oficiais atuais. Não implica reabertura manual ao vivo de cada watch page.",
+    "portal_matematica_obmep": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+    "portal_fisica_obmep": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+    "brasil_escola_oficial": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+  },
+  "registry_evidence_v0134": {
+    "date": "2026-09-09",
+    "scope": "Rechecagem das três identidades públicas allowlisted e auditoria estrutural integral de todos os URLs ativos. Rodada reuse-only; novas associações reutilizam URLs já allowlisted com rechecagem semântica atual. Não implica abertura manual ao vivo de cada watch page.",
+    "portal_matematica_obmep": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+    "portal_fisica_obmep": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+    "brasil_escola_oficial": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+  },
+  "public_registry_rechecked_on": "2026-09-10",
+  "registry_evidence_v0135": {
+    "date": "2026-09-10",
+    "scope": "Rechecagem pública das três identidades autorizadas e auditoria estrutural integral. As três URLs novas de Física foram ativadas somente após correlação de resultado atual do YouTube/publicador com módulo oficial da OBMEP.",
+    "portal_matematica_obmep": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+    "portal_fisica_obmep": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+    "brasil_escola_oficial": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+  },
+  "registry_evidence_v0136": {
+    "date": "2026-09-10",
+    "scope": "Rechecagem pública das três identidades autorizadas, auditoria estrutural integral dos 624 URLs e expansão reuse-only. Nenhuma URL nova foi admitida; sete URLs já allowlisted tiveram aderência semântica rechecada em fontes oficiais atuais.",
+    "portal_matematica_obmep": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+    "portal_fisica_obmep": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+    "brasil_escola_oficial": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+  },
+  "registry_evidence_v0137": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_REUSE_ONLY_CURRENT_OFFICIAL_SEMANTIC_RECHECKS",
+    "public_channel_pages": {
+      "YT-OBMEP-MAT": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+      "YT-OBMEP-FIS": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+      "YT-BRASIL-ESCOLA": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+    },
+    "new_unique_urls": 0,
+    "note": "As três páginas públicas por channel ID foram reabertas; todos os URLs ativos foram auditados estruturalmente contra a allowlist e a procedência acumulada."
+  },
+  "registry_evidence_v0138": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_REUSE_ONLY_CURRENT_OFFICIAL_SEMANTIC_RECHECKS",
+    "public_channel_pages": {
+      "YT-OBMEP-MAT": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+      "YT-OBMEP-FIS": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+      "YT-BRASIL-ESCOLA": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+    },
+    "new_unique_urls": 0,
+    "note": "Todos os URLs ativos foram auditados estruturalmente contra a allowlist e a procedência acumulada; os IDs reutilizados nesta rodada receberam rechecagens públicas/oficiais atuais quando disponíveis. Não se afirma reabertura manual ao vivo das 624 páginas watch."
+  },
+  "registry_evidence_v0139": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_REUSE_ONLY_CURRENT_OFFICIAL_SEMANTIC_RECHECKS",
+    "public_channel_pages": {
+      "YT-OBMEP-MAT": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+      "YT-OBMEP-FIS": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+      "YT-BRASIL-ESCOLA": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+    },
+    "new_unique_urls": 0,
+    "note": "Todos os URLs ativos foram auditados estruturalmente contra a allowlist e a procedência acumulada; os IDs reutilizados nesta rodada receberam rechecagens públicas/oficiais atuais quando disponíveis. Não se afirma reabertura manual ao vivo das 624 páginas watch."
+  },
+  "registry_evidence_v0140": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_OFFICIAL_CHANNEL_PAGES_AND_EXACT_EMBED_NEW_URLS",
+    "public_channel_pages": {
+      "YT-OBMEP-MAT": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+      "YT-OBMEP-FIS": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+      "YT-BRASIL-ESCOLA": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+    },
+    "new_unique_urls": 5,
+    "note": "Todos os URLs ativos foram auditados estruturalmente contra a allowlist e a procedência acumulada. As cinco URLs novas do Brasil Escola foram extraídas de páginas oficiais atuais que apontam o player ao ID exato. A auditoria estrutural dos herdados não equivale à abertura manual ao vivo de cada página watch."
+  },
+  "registry_evidence_v0141": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_OFFICIAL_SEMANTIC_RECHECK_AND_ONE_NEW_EXACT_PLAYER_URL",
+    "public_channel_pages": {
+      "YT-OBMEP-MAT": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+      "YT-OBMEP-FIS": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+      "YT-BRASIL-ESCOLA": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+    },
+    "new_unique_urls": 1,
+    "reused_unique_urls": 2,
+    "note": "Todos os 630 URLs ativos foram auditados estruturalmente contra a allowlist e procedência acumulada. Uma URL nova do Brasil Escola foi admitida por página oficial atual com player do ID exato; quatro associações reutilizam URLs previamente verificadas com rechecagem semântica atual. Não se afirma abertura manual ao vivo de todas as páginas watch herdadas."
+  },
+  "registry_evidence_v0142": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_PUBLIC_CHANNEL_REGISTRY_RECHECK_AND_CURRENT_OFFICIAL_SEMANTIC_RECHECK",
+    "public_channel_pages": {
+      "YT-OBMEP-MAT": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+      "YT-OBMEP-FIS": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+      "YT-BRASIL-ESCOLA": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+    },
+    "institutional_obmep_handle_evidence": "MCTI/IMPA current contract documents reference @portalmatematicaobmep and @portalfisicaobmep as the YouTube channels of the portals.",
+    "new_unique_urls": 1,
+    "reused_unique_urls": 1,
+    "note": "Todos os 631 URLs ativos foram auditados estruturalmente contra a allowlist e a procedência acumulada. Uma URL nova do Brasil Escola foi admitida por página oficial atual com player de ID exato; uma associação reutiliza URL previamente verificada com rechecagem semântica atual. Não se afirma abertura manual ao vivo de todas as páginas watch herdadas."
+  },
+  "registry_evidence_v0143": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_OFFICIAL_EXACT_PLAYER_IDS_AND_CURRENT_YOUTUBE_PUBLISHER_EVIDENCE",
+    "public_channel_pages": {
+      "YT-OBMEP-MAT": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+      "YT-OBMEP-FIS": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+      "YT-BRASIL-ESCOLA": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+    },
+    "new_unique_urls": 9,
+    "reused_unique_urls": 1,
+    "note": "Todos os URLs ativos foram auditados estruturalmente contra a allowlist e a procedência acumulada. IDs candidatos obtidos em listas antigas só foram ativados quando coincidiram com o player oficial atual; divergências foram rejeitadas antes da inclusão."
+  },
+  "registry_evidence_v0144": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_OFFICIAL_BRASIL_ESCOLA_EXACT_PLAYER_RECHECK",
+    "public_channel_pages": {
+      "YT-OBMEP-MAT": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+      "YT-OBMEP-FIS": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+      "YT-BRASIL-ESCOLA": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+    },
+    "new_unique_urls": 1,
+    "reused_unique_urls": 1,
+    "note": "Todos os URLs ativos foram auditados estruturalmente contra a allowlist e a procedência acumulada. A URL nova e a URL reutilizada nesta rodada foram correlacionadas ao player de páginas oficiais atuais do Brasil Escola."
+  },
+  "registry_evidence_v0145": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_OFFICIAL_BRASIL_ESCOLA_EXACT_PLAYER_RECHECK",
+    "public_channel_pages": {
+      "YT-OBMEP-MAT": "https://www.youtube.com/channel/UCzs574vJvpTNc4Z9vaN5Wmg",
+      "YT-OBMEP-FIS": "https://www.youtube.com/channel/UCuSLzdd9RtBs-S1QMXIAdow",
+      "YT-BRASIL-ESCOLA": "https://www.youtube.com/channel/UCsgHWN8lYveMUEWTDheTjZA"
+    },
+    "new_unique_urls": 6,
+    "reused_unique_urls": 0,
+    "new_exact_youtube_ids": [
+      "nE20QRRRhqE",
+      "BuNMrplpAOw",
+      "PNktOxN52ac",
+      "1uJ0g4g6xRQ",
+      "zfhCI6XFwrk",
+      "KQrmRPArJKs"
+    ],
+    "note": "Todos os URLs ativos foram auditados estruturalmente contra a allowlist e a procedência acumulada. As seis URLs novas foram obtidas de players em páginas oficiais atuais do Brasil Escola e só foram admitidas sob o par de identidade já allowlisted do publicador."
+  },
+  "registry_evidence_v0146": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_OFFICIAL_RECHECKS_FOR_NEW_AND_REUSED_ASSOCIATIONS",
+    "public_channel_pages": {
+      "YT-OBMEP-MAT": "@portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg; identidade pública rechecada em resultado atual do YouTube e evidência institucional MCTI/IMPA.",
+      "YT-OBMEP-FIS": "@portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow; identidade pública rechecada em resultado atual do YouTube e evidência institucional MCTI/IMPA.",
+      "YT-BRASIL-ESCOLA": "@brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA; par allowlisted acumulado preservado e novas URLs admitidas somente por IDs extraídos de players de páginas oficiais atuais do Brasil Escola."
+    },
+    "new_unique_urls": [
+      "https://www.youtube.com/watch?v=7jsi-d8YPFE"
+    ],
+    "reused_unique_urls": [
+      "https://www.youtube.com/watch?v=hwpluwl5vsI",
+      "https://www.youtube.com/watch?v=E6MYMBBiJSM",
+      "https://www.youtube.com/watch?v=fLfd0P4EXHY"
+    ],
+    "new_exact_youtube_ids": [
+      "7jsi-d8YPFE"
+    ],
+    "note": "Nenhuma URL herdada apresentou divergência estrutural. Uma URL nova veio do player de página oficial atual e três URLs já verificadas foram semanticamente rechecadas para novos tópicos."
+  },
+  "registry_evidence_v0147": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_PUBLIC_CHANNEL_AND_NEW_VIDEO_PUBLISHER_RECHECKS",
+    "YT-OBMEP-MAT": "Current YouTube channel result resolves Portal da Matemática OBMEP to @portalmatematicaobmep / UCzs574vJvpTNc4Z9vaN5Wmg; no new URL from this channel in v0.147.",
+    "YT-OBMEP-FIS": "Current YouTube channel result resolves Portal da Física OBMEP to @portalfisicaobmep / UCuSLzdd9RtBs-S1QMXIAdow; no new URL from this channel in v0.147.",
+    "YT-BRASIL-ESCOLA": "Current public YouTube results identify qjMCV2JOuZc, O7tA6_gtoQ0 and GIP1mAgFOxQ as published by Brasil Escola Oficial; official Brasil Escola pages expose the same exact player IDs. Stored allowlisted identity remains @brasilescola / UCsgHWN8lYveMUEWTDheTjZA."
+  },
+  "registry_evidence_v0148": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_PUBLIC_CHANNEL_EVIDENCE_AND_NEW_ASSOCIATION_RECHECKS",
+    "YT-OBMEP-MAT": "OBMEP current public pages continue to identify the Portal da Matemática as its official YouTube video channel; stored identity remains @portalmatematicaobmep / UCzs574vJvpTNc4Z9vaN5Wmg. No new URL from this channel in v0.148.",
+    "YT-OBMEP-FIS": "Current public indexed metadata continues to identify Portal da Física OBMEP with handle portalfisicaobmep and channel ID UCuSLzdd9RtBs-S1QMXIAdow. No new URL from this channel in v0.148.",
+    "YT-BRASIL-ESCOLA": "Current Brasil Escola video pages point to exact players wp6zh7yKF78, KJ9zxrQQBSc and 41vuYScVVKw. Current/direct or indexed public publisher evidence attributes these videos to Brasil Escola Oficial; stored identity remains @brasilescola / UCsgHWN8lYveMUEWTDheTjZA. Existing EfcVtR8n6sA was reused, not newly admitted."
+  },
+  "registry_evidence_v0150": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_PUBLIC_CHANNEL_REGISTRY_AND_REUSE_ONLY_SEMANTIC_RECHECKS",
+    "YT-OBMEP-MAT": "Identidade permitida preservada: Portal da Matemática OBMEP / @portalmatematicaobmep / UCzs574vJvpTNc4Z9vaN5Wmg; nenhum registro ativo apresentou par divergente e nenhuma URL nova deste canal foi adicionada.",
+    "YT-OBMEP-FIS": "Identidade permitida preservada: Portal da Física OBMEP / @portalfisicaobmep / UCuSLzdd9RtBs-S1QMXIAdow; nenhum registro ativo apresentou par divergente e nenhuma URL nova deste canal foi adicionada.",
+    "YT-BRASIL-ESCOLA": "Identidade allowlisted preservada: Brasil Escola Oficial / @brasilescola / UCsgHWN8lYveMUEWTDheTjZA. As três associações desta release reutilizam URLs já verificadas e foram rechecadas semanticamente em páginas oficiais atuais; nenhuma URL nova foi admitida."
+  },
+  "registry_evidence_v0151": {
+    "date": "2026-09-10",
+    "scope": "FULL_STRUCTURAL_REVALIDATION_PLUS_CURRENT_OFFICIAL_SEMANTIC_RECHECKS_REUSE_ONLY",
+    "YT-OBMEP-MAT": "Identidade permitida preservada: Portal da Matemática OBMEP / @portalmatematicaobmep / UCzs574vJvpTNc4Z9vaN5Wmg; nenhum registro ativo apresentou par divergente e nenhuma URL nova deste canal foi adicionada.",
+    "YT-OBMEP-FIS": "Identidade permitida preservada: Portal da Física OBMEP / @portalfisicaobmep / UCuSLzdd9RtBs-S1QMXIAdow; nenhum registro ativo apresentou par divergente e nenhuma URL nova deste canal foi adicionada.",
+    "YT-BRASIL-ESCOLA": "Identidade allowlisted preservada: Brasil Escola Oficial / @brasilescola / UCsgHWN8lYveMUEWTDheTjZA. Cinco associações desta release reutilizam quatro URLs já verificadas e foram rechecadas semanticamente em páginas oficiais atuais; nenhuma URL nova foi admitida."
+  },
+  "registry_evidence_v0154": {
+    "YT-OBMEP-MAT": "Par allowlisted preservado por herança na v0.154: @portalmatematicaobmep ↔ UCzs574vJvpTNc4Z9vaN5Wmg. A rodada reutilizou somente URLs já presentes no corpus e, por solicitação do usuário, não repetiu a auditoria externa geral dos links.",
+    "YT-OBMEP-FIS": "Par allowlisted preservado por herança na v0.154: @portalfisicaobmep ↔ UCuSLzdd9RtBs-S1QMXIAdow. A rodada reutilizou somente URLs já presentes no corpus e, por solicitação do usuário, não repetiu a auditoria externa geral dos links.",
+    "YT-BRASIL-ESCOLA": "Par allowlisted preservado por herança na v0.154: @brasilescola ↔ UCsgHWN8lYveMUEWTDheTjZA. A rodada reutilizou somente URLs já presentes no corpus e, por solicitação do usuário, não repetiu a auditoria externa geral dos links."
+  },
+  "registry_evidence_v0155": {
+    "YT-OBMEP-MAT": "Par allowlisted preservado por herança e consistência estrutural local; sem reauditoria externa geral solicitada.",
+    "YT-OBMEP-FIS": "Par allowlisted preservado por herança e consistência estrutural local; sem reauditoria externa geral solicitada.",
+    "YT-BRASIL-ESCOLA": "Par allowlisted preservado por herança; novas associações de catálogo usam a identidade cadastrada do Brasil Escola Oficial. Sem reauditoria externa geral solicitada."
+  },
+  "registry_evidence_v0159": "Allowlist herdada da v0.158 e validada apenas estruturalmente nesta rodada. Por solicitação do usuário, não houve reauditoria externa geral dos links/canais; novas URLs vieram do catálogo oficial do Brasil Escola e mantêm a identidade allowlisted já consolidada.",
+  "registry_evidence_v0160": "Allowlist herdada e validada estruturalmente nesta rodada. Por solicitação do usuário, não houve reauditoria externa geral dos links/canais; associações reutilizadas vêm do corpus autorizado e a única URL nova foi localizada no catálogo/página oficial do Brasil Escola sob a identidade allowlisted já consolidada.",
+  "registry_evidence_v0161": "Allowlist herdada e validada estruturalmente nesta rodada. Por solicitação do usuário, não houve reauditoria externa geral dos links; novas URLs foram incorporadas apenas a partir dos catálogos/resultados dos canais já autorizados.",
+  "registry_evidence_v0167": "Allowlist herdada e validada apenas estruturalmente/localmente nesta rodada. Por solicitação do usuário, não houve reauditoria externa geral dos links; a expansão reutiliza exclusivamente URLs já presentes no corpus autorizado.",
+  "registry_evidence_v0168": "Allowlist herdada e validada apenas estruturalmente/localmente nesta rodada. Por solicitação do usuário, não houve reauditoria externa geral dos links; a expansão reutiliza exclusivamente URLs já presentes no corpus autorizado.",
+  "registry_evidence_v0169": "Allowlist herdada e validada apenas estruturalmente/localmente nesta rodada. Por solicitação do usuário, não houve reauditoria externa geral dos links; a expansão reutiliza exclusivamente URLs já presentes no corpus autorizado."
+}
